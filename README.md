@@ -54,11 +54,11 @@ For more detailed explanation and examples, see the [manual](http://www.helsinki
 
 Abbreviation in brackets (e.g. `[cmat]`) are the same abbreviations used in file/folder names in this repo.
 
-`ABF/CAZ [abf/caz]` = Zonation cell removal rule (Additive benefit function / Core-area Zonation)        
-`penalty [pe]` = Penalty imposed on areas that have seen active forestry operation lately. Implemented as a condition layer in Zonation. 
-`weights [w]` = Weighting scheme for analysis features in use 
+`ABF/CAZ [abf/caz]` = Zonation cell removal rule (Additive benefit function / Core-area Zonation)   
+`penalty [pe]` = Penalty imposed on areas that have seen active forestry operation lately. Implemented as a condition layer.  
+`weights [w]` = Weighting scheme for analysis features in use  
 `connectivity matrix [cmat]` =  
 `edge correction [ec]` =  
-`protected areas (interaction connectivity) [cres]` = 
+`protected areas (interaction connectivity) [cres]` =  
 `protected areas masked in [mask]` =  
 `woodland key habitats (interaction connectivity) [cmete]` =  
