@@ -1,0 +1,594 @@
+Reading settings file.
+
+Condition layers used; will load from file = condition_layers.txt
+
+Starting Zonation run on 'MRGTESLA' at 1:36:42 PM (2013/3/13) 
+Locale is: C
+
+**************************************************
+*** For conditions of use of this software see ***
+*** the disclaimer in the about-box.           ***
+**************************************************
+
+Loading spp list from file 22_60_5kp_abf_pe_altg/22_60_5kp_abf_pe_altg.spp
+Row count in species file: 20
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total
+Nodata element count =  8544863, and sum of elements = 2.3515e+06
+Matrix x dimension: 3044
+Matrix y dimension: 2815
+*******************************************************
+Loading feature grouping information from groups_fert.txt
+Groups information loaded.
+
+****** REMOVAL RULE: Convex additive benefit function; r^par *******
+
+
+****** NOT using distribution smoothing or matrix connectivity *******
+
+****** NOT using Info-gap distribution discounting uncertainty analysis ****************
+
+****** Loading feature (e.g., species) data layers ****************
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.3515e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #1, ../data/60/index_koivu_kp_1_60.img
+
+../data/60/index_koivu_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 5.01186e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #2, ../data/60/index_koivu_kp_2_60.img
+
+../data/60/index_koivu_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 8.13614e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #3, ../data/60/index_koivu_kp_3_60.img
+
+../data/60/index_koivu_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.35883e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #4, ../data/60/index_koivu_kp_4_60.img
+
+../data/60/index_koivu_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.6093e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #5, ../data/60/index_koivu_kp_5_60.img
+
+../data/60/index_kuusi_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.30836e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #6, ../data/60/index_kuusi_kp_1_60.img
+
+../data/60/index_kuusi_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.74493e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #7, ../data/60/index_kuusi_kp_2_60.img
+
+../data/60/index_kuusi_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.26396e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #8, ../data/60/index_kuusi_kp_3_60.img
+
+../data/60/index_kuusi_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.27476e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #9, ../data/60/index_kuusi_kp_4_60.img
+
+../data/60/index_kuusi_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.91023e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #10, ../data/60/index_kuusi_kp_5_60.img
+
+../data/60/index_mlp_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.71217e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #11, ../data/60/index_mlp_kp_1_60.img
+
+../data/60/index_mlp_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.79249e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #12, ../data/60/index_mlp_kp_2_60.img
+
+../data/60/index_mlp_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 4.00607e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #13, ../data/60/index_mlp_kp_3_60.img
+
+../data/60/index_mlp_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.40619e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #14, ../data/60/index_mlp_kp_4_60.img
+
+../data/60/index_mlp_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.0449e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #15, ../data/60/index_mlp_kp_5_60.img
+
+../data/60/index_manty_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.49631e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #16, ../data/60/index_manty_kp_1_60.img
+
+../data/60/index_manty_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.72215e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #17, ../data/60/index_manty_kp_2_60.img
+
+../data/60/index_manty_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.84668e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #18, ../data/60/index_manty_kp_3_60.img
+
+../data/60/index_manty_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.26537e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #19, ../data/60/index_manty_kp_4_60.img
+
+../data/60/index_manty_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.20738e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #20, ../data/60/index_manty_kp_5_60.img
+
+Loading condition file list from file condition_layers.txt
+../data/maski/penalty_rasteri_60.img:  2815 rows and 3044 columns read in total
+Nodata element count =  11714, and sum of elements = 8.10499e+06
+Condition layer loaded without errors, count of informative elements= 8557146 , missing (<0) elements count = 11714
+Applied condition layer number 1
+Read files: condition layers count = 1
+Applied condition layers through the landscape.
+Consequently, initial remaining fractions do not start from 1.
+
+Freeing smoothing... Done.
+ZIG is using edge removal.
+Cells with data = 3955305 locations with missing values = 4613555
+Loaded data and initialized in 9 seconds.
+
+------------------ RANKING STARTS HERE -----------------------
+Initially removed cells count = 0
+***** Note: No initial removal was used.     *****
+
+Species performance levels check
+Species 1, proportion remaining = 0.9364871
+Species 2, proportion remaining = 0.8601915
+Species 3, proportion remaining = 0.8563355
+Species 4, proportion remaining = 0.9040645
+Species 5, proportion remaining = 0.9056024
+Species 6, proportion remaining = 0.9084965
+Species 7, proportion remaining = 0.8394445
+Species 8, proportion remaining = 0.8361322
+Species 9, proportion remaining = 0.8985161
+Species 10, proportion remaining = 0.8964149
+Species 11, proportion remaining = 0.9567265
+Species 12, proportion remaining = 0.9006054
+Species 13, proportion remaining = 0.88456
+Species 14, proportion remaining = 0.9207442
+Species 15, proportion remaining = 0.9128335
+Species 16, proportion remaining = 0.9279533
+Species 17, proportion remaining = 0.851957
+Species 18, proportion remaining = 0.8531446
+Species 19, proportion remaining = 0.8866409
+Species 20, proportion remaining = 0.9069486
+
+removed 10000, smallest remaining proportion over all species = 0.8361322
+removed 20000, smallest remaining proportion over all species = 0.836132
+removed 30000, smallest remaining proportion over all species = 0.8361313
+removed 40000, smallest remaining proportion over all species = 0.8361298
+removed 50000, smallest remaining proportion over all species = 0.836127
+removed 60000, smallest remaining proportion over all species = 0.8361226
+removed 70000, smallest remaining proportion over all species = 0.8361161
+removed 80000, smallest remaining proportion over all species = 0.8361066
+removed 90000, smallest remaining proportion over all species = 0.8360935
+removed 100000, smallest remaining proportion over all species = 0.8360766
+removed 110000, smallest remaining proportion over all species = 0.8360555
+removed 120000, smallest remaining proportion over all species = 0.8360303
+removed 130000, smallest remaining proportion over all species = 0.8360024
+removed 140000, smallest remaining proportion over all species = 0.8359698
+removed 150000, smallest remaining proportion over all species = 0.8359324
+removed 160000, smallest remaining proportion over all species = 0.8358916
+removed 170000, smallest remaining proportion over all species = 0.8358442
+removed 180000, smallest remaining proportion over all species = 0.8357909
+removed 190000, smallest remaining proportion over all species = 0.8357314
+removed 200000, smallest remaining proportion over all species = 0.8356682
+removed 210000, smallest remaining proportion over all species = 0.8356004
+removed 220000, smallest remaining proportion over all species = 0.8355194
+removed 230000, smallest remaining proportion over all species = 0.8354359
+removed 240000, smallest remaining proportion over all species = 0.835345
+removed 250000, smallest remaining proportion over all species = 0.8352433
+removed 260000, smallest remaining proportion over all species = 0.8351357
+removed 270000, smallest remaining proportion over all species = 0.8350243
+removed 280000, smallest remaining proportion over all species = 0.8349065
+removed 290000, smallest remaining proportion over all species = 0.8347845
+removed 300000, smallest remaining proportion over all species = 0.8346456
+removed 310000, smallest remaining proportion over all species = 0.8344967
+removed 320000, smallest remaining proportion over all species = 0.8343481
+removed 330000, smallest remaining proportion over all species = 0.8341788
+removed 340000, smallest remaining proportion over all species = 0.8339953
+removed 350000, smallest remaining proportion over all species = 0.8338324
+removed 360000, smallest remaining proportion over all species = 0.8336385
+removed 370000, smallest remaining proportion over all species = 0.8334467
+removed 380000, smallest remaining proportion over all species = 0.8332579
+removed 390000, smallest remaining proportion over all species = 0.8330518
+removed 400000, smallest remaining proportion over all species = 0.8328452
+removed 410000, smallest remaining proportion over all species = 0.8326442
+removed 420000, smallest remaining proportion over all species = 0.8324514
+removed 430000, smallest remaining proportion over all species = 0.8322173
+removed 440000, smallest remaining proportion over all species = 0.831973
+removed 450000, smallest remaining proportion over all species = 0.8317239
+removed 460000, smallest remaining proportion over all species = 0.8314857
+removed 470000, smallest remaining proportion over all species = 0.8312154
+removed 480000, smallest remaining proportion over all species = 0.830959
+removed 490000, smallest remaining proportion over all species = 0.8306851
+removed 500000, smallest remaining proportion over all species = 0.8304127
+removed 510000, smallest remaining proportion over all species = 0.8301244
+removed 520000, smallest remaining proportion over all species = 0.8298209
+removed 530000, smallest remaining proportion over all species = 0.8295138
+removed 540000, smallest remaining proportion over all species = 0.8292118
+removed 550000, smallest remaining proportion over all species = 0.8289096
+removed 560000, smallest remaining proportion over all species = 0.8285807
+removed 570000, smallest remaining proportion over all species = 0.8282439
+removed 580000, smallest remaining proportion over all species = 0.8279181
+removed 590000, smallest remaining proportion over all species = 0.8275647
+removed 600000, smallest remaining proportion over all species = 0.8272014
+removed 610000, smallest remaining proportion over all species = 0.826836
+removed 620000, smallest remaining proportion over all species = 0.8264713
+removed 630000, smallest remaining proportion over all species = 0.8260801
+removed 640000, smallest remaining proportion over all species = 0.8257467
+removed 650000, smallest remaining proportion over all species = 0.825368
+removed 660000, smallest remaining proportion over all species = 0.8250008
+removed 670000, smallest remaining proportion over all species = 0.8246129
+removed 680000, smallest remaining proportion over all species = 0.8242069
+removed 690000, smallest remaining proportion over all species = 0.8238119
+removed 700000, smallest remaining proportion over all species = 0.8234017
+removed 710000, smallest remaining proportion over all species = 0.8229733
+removed 720000, smallest remaining proportion over all species = 0.8225281
+removed 730000, smallest remaining proportion over all species = 0.8220779
+removed 740000, smallest remaining proportion over all species = 0.8216141
+removed 750000, smallest remaining proportion over all species = 0.8211762
+removed 760000, smallest remaining proportion over all species = 0.8207101
+removed 770000, smallest remaining proportion over all species = 0.8202487
+removed 780000, smallest remaining proportion over all species = 0.8198125
+removed 790000, smallest remaining proportion over all species = 0.8193614
+removed 800000, smallest remaining proportion over all species = 0.818868
+removed 810000, smallest remaining proportion over all species = 0.8183601
+removed 820000, smallest remaining proportion over all species = 0.8178063
+removed 830000, smallest remaining proportion over all species = 0.817254
+removed 840000, smallest remaining proportion over all species = 0.8167338
+removed 850000, smallest remaining proportion over all species = 0.8161957
+removed 860000, smallest remaining proportion over all species = 0.8156592
+removed 870000, smallest remaining proportion over all species = 0.8150967
+removed 880000, smallest remaining proportion over all species = 0.8145157
+removed 890000, smallest remaining proportion over all species = 0.8139344
+removed 900000, smallest remaining proportion over all species = 0.8133651
+removed 910000, smallest remaining proportion over all species = 0.812798
+removed 920000, smallest remaining proportion over all species = 0.8122089
+removed 930000, smallest remaining proportion over all species = 0.8115734
+removed 940000, smallest remaining proportion over all species = 0.8109773
+removed 950000, smallest remaining proportion over all species = 0.8103379
+removed 960000, smallest remaining proportion over all species = 0.809699
+removed 970000, smallest remaining proportion over all species = 0.8090395
+removed 980000, smallest remaining proportion over all species = 0.8084098
+removed 990000, smallest remaining proportion over all species = 0.8077261
+removed 1000000, smallest remaining proportion over all species = 0.8070811
+removed 1010000, smallest remaining proportion over all species = 0.8063874
+removed 1020000, smallest remaining proportion over all species = 0.8056338
+removed 1030000, smallest remaining proportion over all species = 0.8049417
+removed 1040000, smallest remaining proportion over all species = 0.8042171
+removed 1050000, smallest remaining proportion over all species = 0.8034654
+removed 1060000, smallest remaining proportion over all species = 0.8026846
+removed 1070000, smallest remaining proportion over all species = 0.8019122
+removed 1080000, smallest remaining proportion over all species = 0.8011251
+removed 1090000, smallest remaining proportion over all species = 0.8003538
+removed 1100000, smallest remaining proportion over all species = 0.7995932
+removed 1110000, smallest remaining proportion over all species = 0.7988471
+removed 1120000, smallest remaining proportion over all species = 0.7981006
+removed 1130000, smallest remaining proportion over all species = 0.7973369
+removed 1140000, smallest remaining proportion over all species = 0.7964798
+removed 1150000, smallest remaining proportion over all species = 0.7956548
+removed 1160000, smallest remaining proportion over all species = 0.7948193
+removed 1170000, smallest remaining proportion over all species = 0.7939519
+removed 1180000, smallest remaining proportion over all species = 0.7929261
+removed 1190000, smallest remaining proportion over all species = 0.7913171
+removed 1200000, smallest remaining proportion over all species = 0.7897044
+removed 1210000, smallest remaining proportion over all species = 0.7880137
+removed 1220000, smallest remaining proportion over all species = 0.7863144
+removed 1230000, smallest remaining proportion over all species = 0.7846304
+removed 1240000, smallest remaining proportion over all species = 0.7829641
+removed 1250000, smallest remaining proportion over all species = 0.7812486
+removed 1260000, smallest remaining proportion over all species = 0.7795157
+removed 1270000, smallest remaining proportion over all species = 0.7777316
+removed 1280000, smallest remaining proportion over all species = 0.7759046
+removed 1290000, smallest remaining proportion over all species = 0.7741153
+removed 1300000, smallest remaining proportion over all species = 0.772341
+removed 1310000, smallest remaining proportion over all species = 0.7705368
+removed 1320000, smallest remaining proportion over all species = 0.768699
+removed 1330000, smallest remaining proportion over all species = 0.7669028
+removed 1340000, smallest remaining proportion over all species = 0.7650611
+removed 1350000, smallest remaining proportion over all species = 0.7631817
+removed 1360000, smallest remaining proportion over all species = 0.7612852
+removed 1370000, smallest remaining proportion over all species = 0.7593969
+removed 1380000, smallest remaining proportion over all species = 0.757487
+removed 1390000, smallest remaining proportion over all species = 0.7555255
+removed 1400000, smallest remaining proportion over all species = 0.7534969
+removed 1410000, smallest remaining proportion over all species = 0.7516037
+removed 1420000, smallest remaining proportion over all species = 0.7497211
+removed 1430000, smallest remaining proportion over all species = 0.7476656
+removed 1440000, smallest remaining proportion over all species = 0.7457297
+removed 1450000, smallest remaining proportion over all species = 0.7438191
+removed 1460000, smallest remaining proportion over all species = 0.7419171
+removed 1470000, smallest remaining proportion over all species = 0.7399011
+removed 1480000, smallest remaining proportion over all species = 0.7379143
+removed 1490000, smallest remaining proportion over all species = 0.7359288
+removed 1500000, smallest remaining proportion over all species = 0.733786
+removed 1510000, smallest remaining proportion over all species = 0.7316217
+removed 1520000, smallest remaining proportion over all species = 0.7294472
+removed 1530000, smallest remaining proportion over all species = 0.7273134
+removed 1540000, smallest remaining proportion over all species = 0.7251039
+removed 1550000, smallest remaining proportion over all species = 0.7229875
+removed 1560000, smallest remaining proportion over all species = 0.720837
+removed 1570000, smallest remaining proportion over all species = 0.7186632
+removed 1580000, smallest remaining proportion over all species = 0.716467
+removed 1590000, smallest remaining proportion over all species = 0.7142367
+removed 1600000, smallest remaining proportion over all species = 0.7119247
+removed 1610000, smallest remaining proportion over all species = 0.7096032
+removed 1620000, smallest remaining proportion over all species = 0.7073671
+removed 1630000, smallest remaining proportion over all species = 0.7050996
+removed 1640000, smallest remaining proportion over all species = 0.7028047
+removed 1650000, smallest remaining proportion over all species = 0.7005609
+removed 1660000, smallest remaining proportion over all species = 0.6982446
+removed 1670000, smallest remaining proportion over all species = 0.6959287
+removed 1680000, smallest remaining proportion over all species = 0.6936805
+removed 1690000, smallest remaining proportion over all species = 0.6912957
+removed 1700000, smallest remaining proportion over all species = 0.6889173
+removed 1710000, smallest remaining proportion over all species = 0.6865556
+removed 1720000, smallest remaining proportion over all species = 0.6842381
+removed 1730000, smallest remaining proportion over all species = 0.6819698
+removed 1740000, smallest remaining proportion over all species = 0.6796431
+removed 1750000, smallest remaining proportion over all species = 0.6772063
+removed 1760000, smallest remaining proportion over all species = 0.674781
+removed 1770000, smallest remaining proportion over all species = 0.6723723
+removed 1780000, smallest remaining proportion over all species = 0.6699255
+removed 1790000, smallest remaining proportion over all species = 0.6674899
+removed 1800000, smallest remaining proportion over all species = 0.664993
+removed 1810000, smallest remaining proportion over all species = 0.6623895
+removed 1820000, smallest remaining proportion over all species = 0.659857
+removed 1830000, smallest remaining proportion over all species = 0.6573949
+removed 1840000, smallest remaining proportion over all species = 0.6548635
+removed 1850000, smallest remaining proportion over all species = 0.6524176
+removed 1860000, smallest remaining proportion over all species = 0.6498114
+removed 1870000, smallest remaining proportion over all species = 0.6472937
+removed 1880000, smallest remaining proportion over all species = 0.644788
+removed 1890000, smallest remaining proportion over all species = 0.6422359
+removed 1900000, smallest remaining proportion over all species = 0.6397111
+removed 1910000, smallest remaining proportion over all species = 0.6371853
+removed 1920000, smallest remaining proportion over all species = 0.6345088
+removed 1930000, smallest remaining proportion over all species = 0.6319562
+removed 1940000, smallest remaining proportion over all species = 0.6293801
+removed 1950000, smallest remaining proportion over all species = 0.6268352
+removed 1960000, smallest remaining proportion over all species = 0.6242417
+removed 1970000, smallest remaining proportion over all species = 0.6215832
+removed 1980000, smallest remaining proportion over all species = 0.6189046
+removed 1990000, smallest remaining proportion over all species = 0.6162442
+removed 2000000, smallest remaining proportion over all species = 0.6134404
+removed 2010000, smallest remaining proportion over all species = 0.6107687
+removed 2020000, smallest remaining proportion over all species = 0.6080421
+removed 2030000, smallest remaining proportion over all species = 0.6052714
+removed 2040000, smallest remaining proportion over all species = 0.6025828
+removed 2050000, smallest remaining proportion over all species = 0.5997391
+removed 2060000, smallest remaining proportion over all species = 0.596952
+removed 2070000, smallest remaining proportion over all species = 0.5941941
+removed 2080000, smallest remaining proportion over all species = 0.5913883
+removed 2090000, smallest remaining proportion over all species = 0.5886387
+removed 2100000, smallest remaining proportion over all species = 0.585824
+removed 2110000, smallest remaining proportion over all species = 0.5830788
+removed 2120000, smallest remaining proportion over all species = 0.5802438
+removed 2130000, smallest remaining proportion over all species = 0.5774863
+removed 2140000, smallest remaining proportion over all species = 0.5746957
+removed 2150000, smallest remaining proportion over all species = 0.5719073
+removed 2160000, smallest remaining proportion over all species = 0.5690134
+removed 2170000, smallest remaining proportion over all species = 0.5661016
+removed 2180000, smallest remaining proportion over all species = 0.5633314
+removed 2190000, smallest remaining proportion over all species = 0.5605131
+removed 2200000, smallest remaining proportion over all species = 0.5576704
+removed 2210000, smallest remaining proportion over all species = 0.554771
+removed 2220000, smallest remaining proportion over all species = 0.5519295
+removed 2230000, smallest remaining proportion over all species = 0.5490006
+removed 2240000, smallest remaining proportion over all species = 0.5459826
+removed 2250000, smallest remaining proportion over all species = 0.5430773
+removed 2260000, smallest remaining proportion over all species = 0.5400447
+removed 2270000, smallest remaining proportion over all species = 0.5370935
+removed 2280000, smallest remaining proportion over all species = 0.5341859
+removed 2290000, smallest remaining proportion over all species = 0.5312065
+removed 2300000, smallest remaining proportion over all species = 0.5283119
+removed 2310000, smallest remaining proportion over all species = 0.525427
+removed 2320000, smallest remaining proportion over all species = 0.5225087
+removed 2330000, smallest remaining proportion over all species = 0.5195298
+removed 2340000, smallest remaining proportion over all species = 0.5165197
+removed 2350000, smallest remaining proportion over all species = 0.5135655
+removed 2360000, smallest remaining proportion over all species = 0.5105687
+removed 2370000, smallest remaining proportion over all species = 0.5075967
+removed 2380000, smallest remaining proportion over all species = 0.5045833
+removed 2390000, smallest remaining proportion over all species = 0.5015886
+removed 2400000, smallest remaining proportion over all species = 0.4986012
+removed 2410000, smallest remaining proportion over all species = 0.4955785
+removed 2420000, smallest remaining proportion over all species = 0.4926519
+removed 2430000, smallest remaining proportion over all species = 0.4897064
+removed 2440000, smallest remaining proportion over all species = 0.4867343
+removed 2450000, smallest remaining proportion over all species = 0.4837467
+removed 2460000, smallest remaining proportion over all species = 0.4806467
+removed 2470000, smallest remaining proportion over all species = 0.4777129
+removed 2480000, smallest remaining proportion over all species = 0.4746507
+removed 2490000, smallest remaining proportion over all species = 0.4716452
+removed 2500000, smallest remaining proportion over all species = 0.4686039
+removed 2510000, smallest remaining proportion over all species = 0.4654907
+removed 2520000, smallest remaining proportion over all species = 0.462368
+removed 2530000, smallest remaining proportion over all species = 0.459289
+removed 2540000, smallest remaining proportion over all species = 0.4562106
+removed 2550000, smallest remaining proportion over all species = 0.4531847
+removed 2560000, smallest remaining proportion over all species = 0.4501292
+removed 2570000, smallest remaining proportion over all species = 0.4470679
+removed 2580000, smallest remaining proportion over all species = 0.4440014
+removed 2590000, smallest remaining proportion over all species = 0.4409107
+removed 2600000, smallest remaining proportion over all species = 0.4378229
+removed 2610000, smallest remaining proportion over all species = 0.4347411
+removed 2620000, smallest remaining proportion over all species = 0.4317073
+removed 2630000, smallest remaining proportion over all species = 0.4286104
+removed 2640000, smallest remaining proportion over all species = 0.4255992
+removed 2650000, smallest remaining proportion over all species = 0.422555
+removed 2660000, smallest remaining proportion over all species = 0.4194558
+removed 2670000, smallest remaining proportion over all species = 0.4163722
+removed 2680000, smallest remaining proportion over all species = 0.4132373
+removed 2690000, smallest remaining proportion over all species = 0.4101676
+removed 2700000, smallest remaining proportion over all species = 0.4070481
+removed 2710000, smallest remaining proportion over all species = 0.4039757
+removed 2720000, smallest remaining proportion over all species = 0.4008677
+removed 2730000, smallest remaining proportion over all species = 0.3977221
+removed 2740000, smallest remaining proportion over all species = 0.3946393
+removed 2750000, smallest remaining proportion over all species = 0.391516
+removed 2760000, smallest remaining proportion over all species = 0.3883305
+removed 2770000, smallest remaining proportion over all species = 0.3852129
+removed 2780000, smallest remaining proportion over all species = 0.382116
+removed 2790000, smallest remaining proportion over all species = 0.3789678
+removed 2800000, smallest remaining proportion over all species = 0.3758411
+removed 2810000, smallest remaining proportion over all species = 0.3727081
+removed 2820000, smallest remaining proportion over all species = 0.3695663
+removed 2830000, smallest remaining proportion over all species = 0.366365
+removed 2840000, smallest remaining proportion over all species = 0.3632238
+removed 2850000, smallest remaining proportion over all species = 0.3601234
+removed 2860000, smallest remaining proportion over all species = 0.3569856
+removed 2870000, smallest remaining proportion over all species = 0.3539159
+removed 2880000, smallest remaining proportion over all species = 0.3507602
+removed 2890000, smallest remaining proportion over all species = 0.3477283
+removed 2900000, smallest remaining proportion over all species = 0.3445167
+removed 2910000, smallest remaining proportion over all species = 0.341384
+removed 2920000, smallest remaining proportion over all species = 0.3383266
+removed 2930000, smallest remaining proportion over all species = 0.3351272
+removed 2940000, smallest remaining proportion over all species = 0.3321198
+removed 2950000, smallest remaining proportion over all species = 0.3290119
+removed 2960000, smallest remaining proportion over all species = 0.3259344
+removed 2970000, smallest remaining proportion over all species = 0.3227724
+removed 2980000, smallest remaining proportion over all species = 0.3196616
+removed 2990000, smallest remaining proportion over all species = 0.3164851
+removed 3000000, smallest remaining proportion over all species = 0.3133948
+removed 3010000, smallest remaining proportion over all species = 0.3102822
+removed 3020000, smallest remaining proportion over all species = 0.3072144
+removed 3030000, smallest remaining proportion over all species = 0.3040893
+removed 3040000, smallest remaining proportion over all species = 0.3010608
+removed 3050000, smallest remaining proportion over all species = 0.2978795
+removed 3060000, smallest remaining proportion over all species = 0.2947619
+removed 3070000, smallest remaining proportion over all species = 0.2916085
+removed 3080000, smallest remaining proportion over all species = 0.2884974
+removed 3090000, smallest remaining proportion over all species = 0.2854926
+removed 3100000, smallest remaining proportion over all species = 0.2824276
+removed 3110000, smallest remaining proportion over all species = 0.2793211
+removed 3120000, smallest remaining proportion over all species = 0.2762217
+removed 3130000, smallest remaining proportion over all species = 0.2731296
+removed 3140000, smallest remaining proportion over all species = 0.2701171
+removed 3150000, smallest remaining proportion over all species = 0.2670928
+removed 3160000, smallest remaining proportion over all species = 0.2640678
+removed 3170000, smallest remaining proportion over all species = 0.2610201
+removed 3180000, smallest remaining proportion over all species = 0.2579468
+removed 3190000, smallest remaining proportion over all species = 0.2548964
+removed 3200000, smallest remaining proportion over all species = 0.2518578
+removed 3210000, smallest remaining proportion over all species = 0.2488183
+removed 3220000, smallest remaining proportion over all species = 0.2458108
+removed 3230000, smallest remaining proportion over all species = 0.2427519
+removed 3240000, smallest remaining proportion over all species = 0.2397264
+removed 3250000, smallest remaining proportion over all species = 0.2367554
+removed 3260000, smallest remaining proportion over all species = 0.2337718
+removed 3270000, smallest remaining proportion over all species = 0.2308396
+removed 3280000, smallest remaining proportion over all species = 0.2278706
+removed 3290000, smallest remaining proportion over all species = 0.2249426
+removed 3300000, smallest remaining proportion over all species = 0.2219284
+removed 3310000, smallest remaining proportion over all species = 0.2189746
+removed 3320000, smallest remaining proportion over all species = 0.2161406
+removed 3330000, smallest remaining proportion over all species = 0.2131729
+removed 3340000, smallest remaining proportion over all species = 0.2103423
+removed 3350000, smallest remaining proportion over all species = 0.2074033
+removed 3360000, smallest remaining proportion over all species = 0.2044428
+removed 3370000, smallest remaining proportion over all species = 0.2015757
+removed 3380000, smallest remaining proportion over all species = 0.1987287
+removed 3390000, smallest remaining proportion over all species = 0.1958691
+removed 3400000, smallest remaining proportion over all species = 0.1929421
+removed 3410000, smallest remaining proportion over all species = 0.1901224
+removed 3420000, smallest remaining proportion over all species = 0.1872348
+removed 3430000, smallest remaining proportion over all species = 0.1844077
+removed 3440000, smallest remaining proportion over all species = 0.1816113
+removed 3450000, smallest remaining proportion over all species = 0.1788043
+removed 3460000, smallest remaining proportion over all species = 0.1760439
+removed 3470000, smallest remaining proportion over all species = 0.1732532
+removed 3480000, smallest remaining proportion over all species = 0.1704028
+removed 3490000, smallest remaining proportion over all species = 0.1676409
+removed 3500000, smallest remaining proportion over all species = 0.1649168
+removed 3510000, smallest remaining proportion over all species = 0.1621554
+removed 3520000, smallest remaining proportion over all species = 0.1594579
+removed 3530000, smallest remaining proportion over all species = 0.1567509
+removed 3540000, smallest remaining proportion over all species = 0.1539855
+removed 3550000, smallest remaining proportion over all species = 0.1512549
+removed 3560000, smallest remaining proportion over all species = 0.1484904
+removed 3570000, smallest remaining proportion over all species = 0.1458081
+removed 3580000, smallest remaining proportion over all species = 0.1431798
+removed 3590000, smallest remaining proportion over all species = 0.1404752
+removed 3600000, smallest remaining proportion over all species = 0.1378241
+removed 3610000, smallest remaining proportion over all species = 0.135245
+removed 3620000, smallest remaining proportion over all species = 0.1327067
+removed 3630000, smallest remaining proportion over all species = 0.1300797
+removed 3640000, smallest remaining proportion over all species = 0.127417
+removed 3650000, smallest remaining proportion over all species = 0.1234029
+removed 3660000, smallest remaining proportion over all species = 0.1191627
+removed 3670000, smallest remaining proportion over all species = 0.114934
+removed 3680000, smallest remaining proportion over all species = 0.1104631
+removed 3690000, smallest remaining proportion over all species = 0.1061985
+removed 3700000, smallest remaining proportion over all species = 0.1018458
+removed 3710000, smallest remaining proportion over all species = 0.0976147
+removed 3720000, smallest remaining proportion over all species = 0.09356897
+removed 3730000, smallest remaining proportion over all species = 0.08911622
+removed 3740000, smallest remaining proportion over all species = 0.08492551
+removed 3750000, smallest remaining proportion over all species = 0.08089687
+removed 3760000, smallest remaining proportion over all species = 0.07660587
+removed 3770000, smallest remaining proportion over all species = 0.07267528
+removed 3780000, smallest remaining proportion over all species = 0.06849346
+removed 3790000, smallest remaining proportion over all species = 0.06466065
+removed 3800000, smallest remaining proportion over all species = 0.06041292
+removed 3810000, smallest remaining proportion over all species = 0.05616183
+removed 3820000, smallest remaining proportion over all species = 0.05268004
+removed 3830000, smallest remaining proportion over all species = 0.04881312
+removed 3840000, smallest remaining proportion over all species = 0.04453604
+removed 3850000, smallest remaining proportion over all species = 0.04056678
+removed 3860000, smallest remaining proportion over all species = 0.03592172
+removed 3870000, smallest remaining proportion over all species = 0.03174018
+removed 3880000, smallest remaining proportion over all species = 0.0278726
+removed 3890000, smallest remaining proportion over all species = 0.02430918
+removed 3900000, smallest remaining proportion over all species = 0.02016594
+removed 3910000, smallest remaining proportion over all species = 0.01653638
+removed 3920000, smallest remaining proportion over all species = 0.01300071
+removed 3930000, smallest remaining proportion over all species = 0.009345097
+removed 3940000, smallest remaining proportion over all species = 0.005585373
+removed 3950000, smallest remaining proportion over all species = 0.001834383
+Total count of cells removed = 3955305
+
+Done in 7175 seconds.
+saving 22_60_5kp_abf_pe_altg/output/result_22_60_5kp_abf_pe_altg.emf
+saving 22_60_5kp_abf_pe_altg/output/result_22_60_5kp_abf_pe_altg.jpg
+
+Species performance levels check
+Species 1, proportion remaining = 0
+Species 2, proportion remaining = 0
+Species 3, proportion remaining = 0
+Species 4, proportion remaining = 0
+Species 5, proportion remaining = 0
+Species 6, proportion remaining = 0
+Species 7, proportion remaining = 0
+Species 8, proportion remaining = 0
+Species 9, proportion remaining = 0
+Species 10, proportion remaining = 0
+Species 11, proportion remaining = 0
+Species 12, proportion remaining = 0
+Species 13, proportion remaining = 0
+Species 14, proportion remaining = 0
+Species 15, proportion remaining = 0
+Species 16, proportion remaining = 0
+Species 17, proportion remaining = 0
+Species 18, proportion remaining = 0
+Species 19, proportion remaining = 0
+Species 20, proportion remaining = 0
+
+saving 22_60_5kp_abf_pe_altg/output/result_22_60_5kp_abf_pe_altg.rank.compressed.img
+saving 22_60_5kp_abf_pe_altg/output/result_22_60_5kp_abf_pe_altg.prop.compressed.img
+saving 22_60_5kp_abf_pe_altg/output/result_22_60_5kp_abf_pe_altg.wrscr.compressed.img
+
+Post-processing landscape analysis for masked-in areas
+
+
+NEW LANDSCAPE IDENTIFICATION ANALYSIS
+Running LSIdent with mask file (C:/Data/ESMK/data/maski/ESMK_PLU.img). Note: LSM special case with max. distance -1, ignoring top%=0.000 and using whole landscape
+C:/Data/ESMK/data/maski/ESMK_PLU.img:  2815 rows and 3044 columns read in total
+Nodata element count =  8460672, and sum of elements = 146964
+LSI mask map loaded.
+Potential cells count = 108188
+
+Count of post-processing analyses succesfully done =1
+
+
+DONE: Freeing memory next.
+Finished at 3:36:33 PM (2013/3/13) 
+Elapsed time : 7190876 ms
+ZIG3: DONE!

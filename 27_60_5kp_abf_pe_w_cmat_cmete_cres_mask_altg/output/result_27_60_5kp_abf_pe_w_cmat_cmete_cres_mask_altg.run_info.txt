@@ -1,0 +1,1587 @@
+Reading settings file.
+
+Condition layers used; will load from file = condition_layers.txt
+*************** USING MASK LAYER **************
+  Mask file = ../data/maski/ESMK_hier_slalue_60.img
+*************** USING species interactions **************
+  IA list file = interact_cmete_cres_5kp.txt
+
+Starting Zonation run on 'MRGTESLA' at 1:36:49 PM (2013/3/13) 
+Locale is: C
+
+**************************************************
+*** For conditions of use of this software see ***
+*** the disclaimer in the about-box.           ***
+**************************************************
+
+Loading spp list from file 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg/27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.spp
+Row count in species file: 82
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total
+Nodata element count =  8544863, and sum of elements = 2.3515e+06
+Number of interaction pairs = 120
+Matrix x dimension: 3044
+Matrix y dimension: 2815
+../data/maski/ESMK_hier_slalue_60.img:  2815 rows and 3044 columns read in total
+Nodata element count =  11714, and sum of elements = 84586
+Mask map loaded.
+*******************************************************
+Loading feature grouping information from groups_wrscr_cmete_cres_fert.txt
+Groups information loaded.
+
+****** REMOVAL RULE: Convex additive benefit function; r^par *******
+
+
+Doing connectivity smoothings:
+Using 1 thread(s) for preprocessing.
+****** NOT using Info-gap distribution discounting uncertainty analysis ****************
+
+****** Loading feature (e.g., species) data layers ****************
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.3515e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #1, ../data/60/index_koivu_kp_1_60.img
+
+../data/60/index_koivu_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 5.01186e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #2, ../data/60/index_koivu_kp_2_60.img
+
+../data/60/index_koivu_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 8.13614e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #3, ../data/60/index_koivu_kp_3_60.img
+
+../data/60/index_koivu_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.35883e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #4, ../data/60/index_koivu_kp_4_60.img
+
+../data/60/index_koivu_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.6093e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #5, ../data/60/index_koivu_kp_5_60.img
+
+../data/60/index_kuusi_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.30836e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #6, ../data/60/index_kuusi_kp_1_60.img
+
+../data/60/index_kuusi_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.74493e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #7, ../data/60/index_kuusi_kp_2_60.img
+
+../data/60/index_kuusi_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.26396e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #8, ../data/60/index_kuusi_kp_3_60.img
+
+../data/60/index_kuusi_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.27476e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #9, ../data/60/index_kuusi_kp_4_60.img
+
+../data/60/index_kuusi_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.91023e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #10, ../data/60/index_kuusi_kp_5_60.img
+
+../data/60/index_mlp_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.71217e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #11, ../data/60/index_mlp_kp_1_60.img
+
+../data/60/index_mlp_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.79249e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #12, ../data/60/index_mlp_kp_2_60.img
+
+../data/60/index_mlp_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 4.00607e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #13, ../data/60/index_mlp_kp_3_60.img
+
+../data/60/index_mlp_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.40619e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #14, ../data/60/index_mlp_kp_4_60.img
+
+../data/60/index_mlp_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.0449e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #15, ../data/60/index_mlp_kp_5_60.img
+
+../data/60/index_manty_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.49631e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #16, ../data/60/index_manty_kp_1_60.img
+
+../data/60/index_manty_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.72215e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #17, ../data/60/index_manty_kp_2_60.img
+
+../data/60/index_manty_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.84668e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #18, ../data/60/index_manty_kp_3_60.img
+
+../data/60/index_manty_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.26537e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #19, ../data/60/index_manty_kp_4_60.img
+
+../data/60/index_manty_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.20738e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #20, ../data/60/index_manty_kp_5_60.img
+
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.3515e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #21, ../data/60/index_koivu_kp_1_60.img
+
+../data/60/index_koivu_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 5.01186e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #22, ../data/60/index_koivu_kp_2_60.img
+
+../data/60/index_koivu_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 8.13614e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #23, ../data/60/index_koivu_kp_3_60.img
+
+../data/60/index_koivu_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.35883e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #24, ../data/60/index_koivu_kp_4_60.img
+
+../data/60/index_koivu_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.6093e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #25, ../data/60/index_koivu_kp_5_60.img
+
+../data/60/index_kuusi_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.30836e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #26, ../data/60/index_kuusi_kp_1_60.img
+
+../data/60/index_kuusi_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.74493e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #27, ../data/60/index_kuusi_kp_2_60.img
+
+../data/60/index_kuusi_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.26396e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #28, ../data/60/index_kuusi_kp_3_60.img
+
+../data/60/index_kuusi_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.27476e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #29, ../data/60/index_kuusi_kp_4_60.img
+
+../data/60/index_kuusi_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.91023e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #30, ../data/60/index_kuusi_kp_5_60.img
+
+../data/60/index_mlp_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.71217e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #31, ../data/60/index_mlp_kp_1_60.img
+
+../data/60/index_mlp_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.79249e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #32, ../data/60/index_mlp_kp_2_60.img
+
+../data/60/index_mlp_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 4.00607e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #33, ../data/60/index_mlp_kp_3_60.img
+
+../data/60/index_mlp_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.40619e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #34, ../data/60/index_mlp_kp_4_60.img
+
+../data/60/index_mlp_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.0449e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #35, ../data/60/index_mlp_kp_5_60.img
+
+../data/60/index_manty_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.49631e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #36, ../data/60/index_manty_kp_1_60.img
+
+../data/60/index_manty_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.72215e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #37, ../data/60/index_manty_kp_2_60.img
+
+../data/60/index_manty_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.84668e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #38, ../data/60/index_manty_kp_3_60.img
+
+../data/60/index_manty_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.26537e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #39, ../data/60/index_manty_kp_4_60.img
+
+../data/60/index_manty_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.20738e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #40, ../data/60/index_manty_kp_5_60.img
+
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.3515e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #41, ../data/60/index_koivu_kp_1_60.img
+
+../data/60/index_koivu_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 5.01186e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #42, ../data/60/index_koivu_kp_2_60.img
+
+../data/60/index_koivu_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 8.13614e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #43, ../data/60/index_koivu_kp_3_60.img
+
+../data/60/index_koivu_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.35883e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #44, ../data/60/index_koivu_kp_4_60.img
+
+../data/60/index_koivu_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.6093e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #45, ../data/60/index_koivu_kp_5_60.img
+
+../data/60/index_kuusi_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.30836e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #46, ../data/60/index_kuusi_kp_1_60.img
+
+../data/60/index_kuusi_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.74493e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #47, ../data/60/index_kuusi_kp_2_60.img
+
+../data/60/index_kuusi_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.26396e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #48, ../data/60/index_kuusi_kp_3_60.img
+
+../data/60/index_kuusi_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.27476e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #49, ../data/60/index_kuusi_kp_4_60.img
+
+../data/60/index_kuusi_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.91023e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #50, ../data/60/index_kuusi_kp_5_60.img
+
+../data/60/index_mlp_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.71217e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #51, ../data/60/index_mlp_kp_1_60.img
+
+../data/60/index_mlp_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.79249e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #52, ../data/60/index_mlp_kp_2_60.img
+
+../data/60/index_mlp_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 4.00607e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #53, ../data/60/index_mlp_kp_3_60.img
+
+../data/60/index_mlp_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.40619e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #54, ../data/60/index_mlp_kp_4_60.img
+
+../data/60/index_mlp_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.0449e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #55, ../data/60/index_mlp_kp_5_60.img
+
+../data/60/index_manty_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.49631e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #56, ../data/60/index_manty_kp_1_60.img
+
+../data/60/index_manty_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.72215e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #57, ../data/60/index_manty_kp_2_60.img
+
+../data/60/index_manty_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.84668e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #58, ../data/60/index_manty_kp_3_60.img
+
+../data/60/index_manty_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.26537e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #59, ../data/60/index_manty_kp_4_60.img
+
+../data/60/index_manty_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.20738e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #60, ../data/60/index_manty_kp_5_60.img
+
+../data/60/index_koivu_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.3515e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #61, ../data/60/index_koivu_kp_1_60.img
+
+../data/60/index_koivu_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 5.01186e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #62, ../data/60/index_koivu_kp_2_60.img
+
+../data/60/index_koivu_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 8.13614e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #63, ../data/60/index_koivu_kp_3_60.img
+
+../data/60/index_koivu_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.35883e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #64, ../data/60/index_koivu_kp_4_60.img
+
+../data/60/index_koivu_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.6093e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #65, ../data/60/index_koivu_kp_5_60.img
+
+../data/60/index_kuusi_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.30836e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #66, ../data/60/index_kuusi_kp_1_60.img
+
+../data/60/index_kuusi_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.74493e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #67, ../data/60/index_kuusi_kp_2_60.img
+
+../data/60/index_kuusi_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.26396e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #68, ../data/60/index_kuusi_kp_3_60.img
+
+../data/60/index_kuusi_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.27476e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #69, ../data/60/index_kuusi_kp_4_60.img
+
+../data/60/index_kuusi_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 3.91023e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #70, ../data/60/index_kuusi_kp_5_60.img
+
+../data/60/index_mlp_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.71217e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #71, ../data/60/index_mlp_kp_1_60.img
+
+../data/60/index_mlp_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.79249e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #72, ../data/60/index_mlp_kp_2_60.img
+
+../data/60/index_mlp_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 4.00607e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #73, ../data/60/index_mlp_kp_3_60.img
+
+../data/60/index_mlp_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.40619e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #74, ../data/60/index_mlp_kp_4_60.img
+
+../data/60/index_mlp_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.0449e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #75, ../data/60/index_mlp_kp_5_60.img
+
+../data/60/index_manty_kp_1_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.49631e+06
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #76, ../data/60/index_manty_kp_1_60.img
+
+../data/60/index_manty_kp_2_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 7.72215e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #77, ../data/60/index_manty_kp_2_60.img
+
+../data/60/index_manty_kp_3_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 2.84668e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #78, ../data/60/index_manty_kp_3_60.img
+
+../data/60/index_manty_kp_4_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.26537e+08
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #79, ../data/60/index_manty_kp_4_60.img
+
+../data/60/index_manty_kp_5_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 1.20738e+07
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #80, ../data/60/index_manty_kp_5_60.img
+
+../data/60/mv_wrscr_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 13568.8
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #81, ../data/60/mv_wrscr_60.img
+
+../data/60/mh_wrscr_60.img:  2815 rows and 3044 columns read in total; sum of non-missing data elements = 61581.4
+182640.000000 168900.000000 0.016667 3044 2815
+* Completed load of species file #82, ../data/60/mh_wrscr_60.img
+
+Loading condition file list from file condition_layers.txt
+../data/maski/penalty_rasteri_60.img:  2815 rows and 3044 columns read in total
+Nodata element count =  11714, and sum of elements = 8.10499e+06
+Condition layer loaded without errors, count of informative elements= 8557146 , missing (<0) elements count = 11714
+Applied condition layer number 1
+Read files: condition layers count = 1
+Applied condition layers through the landscape.
+Consequently, initial remaining fractions do not start from 1.
+
+Loading community connectivty similarity matrix from file con_mat_real_double_5kp.txt
+Read similarity matrix with row count = 40, and same number of columns.
+Community similarity matrix loaded successfully from filecon_mat_real_double_5kp.txt
+Applying community similarity matrix to connectivity
+
+DS connectivity calculations - Kernel calculated; alpha= 0.005
+Maximum (smoothed) fraction of the distribution in any cell = 127.864
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 0 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 123.79
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 1 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 115.149
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 2 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 110.489
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 3 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 96.2412
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 4 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 135.919
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 5 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 131.844
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 6 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 123.204
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 7 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 118.544
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 8 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 104.252
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 9 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 126.542
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 10 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 122.467
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 11 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 113.826
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 12 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 109.166
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 13 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 94.8979
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 14 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 134.963
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 15 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 130.888
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 16 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 122.248
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 17 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 117.621
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 18 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 103.432
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 19 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 178.179
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 20 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 171.588
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 21 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 157.971
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 22 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 150.842
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 23 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 129.328
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 24 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 176.17
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 25 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 169.58
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 26 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 155.908
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 27 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 148.732
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 28 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 126.894
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 29 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 171.825
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 30 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 165.234
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 31 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 151.576
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 32 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 144.447
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 33 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 122.825
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 34 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 170.183
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 35 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 163.593
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 36 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 150.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 37 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 142.879
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 38 transformed via matrix connectivity calculations using alpha 0.005000.
+Maximum (smoothed) fraction of the distribution in any cell = 121.113
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 39 transformed via matrix connectivity calculations using alpha 0.005000.
+
+Loading species interaction specifications from file interact_cmete_cres_5kp.txt
+
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 21 (resource, ../data/60/index_koivu_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 22 (resource, ../data/60/index_koivu_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 23 (resource, ../data/60/index_koivu_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 24 (resource, ../data/60/index_koivu_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 25 (resource, ../data/60/index_koivu_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 26 (resource, ../data/60/index_kuusi_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 27 (resource, ../data/60/index_kuusi_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 28 (resource, ../data/60/index_kuusi_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 29 (resource, ../data/60/index_kuusi_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 30 (resource, ../data/60/index_kuusi_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 31 (resource, ../data/60/index_mlp_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 32 (resource, ../data/60/index_mlp_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 33 (resource, ../data/60/index_mlp_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 34 (resource, ../data/60/index_mlp_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 35 (resource, ../data/60/index_mlp_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 36 (resource, ../data/60/index_manty_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 37 (resource, ../data/60/index_manty_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 38 (resource, ../data/60/index_manty_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 39 (resource, ../data/60/index_manty_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 40 (resource, ../data/60/index_manty_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 41 (resource, ../data/60/index_koivu_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 42 (resource, ../data/60/index_koivu_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 43 (resource, ../data/60/index_koivu_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 44 (resource, ../data/60/index_koivu_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 45 (resource, ../data/60/index_koivu_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 46 (resource, ../data/60/index_kuusi_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 47 (resource, ../data/60/index_kuusi_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 48 (resource, ../data/60/index_kuusi_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 49 (resource, ../data/60/index_kuusi_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 50 (resource, ../data/60/index_kuusi_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 51 (resource, ../data/60/index_mlp_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 52 (resource, ../data/60/index_mlp_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 53 (resource, ../data/60/index_mlp_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 54 (resource, ../data/60/index_mlp_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 55 (resource, ../data/60/index_mlp_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 56 (resource, ../data/60/index_manty_kp_1_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 57 (resource, ../data/60/index_manty_kp_2_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 58 (resource, ../data/60/index_manty_kp_3_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 59 (resource, ../data/60/index_manty_kp_4_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 2.14294
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 60 (resource, ../data/60/index_manty_kp_5_60.img) transformed by connectivity to L81 (consumer, ../data/60/mv_wrscr_60.img), alpha=0.008
+
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 1 (resource, ../data/60/index_koivu_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 2 (resource, ../data/60/index_koivu_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 3 (resource, ../data/60/index_koivu_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 4 (resource, ../data/60/index_koivu_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 5 (resource, ../data/60/index_koivu_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 6 (resource, ../data/60/index_kuusi_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 7 (resource, ../data/60/index_kuusi_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 8 (resource, ../data/60/index_kuusi_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 9 (resource, ../data/60/index_kuusi_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 10 (resource, ../data/60/index_kuusi_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 11 (resource, ../data/60/index_mlp_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 12 (resource, ../data/60/index_mlp_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 13 (resource, ../data/60/index_mlp_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 14 (resource, ../data/60/index_mlp_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 15 (resource, ../data/60/index_mlp_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 16 (resource, ../data/60/index_manty_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 17 (resource, ../data/60/index_manty_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 18 (resource, ../data/60/index_manty_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 19 (resource, ../data/60/index_manty_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 20 (resource, ../data/60/index_manty_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 21 (resource, ../data/60/index_koivu_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 22 (resource, ../data/60/index_koivu_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 23 (resource, ../data/60/index_koivu_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 24 (resource, ../data/60/index_koivu_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 25 (resource, ../data/60/index_koivu_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 26 (resource, ../data/60/index_kuusi_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 27 (resource, ../data/60/index_kuusi_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 28 (resource, ../data/60/index_kuusi_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 29 (resource, ../data/60/index_kuusi_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 30 (resource, ../data/60/index_kuusi_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 31 (resource, ../data/60/index_mlp_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 32 (resource, ../data/60/index_mlp_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 33 (resource, ../data/60/index_mlp_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 34 (resource, ../data/60/index_mlp_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 35 (resource, ../data/60/index_mlp_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 36 (resource, ../data/60/index_manty_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 37 (resource, ../data/60/index_manty_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 38 (resource, ../data/60/index_manty_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 39 (resource, ../data/60/index_manty_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 40 (resource, ../data/60/index_manty_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 41 (resource, ../data/60/index_koivu_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 42 (resource, ../data/60/index_koivu_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 43 (resource, ../data/60/index_koivu_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 44 (resource, ../data/60/index_koivu_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 45 (resource, ../data/60/index_koivu_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 46 (resource, ../data/60/index_kuusi_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 47 (resource, ../data/60/index_kuusi_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 48 (resource, ../data/60/index_kuusi_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 49 (resource, ../data/60/index_kuusi_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 50 (resource, ../data/60/index_kuusi_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 51 (resource, ../data/60/index_mlp_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 52 (resource, ../data/60/index_mlp_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 53 (resource, ../data/60/index_mlp_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 54 (resource, ../data/60/index_mlp_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 55 (resource, ../data/60/index_mlp_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 56 (resource, ../data/60/index_manty_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 57 (resource, ../data/60/index_manty_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 58 (resource, ../data/60/index_manty_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 59 (resource, ../data/60/index_manty_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 60 (resource, ../data/60/index_manty_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 61 (resource, ../data/60/index_koivu_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 62 (resource, ../data/60/index_koivu_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 63 (resource, ../data/60/index_koivu_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 64 (resource, ../data/60/index_koivu_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 65 (resource, ../data/60/index_koivu_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 66 (resource, ../data/60/index_kuusi_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 67 (resource, ../data/60/index_kuusi_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 68 (resource, ../data/60/index_kuusi_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 69 (resource, ../data/60/index_kuusi_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 70 (resource, ../data/60/index_kuusi_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 71 (resource, ../data/60/index_mlp_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 72 (resource, ../data/60/index_mlp_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 73 (resource, ../data/60/index_mlp_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 74 (resource, ../data/60/index_mlp_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 75 (resource, ../data/60/index_mlp_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 76 (resource, ../data/60/index_manty_kp_1_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 77 (resource, ../data/60/index_manty_kp_2_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 78 (resource, ../data/60/index_manty_kp_3_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 79 (resource, ../data/60/index_manty_kp_4_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Using same kernel as previous species.
+Maximum (smoothed) fraction of the distribution in any cell = 1236.64
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 80 (resource, ../data/60/index_manty_kp_5_60.img) transformed by connectivity to L82 (consumer, ../data/60/mh_wrscr_60.img), alpha=0.0011765
+Spp interactions loaded successfully from fileinteract_cmete_cres_5kp.txt
+
+Freeing smoothing... Done.
+NOT using removal only from edges.
+Cells with data = 3955305 locations with missing values = 4613555
+Loaded data and initialized in 1108 seconds.
+
+------------------ RANKING STARTS HERE -----------------------
+Initially removed cells count = 0
+***** Note: No initial removal was used.     *****
+
+Species performance levels check
+Species 1, proportion remaining = 1.000035
+Species 2, proportion remaining = 1.001623
+Species 3, proportion remaining = 1.002659
+Species 4, proportion remaining = 1.000996
+Species 5, proportion remaining = 1.000215
+Species 6, proportion remaining = 1.00004
+Species 7, proportion remaining = 1.001827
+Species 8, proportion remaining = 1.003309
+Species 9, proportion remaining = 1.000925
+Species 10, proportion remaining = 1.000174
+Species 11, proportion remaining = 1.00005
+Species 12, proportion remaining = 1.001549
+Species 13, proportion remaining = 1.002984
+Species 14, proportion remaining = 1.000711
+Species 15, proportion remaining = 1.000219
+Species 16, proportion remaining = 1.000038
+Species 17, proportion remaining = 1.001426
+Species 18, proportion remaining = 1.002971
+Species 19, proportion remaining = 1.001397
+Species 20, proportion remaining = 1.000232
+Species 21, proportion remaining = 1.000014
+Species 22, proportion remaining = 1.000477
+Species 23, proportion remaining = 1.000942
+Species 24, proportion remaining = 1.000339
+Species 25, proportion remaining = 1.00006
+Species 26, proportion remaining = 1.000007
+Species 27, proportion remaining = 1.000593
+Species 28, proportion remaining = 1.001252
+Species 29, proportion remaining = 1.000378
+Species 30, proportion remaining = 1.000062
+Species 31, proportion remaining = 1.000011
+Species 32, proportion remaining = 1.000476
+Species 33, proportion remaining = 1.000898
+Species 34, proportion remaining = 1.000178
+Species 35, proportion remaining = 1.00004
+Species 36, proportion remaining = 1.00001
+Species 37, proportion remaining = 1.000556
+Species 38, proportion remaining = 1.001232
+Species 39, proportion remaining = 1.000485
+Species 40, proportion remaining = 1.000091
+Species 41, proportion remaining = 1.000018
+Species 42, proportion remaining = 1.000655
+Species 43, proportion remaining = 1.001315
+Species 44, proportion remaining = 1.000487
+Species 45, proportion remaining = 1.000076
+Species 46, proportion remaining = 1.000014
+Species 47, proportion remaining = 1.000779
+Species 48, proportion remaining = 1.001451
+Species 49, proportion remaining = 1.000505
+Species 50, proportion remaining = 1.000075
+Species 51, proportion remaining = 1.000011
+Species 52, proportion remaining = 1.000617
+Species 53, proportion remaining = 1.001339
+Species 54, proportion remaining = 1.000332
+Species 55, proportion remaining = 1.000065
+Species 56, proportion remaining = 1.000015
+Species 57, proportion remaining = 1.000656
+Species 58, proportion remaining = 1.001481
+Species 59, proportion remaining = 1.000652
+Species 60, proportion remaining = 1.000114
+Species 61, proportion remaining = 1.000029
+Species 62, proportion remaining = 1.001441
+Species 63, proportion remaining = 1.00349
+Species 64, proportion remaining = 1.001104
+Species 65, proportion remaining = 1.00017
+Species 66, proportion remaining = 1.000038
+Species 67, proportion remaining = 1.001669
+Species 68, proportion remaining = 1.004142
+Species 69, proportion remaining = 1.000846
+Species 70, proportion remaining = 1.000163
+Species 71, proportion remaining = 1.000032
+Species 72, proportion remaining = 1.001384
+Species 73, proportion remaining = 1.002794
+Species 74, proportion remaining = 1.000809
+Species 75, proportion remaining = 1.000118
+Species 76, proportion remaining = 1.00003
+Species 77, proportion remaining = 1.001456
+Species 78, proportion remaining = 1.003961
+Species 79, proportion remaining = 1.001384
+Species 80, proportion remaining = 1.000223
+Species 81, proportion remaining = 0.9495118
+Species 82, proportion remaining = 0.992325
+
+MASK MAP USE CONFIRMED
+removed 10000, smallest remaining proportion over all species = 0.9480559
+removed 20000, smallest remaining proportion over all species = 0.9480368
+removed 30000, smallest remaining proportion over all species = 0.9480117
+removed 40000, smallest remaining proportion over all species = 0.9479444
+removed 50000, smallest remaining proportion over all species = 0.947888
+removed 60000, smallest remaining proportion over all species = 0.9478364
+removed 70000, smallest remaining proportion over all species = 0.94776
+removed 80000, smallest remaining proportion over all species = 0.9477051
+removed 90000, smallest remaining proportion over all species = 0.9476301
+removed 100000, smallest remaining proportion over all species = 0.9475424
+removed 110000, smallest remaining proportion over all species = 0.947441
+removed 120000, smallest remaining proportion over all species = 0.9473574
+removed 130000, smallest remaining proportion over all species = 0.9471791
+removed 140000, smallest remaining proportion over all species = 0.9471037
+removed 150000, smallest remaining proportion over all species = 0.9470305
+removed 160000, smallest remaining proportion over all species = 0.9468243
+removed 170000, smallest remaining proportion over all species = 0.9467405
+removed 180000, smallest remaining proportion over all species = 0.9465969
+removed 190000, smallest remaining proportion over all species = 0.94637
+removed 200000, smallest remaining proportion over all species = 0.9461963
+removed 210000, smallest remaining proportion over all species = 0.9459754
+removed 220000, smallest remaining proportion over all species = 0.9457346
+removed 230000, smallest remaining proportion over all species = 0.9455177
+removed 240000, smallest remaining proportion over all species = 0.9452924
+removed 250000, smallest remaining proportion over all species = 0.9450234
+removed 260000, smallest remaining proportion over all species = 0.9447035
+removed 270000, smallest remaining proportion over all species = 0.9444548
+removed 280000, smallest remaining proportion over all species = 0.9441264
+removed 290000, smallest remaining proportion over all species = 0.9436646
+removed 300000, smallest remaining proportion over all species = 0.9433007
+removed 310000, smallest remaining proportion over all species = 0.9430608
+removed 320000, smallest remaining proportion over all species = 0.9424815
+removed 330000, smallest remaining proportion over all species = 0.9422063
+removed 340000, smallest remaining proportion over all species = 0.9418316
+removed 350000, smallest remaining proportion over all species = 0.9415255
+removed 360000, smallest remaining proportion over all species = 0.9413081
+removed 370000, smallest remaining proportion over all species = 0.9409758
+removed 380000, smallest remaining proportion over all species = 0.9407026
+removed 390000, smallest remaining proportion over all species = 0.9402699
+removed 400000, smallest remaining proportion over all species = 0.9398731
+removed 410000, smallest remaining proportion over all species = 0.9395157
+removed 420000, smallest remaining proportion over all species = 0.9389839
+removed 430000, smallest remaining proportion over all species = 0.9386821
+removed 440000, smallest remaining proportion over all species = 0.9383044
+removed 450000, smallest remaining proportion over all species = 0.9376172
+removed 460000, smallest remaining proportion over all species = 0.9371363
+removed 470000, smallest remaining proportion over all species = 0.9366328
+removed 480000, smallest remaining proportion over all species = 0.9362254
+removed 490000, smallest remaining proportion over all species = 0.9357993
+removed 500000, smallest remaining proportion over all species = 0.9355252
+removed 510000, smallest remaining proportion over all species = 0.9350532
+removed 520000, smallest remaining proportion over all species = 0.9346431
+removed 530000, smallest remaining proportion over all species = 0.9342847
+removed 540000, smallest remaining proportion over all species = 0.9337827
+removed 550000, smallest remaining proportion over all species = 0.9331672
+removed 560000, smallest remaining proportion over all species = 0.9327205
+removed 570000, smallest remaining proportion over all species = 0.9323167
+removed 580000, smallest remaining proportion over all species = 0.9317502
+removed 590000, smallest remaining proportion over all species = 0.9312994
+removed 600000, smallest remaining proportion over all species = 0.9307351
+removed 610000, smallest remaining proportion over all species = 0.9302259
+removed 620000, smallest remaining proportion over all species = 0.9296584
+removed 630000, smallest remaining proportion over all species = 0.9293113
+removed 640000, smallest remaining proportion over all species = 0.9288109
+removed 650000, smallest remaining proportion over all species = 0.9282884
+removed 660000, smallest remaining proportion over all species = 0.9280241
+removed 670000, smallest remaining proportion over all species = 0.9276959
+removed 680000, smallest remaining proportion over all species = 0.9272059
+removed 690000, smallest remaining proportion over all species = 0.9266741
+removed 700000, smallest remaining proportion over all species = 0.9263523
+removed 710000, smallest remaining proportion over all species = 0.9260625
+removed 720000, smallest remaining proportion over all species = 0.9257337
+removed 730000, smallest remaining proportion over all species = 0.9253109
+removed 740000, smallest remaining proportion over all species = 0.9246593
+removed 750000, smallest remaining proportion over all species = 0.9240867
+removed 760000, smallest remaining proportion over all species = 0.9232465
+removed 770000, smallest remaining proportion over all species = 0.922798
+removed 780000, smallest remaining proportion over all species = 0.9223514
+removed 790000, smallest remaining proportion over all species = 0.9220336
+removed 800000, smallest remaining proportion over all species = 0.9215827
+removed 810000, smallest remaining proportion over all species = 0.9209685
+removed 820000, smallest remaining proportion over all species = 0.9204103
+removed 830000, smallest remaining proportion over all species = 0.9200058
+removed 840000, smallest remaining proportion over all species = 0.9192435
+removed 850000, smallest remaining proportion over all species = 0.9187858
+removed 860000, smallest remaining proportion over all species = 0.9183095
+removed 870000, smallest remaining proportion over all species = 0.9178335
+removed 880000, smallest remaining proportion over all species = 0.9172986
+removed 890000, smallest remaining proportion over all species = 0.9168331
+removed 900000, smallest remaining proportion over all species = 0.9161534
+removed 910000, smallest remaining proportion over all species = 0.9158009
+removed 920000, smallest remaining proportion over all species = 0.9151949
+removed 930000, smallest remaining proportion over all species = 0.9148076
+removed 940000, smallest remaining proportion over all species = 0.9145473
+removed 950000, smallest remaining proportion over all species = 0.9139423
+removed 960000, smallest remaining proportion over all species = 0.9135048
+removed 970000, smallest remaining proportion over all species = 0.9130971
+removed 980000, smallest remaining proportion over all species = 0.9126023
+removed 990000, smallest remaining proportion over all species = 0.9121437
+removed 1000000, smallest remaining proportion over all species = 0.9117368
+removed 1010000, smallest remaining proportion over all species = 0.9111417
+removed 1020000, smallest remaining proportion over all species = 0.9104663
+removed 1030000, smallest remaining proportion over all species = 0.9097964
+removed 1040000, smallest remaining proportion over all species = 0.9091243
+removed 1050000, smallest remaining proportion over all species = 0.9084405
+removed 1060000, smallest remaining proportion over all species = 0.9078845
+removed 1070000, smallest remaining proportion over all species = 0.9070784
+removed 1080000, smallest remaining proportion over all species = 0.9066529
+removed 1090000, smallest remaining proportion over all species = 0.9061733
+removed 1100000, smallest remaining proportion over all species = 0.9055589
+removed 1110000, smallest remaining proportion over all species = 0.9049564
+removed 1120000, smallest remaining proportion over all species = 0.9042495
+removed 1130000, smallest remaining proportion over all species = 0.903509
+removed 1140000, smallest remaining proportion over all species = 0.9028814
+removed 1150000, smallest remaining proportion over all species = 0.9023774
+removed 1160000, smallest remaining proportion over all species = 0.9017108
+removed 1170000, smallest remaining proportion over all species = 0.9009483
+removed 1180000, smallest remaining proportion over all species = 0.9004259
+removed 1190000, smallest remaining proportion over all species = 0.8998216
+removed 1200000, smallest remaining proportion over all species = 0.8990933
+removed 1210000, smallest remaining proportion over all species = 0.8987142
+removed 1220000, smallest remaining proportion over all species = 0.8981304
+removed 1230000, smallest remaining proportion over all species = 0.897496
+removed 1240000, smallest remaining proportion over all species = 0.8971505
+removed 1250000, smallest remaining proportion over all species = 0.8963833
+removed 1260000, smallest remaining proportion over all species = 0.8959258
+removed 1270000, smallest remaining proportion over all species = 0.8951985
+removed 1280000, smallest remaining proportion over all species = 0.8944488
+removed 1290000, smallest remaining proportion over all species = 0.893802
+removed 1300000, smallest remaining proportion over all species = 0.893536
+removed 1310000, smallest remaining proportion over all species = 0.8930959
+removed 1320000, smallest remaining proportion over all species = 0.8925169
+removed 1330000, smallest remaining proportion over all species = 0.891874
+removed 1340000, smallest remaining proportion over all species = 0.8911095
+removed 1350000, smallest remaining proportion over all species = 0.8903579
+removed 1360000, smallest remaining proportion over all species = 0.8899521
+removed 1370000, smallest remaining proportion over all species = 0.8893552
+removed 1380000, smallest remaining proportion over all species = 0.8889351
+removed 1390000, smallest remaining proportion over all species = 0.8884509
+removed 1400000, smallest remaining proportion over all species = 0.8878776
+removed 1410000, smallest remaining proportion over all species = 0.887493
+removed 1420000, smallest remaining proportion over all species = 0.886793
+removed 1430000, smallest remaining proportion over all species = 0.8863537
+removed 1440000, smallest remaining proportion over all species = 0.8857821
+removed 1450000, smallest remaining proportion over all species = 0.8851284
+removed 1460000, smallest remaining proportion over all species = 0.8843945
+removed 1470000, smallest remaining proportion over all species = 0.8836601
+removed 1480000, smallest remaining proportion over all species = 0.8830097
+removed 1490000, smallest remaining proportion over all species = 0.8824854
+removed 1500000, smallest remaining proportion over all species = 0.8816633
+removed 1510000, smallest remaining proportion over all species = 0.8811125
+removed 1520000, smallest remaining proportion over all species = 0.8806115
+removed 1530000, smallest remaining proportion over all species = 0.8799012
+removed 1540000, smallest remaining proportion over all species = 0.8790534
+removed 1550000, smallest remaining proportion over all species = 0.8785759
+removed 1560000, smallest remaining proportion over all species = 0.8778331
+removed 1570000, smallest remaining proportion over all species = 0.876917
+removed 1580000, smallest remaining proportion over all species = 0.8764473
+removed 1590000, smallest remaining proportion over all species = 0.8757312
+removed 1600000, smallest remaining proportion over all species = 0.8750705
+removed 1610000, smallest remaining proportion over all species = 0.8743725
+removed 1620000, smallest remaining proportion over all species = 0.8739135
+removed 1630000, smallest remaining proportion over all species = 0.8731374
+removed 1640000, smallest remaining proportion over all species = 0.8725439
+removed 1650000, smallest remaining proportion over all species = 0.8717819
+removed 1660000, smallest remaining proportion over all species = 0.8712699
+removed 1670000, smallest remaining proportion over all species = 0.8705943
+removed 1680000, smallest remaining proportion over all species = 0.8701608
+removed 1690000, smallest remaining proportion over all species = 0.8692147
+removed 1700000, smallest remaining proportion over all species = 0.8686817
+removed 1710000, smallest remaining proportion over all species = 0.8680012
+removed 1720000, smallest remaining proportion over all species = 0.8669698
+removed 1730000, smallest remaining proportion over all species = 0.8663425
+removed 1740000, smallest remaining proportion over all species = 0.8658653
+removed 1750000, smallest remaining proportion over all species = 0.8650342
+removed 1760000, smallest remaining proportion over all species = 0.8640566
+removed 1770000, smallest remaining proportion over all species = 0.8635052
+removed 1780000, smallest remaining proportion over all species = 0.8628649
+removed 1790000, smallest remaining proportion over all species = 0.8622952
+removed 1800000, smallest remaining proportion over all species = 0.8614929
+removed 1810000, smallest remaining proportion over all species = 0.8609651
+removed 1820000, smallest remaining proportion over all species = 0.860154
+removed 1830000, smallest remaining proportion over all species = 0.8593603
+removed 1840000, smallest remaining proportion over all species = 0.8584815
+removed 1850000, smallest remaining proportion over all species = 0.8580604
+removed 1860000, smallest remaining proportion over all species = 0.8572335
+removed 1870000, smallest remaining proportion over all species = 0.8566318
+removed 1880000, smallest remaining proportion over all species = 0.8557542
+removed 1890000, smallest remaining proportion over all species = 0.8551453
+removed 1900000, smallest remaining proportion over all species = 0.8542058
+removed 1910000, smallest remaining proportion over all species = 0.8534318
+removed 1920000, smallest remaining proportion over all species = 0.8527241
+removed 1930000, smallest remaining proportion over all species = 0.8518322
+removed 1940000, smallest remaining proportion over all species = 0.8507072
+removed 1950000, smallest remaining proportion over all species = 0.8496189
+removed 1960000, smallest remaining proportion over all species = 0.849107
+removed 1970000, smallest remaining proportion over all species = 0.8480437
+removed 1980000, smallest remaining proportion over all species = 0.8472567
+removed 1990000, smallest remaining proportion over all species = 0.8465801
+removed 2000000, smallest remaining proportion over all species = 0.845423
+removed 2010000, smallest remaining proportion over all species = 0.8445234
+removed 2020000, smallest remaining proportion over all species = 0.8440821
+removed 2030000, smallest remaining proportion over all species = 0.8430533
+removed 2040000, smallest remaining proportion over all species = 0.8424977
+removed 2050000, smallest remaining proportion over all species = 0.8413922
+removed 2060000, smallest remaining proportion over all species = 0.8407307
+removed 2070000, smallest remaining proportion over all species = 0.83984
+removed 2080000, smallest remaining proportion over all species = 0.8387552
+removed 2090000, smallest remaining proportion over all species = 0.8378994
+removed 2100000, smallest remaining proportion over all species = 0.8369133
+removed 2110000, smallest remaining proportion over all species = 0.8361636
+removed 2120000, smallest remaining proportion over all species = 0.8349015
+removed 2130000, smallest remaining proportion over all species = 0.8338751
+removed 2140000, smallest remaining proportion over all species = 0.8321883
+removed 2150000, smallest remaining proportion over all species = 0.8311611
+removed 2160000, smallest remaining proportion over all species = 0.8301113
+removed 2170000, smallest remaining proportion over all species = 0.8291944
+removed 2180000, smallest remaining proportion over all species = 0.8285453
+removed 2190000, smallest remaining proportion over all species = 0.8273519
+removed 2200000, smallest remaining proportion over all species = 0.8266983
+removed 2210000, smallest remaining proportion over all species = 0.8254908
+removed 2220000, smallest remaining proportion over all species = 0.8242845
+removed 2230000, smallest remaining proportion over all species = 0.823227
+removed 2240000, smallest remaining proportion over all species = 0.8220657
+removed 2250000, smallest remaining proportion over all species = 0.820959
+removed 2260000, smallest remaining proportion over all species = 0.8198129
+removed 2270000, smallest remaining proportion over all species = 0.8186252
+removed 2280000, smallest remaining proportion over all species = 0.8177066
+removed 2290000, smallest remaining proportion over all species = 0.8171975
+removed 2300000, smallest remaining proportion over all species = 0.8162807
+removed 2310000, smallest remaining proportion over all species = 0.8154327
+removed 2320000, smallest remaining proportion over all species = 0.8144209
+removed 2330000, smallest remaining proportion over all species = 0.8134748
+removed 2340000, smallest remaining proportion over all species = 0.8128064
+removed 2350000, smallest remaining proportion over all species = 0.8121497
+removed 2360000, smallest remaining proportion over all species = 0.8113672
+removed 2370000, smallest remaining proportion over all species = 0.8101589
+removed 2380000, smallest remaining proportion over all species = 0.8093939
+removed 2390000, smallest remaining proportion over all species = 0.8084099
+removed 2400000, smallest remaining proportion over all species = 0.8073238
+removed 2410000, smallest remaining proportion over all species = 0.8059632
+removed 2420000, smallest remaining proportion over all species = 0.8046266
+removed 2430000, smallest remaining proportion over all species = 0.8037789
+removed 2440000, smallest remaining proportion over all species = 0.8029233
+removed 2450000, smallest remaining proportion over all species = 0.8016714
+removed 2460000, smallest remaining proportion over all species = 0.800423
+removed 2470000, smallest remaining proportion over all species = 0.7992243
+removed 2480000, smallest remaining proportion over all species = 0.7976474
+removed 2490000, smallest remaining proportion over all species = 0.796312
+removed 2500000, smallest remaining proportion over all species = 0.7952504
+removed 2510000, smallest remaining proportion over all species = 0.7938518
+removed 2520000, smallest remaining proportion over all species = 0.7930233
+removed 2530000, smallest remaining proportion over all species = 0.7915891
+removed 2540000, smallest remaining proportion over all species = 0.7904815
+removed 2550000, smallest remaining proportion over all species = 0.7893854
+removed 2560000, smallest remaining proportion over all species = 0.7881953
+removed 2570000, smallest remaining proportion over all species = 0.7869992
+removed 2580000, smallest remaining proportion over all species = 0.7860752
+removed 2590000, smallest remaining proportion over all species = 0.784723
+removed 2600000, smallest remaining proportion over all species = 0.7836733
+removed 2610000, smallest remaining proportion over all species = 0.7823153
+removed 2620000, smallest remaining proportion over all species = 0.7808922
+removed 2630000, smallest remaining proportion over all species = 0.7794186
+removed 2640000, smallest remaining proportion over all species = 0.7782287
+removed 2650000, smallest remaining proportion over all species = 0.7770505
+removed 2660000, smallest remaining proportion over all species = 0.7758461
+removed 2670000, smallest remaining proportion over all species = 0.7748102
+removed 2680000, smallest remaining proportion over all species = 0.7735075
+removed 2690000, smallest remaining proportion over all species = 0.7722071
+removed 2700000, smallest remaining proportion over all species = 0.7708828
+removed 2710000, smallest remaining proportion over all species = 0.7699395
+removed 2720000, smallest remaining proportion over all species = 0.768396
+removed 2730000, smallest remaining proportion over all species = 0.7661572
+removed 2740000, smallest remaining proportion over all species = 0.7647215
+removed 2750000, smallest remaining proportion over all species = 0.7634736
+removed 2760000, smallest remaining proportion over all species = 0.761766
+removed 2770000, smallest remaining proportion over all species = 0.7601891
+removed 2780000, smallest remaining proportion over all species = 0.7586502
+removed 2790000, smallest remaining proportion over all species = 0.757231
+removed 2800000, smallest remaining proportion over all species = 0.7559738
+removed 2810000, smallest remaining proportion over all species = 0.7545597
+removed 2820000, smallest remaining proportion over all species = 0.7532924
+removed 2830000, smallest remaining proportion over all species = 0.7519699
+removed 2840000, smallest remaining proportion over all species = 0.7502454
+removed 2850000, smallest remaining proportion over all species = 0.748772
+removed 2860000, smallest remaining proportion over all species = 0.7469563
+removed 2870000, smallest remaining proportion over all species = 0.7452863
+removed 2880000, smallest remaining proportion over all species = 0.7435775
+removed 2890000, smallest remaining proportion over all species = 0.7413809
+removed 2900000, smallest remaining proportion over all species = 0.7395923
+removed 2910000, smallest remaining proportion over all species = 0.7378992
+removed 2920000, smallest remaining proportion over all species = 0.7360963
+removed 2930000, smallest remaining proportion over all species = 0.7345702
+removed 2940000, smallest remaining proportion over all species = 0.732855
+removed 2950000, smallest remaining proportion over all species = 0.7311938
+removed 2960000, smallest remaining proportion over all species = 0.7295712
+removed 2970000, smallest remaining proportion over all species = 0.728262
+removed 2980000, smallest remaining proportion over all species = 0.7265253
+removed 2990000, smallest remaining proportion over all species = 0.7250444
+removed 3000000, smallest remaining proportion over all species = 0.7233515
+removed 3010000, smallest remaining proportion over all species = 0.7218224
+removed 3020000, smallest remaining proportion over all species = 0.7190492
+removed 3030000, smallest remaining proportion over all species = 0.717452
+removed 3040000, smallest remaining proportion over all species = 0.7157561
+removed 3050000, smallest remaining proportion over all species = 0.7138149
+removed 3060000, smallest remaining proportion over all species = 0.7109866
+removed 3070000, smallest remaining proportion over all species = 0.7084439
+removed 3080000, smallest remaining proportion over all species = 0.7066929
+removed 3090000, smallest remaining proportion over all species = 0.704643
+removed 3100000, smallest remaining proportion over all species = 0.7021661
+removed 3110000, smallest remaining proportion over all species = 0.6999472
+removed 3120000, smallest remaining proportion over all species = 0.698219
+removed 3130000, smallest remaining proportion over all species = 0.6955147
+removed 3140000, smallest remaining proportion over all species = 0.6930813
+removed 3150000, smallest remaining proportion over all species = 0.6908436
+removed 3160000, smallest remaining proportion over all species = 0.6886869
+removed 3170000, smallest remaining proportion over all species = 0.6866304
+removed 3180000, smallest remaining proportion over all species = 0.6846584
+removed 3190000, smallest remaining proportion over all species = 0.6820902
+removed 3200000, smallest remaining proportion over all species = 0.6790468
+removed 3210000, smallest remaining proportion over all species = 0.6771103
+removed 3220000, smallest remaining proportion over all species = 0.6747025
+removed 3230000, smallest remaining proportion over all species = 0.672039
+removed 3240000, smallest remaining proportion over all species = 0.6698831
+removed 3250000, smallest remaining proportion over all species = 0.666501
+removed 3260000, smallest remaining proportion over all species = 0.6640299
+removed 3270000, smallest remaining proportion over all species = 0.6616137
+removed 3280000, smallest remaining proportion over all species = 0.6595144
+removed 3290000, smallest remaining proportion over all species = 0.6577302
+removed 3300000, smallest remaining proportion over all species = 0.6551896
+removed 3310000, smallest remaining proportion over all species = 0.6528927
+removed 3320000, smallest remaining proportion over all species = 0.6501599
+removed 3330000, smallest remaining proportion over all species = 0.6472454
+removed 3340000, smallest remaining proportion over all species = 0.6433222
+removed 3350000, smallest remaining proportion over all species = 0.6405062
+removed 3360000, smallest remaining proportion over all species = 0.6371513
+removed 3370000, smallest remaining proportion over all species = 0.633886
+removed 3380000, smallest remaining proportion over all species = 0.6309308
+removed 3390000, smallest remaining proportion over all species = 0.6276049
+removed 3400000, smallest remaining proportion over all species = 0.623941
+removed 3410000, smallest remaining proportion over all species = 0.6203485
+removed 3420000, smallest remaining proportion over all species = 0.6164687
+removed 3430000, smallest remaining proportion over all species = 0.6125588
+removed 3440000, smallest remaining proportion over all species = 0.6089954
+removed 3450000, smallest remaining proportion over all species = 0.6056285
+removed 3460000, smallest remaining proportion over all species = 0.6017244
+removed 3470000, smallest remaining proportion over all species = 0.5972414
+removed 3480000, smallest remaining proportion over all species = 0.5923281
+removed 3490000, smallest remaining proportion over all species = 0.5878594
+removed 3500000, smallest remaining proportion over all species = 0.5842855
+removed 3510000, smallest remaining proportion over all species = 0.5797792
+removed 3520000, smallest remaining proportion over all species = 0.5758549
+removed 3530000, smallest remaining proportion over all species = 0.5716286
+removed 3540000, smallest remaining proportion over all species = 0.5675478
+removed 3550000, smallest remaining proportion over all species = 0.562507
+removed 3560000, smallest remaining proportion over all species = 0.5580869
+removed 3570000, smallest remaining proportion over all species = 0.5529537
+removed 3580000, smallest remaining proportion over all species = 0.5483808
+removed 3590000, smallest remaining proportion over all species = 0.5441527
+removed 3600000, smallest remaining proportion over all species = 0.5398517
+removed 3610000, smallest remaining proportion over all species = 0.5346639
+removed 3620000, smallest remaining proportion over all species = 0.5293783
+removed 3630000, smallest remaining proportion over all species = 0.5240711
+removed 3640000, smallest remaining proportion over all species = 0.5189742
+removed 3650000, smallest remaining proportion over all species = 0.5133201
+removed 3660000, smallest remaining proportion over all species = 0.5077473
+removed 3670000, smallest remaining proportion over all species = 0.5003282
+removed 3680000, smallest remaining proportion over all species = 0.4924528
+removed 3690000, smallest remaining proportion over all species = 0.4846604
+removed 3700000, smallest remaining proportion over all species = 0.4775091
+removed 3710000, smallest remaining proportion over all species = 0.4704048
+removed 3720000, smallest remaining proportion over all species = 0.4640153
+removed 3730000, smallest remaining proportion over all species = 0.455784
+removed 3740000, smallest remaining proportion over all species = 0.4474815
+removed 3750000, smallest remaining proportion over all species = 0.4366649
+removed 3760000, smallest remaining proportion over all species = 0.4258047
+removed 3770000, smallest remaining proportion over all species = 0.4132963
+removed 3780000, smallest remaining proportion over all species = 0.4005258
+removed 3790000, smallest remaining proportion over all species = 0.3869264
+removed 3800000, smallest remaining proportion over all species = 0.3714581
+removed 3810000, smallest remaining proportion over all species = 0.3542493
+removed 3820000, smallest remaining proportion over all species = 0.3344764
+removed 3830000, smallest remaining proportion over all species = 0.3129899
+removed 3840000, smallest remaining proportion over all species = 0.2817249
+removed 3850000, smallest remaining proportion over all species = 0.2408302
+removed 3860000, smallest remaining proportion over all species = 0.1720259
+removed 3870000, smallest remaining proportion over all species = 0.04280896
+removed 3880000, smallest remaining proportion over all species = 0
+removed 3890000, smallest remaining proportion over all species = 0
+removed 3900000, smallest remaining proportion over all species = 0
+removed 3910000, smallest remaining proportion over all species = 0
+removed 3920000, smallest remaining proportion over all species = 0
+removed 3930000, smallest remaining proportion over all species = 0
+removed 3940000, smallest remaining proportion over all species = 0
+removed 3950000, smallest remaining proportion over all species = 0
+Total count of cells removed = 3955305
+
+Done in 14880 seconds.
+saving 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg/output/result_27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.emf
+saving 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg/output/result_27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.jpg
+
+Species performance levels check
+Species 1, proportion remaining = 0
+Species 2, proportion remaining = 0
+Species 3, proportion remaining = 0
+Species 4, proportion remaining = 0
+Species 5, proportion remaining = 0
+Species 6, proportion remaining = 0
+Species 7, proportion remaining = 0
+Species 8, proportion remaining = 0
+Species 9, proportion remaining = 0
+Species 10, proportion remaining = 0
+Species 11, proportion remaining = 0
+Species 12, proportion remaining = 0
+Species 13, proportion remaining = 0
+Species 14, proportion remaining = 0
+Species 15, proportion remaining = 0
+Species 16, proportion remaining = 0
+Species 17, proportion remaining = 0
+Species 18, proportion remaining = 0
+Species 19, proportion remaining = 0
+Species 20, proportion remaining = 0
+Species 21, proportion remaining = 0
+Species 22, proportion remaining = 0
+Species 23, proportion remaining = 0
+Species 24, proportion remaining = 0
+Species 25, proportion remaining = 0
+Species 26, proportion remaining = 0
+Species 27, proportion remaining = 0
+Species 28, proportion remaining = 0
+Species 29, proportion remaining = 0
+Species 30, proportion remaining = 0
+Species 31, proportion remaining = 0
+Species 32, proportion remaining = 0
+Species 33, proportion remaining = 0
+Species 34, proportion remaining = 0
+Species 35, proportion remaining = 0
+Species 36, proportion remaining = 0
+Species 37, proportion remaining = 0
+Species 38, proportion remaining = 0
+Species 39, proportion remaining = 0
+Species 40, proportion remaining = 0
+Species 41, proportion remaining = 0
+Species 42, proportion remaining = 0
+Species 43, proportion remaining = 0
+Species 44, proportion remaining = 0
+Species 45, proportion remaining = 0
+Species 46, proportion remaining = 0
+Species 47, proportion remaining = 0
+Species 48, proportion remaining = 0
+Species 49, proportion remaining = 0
+Species 50, proportion remaining = 0
+Species 51, proportion remaining = 0
+Species 52, proportion remaining = 0
+Species 53, proportion remaining = 0
+Species 54, proportion remaining = 0
+Species 55, proportion remaining = 0
+Species 56, proportion remaining = 0
+Species 57, proportion remaining = 0
+Species 58, proportion remaining = 0
+Species 59, proportion remaining = 0
+Species 60, proportion remaining = 0
+Species 61, proportion remaining = 0
+Species 62, proportion remaining = 0
+Species 63, proportion remaining = 0
+Species 64, proportion remaining = 0
+Species 65, proportion remaining = 0
+Species 66, proportion remaining = 0
+Species 67, proportion remaining = 0
+Species 68, proportion remaining = 0
+Species 69, proportion remaining = 0
+Species 70, proportion remaining = 0
+Species 71, proportion remaining = 0
+Species 72, proportion remaining = 0
+Species 73, proportion remaining = 0
+Species 74, proportion remaining = 0
+Species 75, proportion remaining = 0
+Species 76, proportion remaining = 0
+Species 77, proportion remaining = 0
+Species 78, proportion remaining = 0
+Species 79, proportion remaining = 0
+Species 80, proportion remaining = 0
+Species 81, proportion remaining = 0
+Species 82, proportion remaining = 0
+
+saving 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg/output/result_27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.rank.compressed.img
+saving 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg/output/result_27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.prop.compressed.img
+saving 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg/output/result_27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.wrscr.compressed.img
+
+Post-processing landscape analysis for masked-in areas
+
+
+NEW LANDSCAPE IDENTIFICATION ANALYSIS
+Running LSIdent with mask file (C:/Data/ESMK/data/maski/ESMK_PLU.img). Note: LSM special case with max. distance -1, ignoring top%=0.000 and using whole landscape
+C:/Data/ESMK/data/maski/ESMK_PLU.img:  2815 rows and 3044 columns read in total
+Nodata element count =  8460672, and sum of elements = 146964
+LSI mask map loaded.
+Potential cells count = 108188
+
+Count of post-processing analyses succesfully done =1
+
+
+DONE: Freeing memory next.
+Finished at 6:03:44 PM (2013/3/13) 
+Elapsed time : 16015389 ms
+ZIG3: DONE!

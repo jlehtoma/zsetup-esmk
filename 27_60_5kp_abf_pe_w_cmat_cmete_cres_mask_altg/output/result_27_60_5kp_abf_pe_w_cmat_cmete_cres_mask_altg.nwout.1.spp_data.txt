@@ -1,0 +1,265 @@
+Most important species in units; those occurring at a 1%+ level
+of original distribution
+Unit  Area  Mean-Rank  X   Y  Spp_distribution_sum  spp occurring at >10%  >1%  >0.1%  >0.01% >0.001% 
+1     79871  0.990  1754.958 1194.111 36.768 67    81    81    81    81    81   
+                    Species ../data/60/index_koivu_kp_1_60.img, 95.24% of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 91.06% of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 86.16% of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 88.03% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 85.45% of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 97.44% of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 87.11% of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 82.76% of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 83.87% of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 74.07% of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 95.68% of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 91.33% of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 87.40% of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 87.78% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 85.43% of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 94.81% of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 87.92% of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 85.15% of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 87.57% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 81.53% of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 8.07 % of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 17.56% of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 15.43% of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 14.91% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 7.65 % of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 10.75% of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 14.47% of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 17.59% of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 13.82% of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 6.10 % of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 4.00 % of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 15.35% of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 14.43% of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 11.92% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 3.98 % of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 10.70% of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 13.57% of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 16.49% of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 16.14% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 10.20% of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 8.85 % of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 15.09% of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 11.42% of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 11.34% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 6.01 % of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 9.96 % of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 11.77% of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 12.31% of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 8.86 % of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 4.68 % of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 4.49 % of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 11.38% of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 11.53% of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 11.76% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 4.03 % of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 9.25 % of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 10.49% of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 12.11% of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 12.51% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 8.28 % of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 89.77% of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 70.27% of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 65.60% of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 73.07% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 63.45% of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 90.86% of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 58.94% of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 62.20% of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 64.25% of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 55.06% of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 89.10% of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 66.22% of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 59.27% of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 68.92% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 59.95% of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 87.36% of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 56.44% of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 60.45% of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 76.42% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 67.06% of full distribution
+                    Species ../data/60/mh_wrscr_60.img, 97.12% of full distribution
+2     21191  0.746  1451.540 1516.400 13.341 30    52    71    71    81    81   
+                    Species ../data/60/index_kuusi_kp_5_60.img, 1.76 % of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 1.06 % of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 1.27 % of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 70.46% of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 11.89% of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 8.45 % of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 15.15% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 44.57% of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 44.79% of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 6.83 % of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 5.25 % of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 20.09% of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 49.99% of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 78.46% of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 15.28% of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 6.46 % of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 43.29% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 53.84% of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 65.94% of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 10.06% of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 5.81 % of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 17.09% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 48.23% of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 65.63% of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 11.69% of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 9.37 % of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 13.72% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 47.51% of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 46.36% of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 8.76 % of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 5.49 % of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 16.26% of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 50.53% of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 73.84% of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 18.23% of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 5.69 % of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 22.55% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 49.08% of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 63.98% of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 9.24 % of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 6.10 % of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 14.59% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 51.49% of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 1.25 % of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 2.49 % of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 1.20 % of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 3.12 % of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 2.49 % of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 2.84 % of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 1.62 % of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 2.81 % of full distribution
+                    Species ../data/60/mv_wrscr_60.img, 94.26% of full distribution
+3     2309   0.670  1823.445 1278.649 0.642  0     22    50    50    79    82   
+                    Species ../data/60/index_koivu_kp_2_60.img, 1.76 % of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 1.79 % of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 4.10 % of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 1.50 % of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 1.09 % of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 2.34 % of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 5.08 % of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 1.63 % of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 6.78 % of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 1.16 % of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 1.97 % of full distribution
+                    Species ../data/60/index_koivu_kp_1_60.img, 1.04 % of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 1.81 % of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 2.02 % of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 2.00 % of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 1.29 % of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 1.38 % of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 5.44 % of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 1.08 % of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 4.28 % of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 1.30 % of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 1.01 % of full distribution
+4     4055   0.892  2099.275 1515.745 0.115  0     1     28    28    63    65   
+                    Species ../data/60/index_kuusi_kp_5_60.img, 1.27 % of full distribution
+Repeat without spp info for easy import
+Unit  Area  Mean-Rank  X   Y  Spp_distribution_sum  spp occurring at >10%  >1%  >0.1%  >0.01% >0.001% 
+1     79871  0.990  1754.958 1194.111 36.768 67    81    81    81    81    81   
+2     21191  0.746  1451.540 1516.400 13.341 30    52    71    71    81    81   
+3     2309   0.670  1823.445 1278.649 0.642  0     22    50    50    79    82   
+4     4055   0.892  2099.275 1515.745 0.115  0     1     28    28    63    65   
+
+
+Average proportion remaining over all spp in units = 0.620315
+Count of species with nothing remaining in the network = 0
+Total proportion and sum remaining for species
+../data/60/index_koivu_kp_1_60.img  0.96  2246938.2500
+../data/60/index_koivu_kp_2_60.img  0.91  45718788.0000
+../data/60/index_koivu_kp_3_60.img  0.86  70272176.0000
+../data/60/index_koivu_kp_4_60.img  0.88  11981153.0000
+../data/60/index_koivu_kp_5_60.img  0.87  1394911.1250
+../data/60/index_kuusi_kp_1_60.img  0.98  2254184.0000
+../data/60/index_kuusi_kp_2_60.img  0.87  152273904.0000
+../data/60/index_kuusi_kp_3_60.img  0.83  271131392.0000
+../data/60/index_kuusi_kp_4_60.img  0.84  27586424.0000
+../data/60/index_kuusi_kp_5_60.img  0.77  3002231.7500
+../data/60/index_mlp_kp_1_60.img  0.96  2614243.5000
+../data/60/index_mlp_kp_2_60.img  0.92  25557640.0000
+../data/60/index_mlp_kp_3_60.img  0.88  35092992.0000
+../data/60/index_mlp_kp_4_60.img  0.88  6526383.5000
+../data/60/index_mlp_kp_5_60.img  0.87  908271.5625
+../data/60/index_manty_kp_1_60.img  0.95  1424097.7500
+../data/60/index_manty_kp_2_60.img  0.88  68024400.0000
+../data/60/index_manty_kp_3_60.img  0.85  243020720.0000
+../data/60/index_manty_kp_4_60.img  0.88  110998928.0000
+../data/60/index_manty_kp_5_60.img  0.83  10032889.0000
+../data/60/index_koivu_kp_1_60.img  0.79  1854507.6250
+../data/60/index_koivu_kp_2_60.img  0.31  15647063.0000
+../data/60/index_koivu_kp_3_60.img  0.26  20898198.0000
+../data/60/index_koivu_kp_4_60.img  0.30  4123298.0000
+../data/60/index_koivu_kp_5_60.img  0.56  906878.6875
+../data/60/index_kuusi_kp_1_60.img  0.56  1297730.0000
+../data/60/index_kuusi_kp_2_60.img  0.23  39803600.0000
+../data/60/index_kuusi_kp_3_60.img  0.24  78246336.0000
+../data/60/index_kuusi_kp_4_60.img  0.34  11293461.0000
+../data/60/index_kuusi_kp_5_60.img  0.58  2286211.0000
+../data/60/index_mlp_kp_1_60.img  0.83  2242490.0000
+../data/60/index_mlp_kp_2_60.img  0.36  9974166.0000
+../data/60/index_mlp_kp_3_60.img  0.23  9038169.0000
+../data/60/index_mlp_kp_4_60.img  0.56  4111846.7500
+../data/60/index_mlp_kp_5_60.img  0.65  675274.1250
+../data/60/index_manty_kp_1_60.img  0.77  1154481.3750
+../data/60/index_manty_kp_2_60.img  0.25  18935094.0000
+../data/60/index_manty_kp_3_60.img  0.23  66894584.0000
+../data/60/index_manty_kp_4_60.img  0.33  42319604.0000
+../data/60/index_manty_kp_5_60.img  0.60  7299324.5000
+../data/60/index_koivu_kp_1_60.img  0.76  1775861.7500
+../data/60/index_koivu_kp_2_60.img  0.29  14336661.0000
+../data/60/index_koivu_kp_3_60.img  0.22  17577160.0000
+../data/60/index_koivu_kp_4_60.img  0.25  3449099.0000
+../data/60/index_koivu_kp_5_60.img  0.56  894753.2500
+../data/60/index_kuusi_kp_1_60.img  0.58  1346247.0000
+../data/60/index_kuusi_kp_2_60.img  0.22  38111636.0000
+../data/60/index_kuusi_kp_3_60.img  0.18  60062400.0000
+../data/60/index_kuusi_kp_4_60.img  0.26  8398046.0000
+../data/60/index_kuusi_kp_5_60.img  0.57  2214872.5000
+../data/60/index_mlp_kp_1_60.img  0.79  2144295.7500
+../data/60/index_mlp_kp_2_60.img  0.35  9799753.0000
+../data/60/index_mlp_kp_3_60.img  0.18  7373257.0000
+../data/60/index_mlp_kp_4_60.img  0.35  2578182.2500
+../data/60/index_mlp_kp_5_60.img  0.57  600277.0000
+../data/60/index_manty_kp_1_60.img  0.75  1115201.6250
+../data/60/index_manty_kp_2_60.img  0.21  15863285.0000
+../data/60/index_manty_kp_3_60.img  0.19  53542468.0000
+../data/60/index_manty_kp_4_60.img  0.27  34562016.0000
+../data/60/index_manty_kp_5_60.img  0.61  7344669.0000
+../data/60/index_koivu_kp_1_60.img  0.91  2141726.5000
+../data/60/index_koivu_kp_2_60.img  0.71  35470420.0000
+../data/60/index_koivu_kp_3_60.img  0.66  53882684.0000
+../data/60/index_koivu_kp_4_60.img  0.74  9991622.0000
+../data/60/index_koivu_kp_5_60.img  0.67  1073577.0000
+../data/60/index_kuusi_kp_1_60.img  0.92  2126600.2500
+../data/60/index_kuusi_kp_2_60.img  0.59  103665872.0000
+../data/60/index_kuusi_kp_3_60.img  0.63  205198624.0000
+../data/60/index_kuusi_kp_4_60.img  0.65  21324560.0000
+../data/60/index_kuusi_kp_5_60.img  0.60  2329891.7500
+../data/60/index_mlp_kp_1_60.img  0.92  2486900.7500
+../data/60/index_mlp_kp_2_60.img  0.67  18695912.0000
+../data/60/index_mlp_kp_3_60.img  0.60  24078330.0000
+../data/60/index_mlp_kp_4_60.img  0.70  5166958.5000
+../data/60/index_mlp_kp_5_60.img  0.64  667423.4375
+../data/60/index_manty_kp_1_60.img  0.89  1332642.8750
+../data/60/index_manty_kp_2_60.img  0.57  44045104.0000
+../data/60/index_manty_kp_3_60.img  0.61  174127152.0000
+../data/60/index_manty_kp_4_60.img  0.77  97110728.0000
+../data/60/index_manty_kp_5_60.img  0.70  8497013.0000
+../data/60/mv_wrscr_60.img  0.95  12883.7295
+../data/60/mh_wrscr_60.img  0.97  59983.0117
+
+
+Biological data of 4 units.
+units x species matrix
+Unit_number  area[cells]  sp_data .....
+1     79871  0.9524 0.9106 0.8616 0.8803 0.8545 0.9744 0.8711 0.8276 0.8387 0.7407 0.9568 0.9133 0.8740 0.8778 0.8543 0.9481 0.8792 0.8515 0.8757 0.8153 0.0807 0.1756 0.1543 0.1491 0.0765 0.1075 0.1447 0.1759 0.1382 0.0610 0.0400 0.1535 0.1443 0.1192 0.0398 0.1070 0.1357 0.1649 0.1614 0.1020 0.0885 0.1509 0.1142 0.1134 0.0601 0.0996 0.1177 0.1231 0.0886 0.0468 0.0449 0.1138 0.1153 0.1176 0.0403 0.0925 0.1049 0.1211 0.1251 0.0828 0.8977 0.7027 0.6560 0.7307 0.6345 0.9086 0.5894 0.6220 0.6425 0.5506 0.8910 0.6622 0.5927 0.6892 0.5995 0.8736 0.5644 0.6045 0.7642 0.6706 0.0000 0.9712 
+2     21191  0.0031 0.0007 0.0006 0.0007 0.0091 0.0021 0.0008 0.0005 0.0015 0.0176 0.0070 0.0012 0.0005 0.0020 0.0106 0.0036 0.0008 0.0004 0.0008 0.0127 0.7046 0.1189 0.0845 0.1515 0.4457 0.4479 0.0683 0.0525 0.2009 0.4999 0.7846 0.1528 0.0646 0.4329 0.5384 0.6594 0.1006 0.0581 0.1709 0.4823 0.6563 0.1169 0.0937 0.1372 0.4751 0.4636 0.0876 0.0549 0.1626 0.5053 0.7384 0.1823 0.0569 0.2255 0.4908 0.6398 0.0924 0.0610 0.1459 0.5149 0.0125 0.0020 0.0014 0.0019 0.0249 0.0120 0.0020 0.0010 0.0029 0.0312 0.0249 0.0042 0.0013 0.0031 0.0284 0.0162 0.0020 0.0012 0.0016 0.0281 0.9426 0.0000 
+3     2309   0.0001 0.0008 0.0006 0.0001 0.0007 0.0001 0.0004 0.0003 0.0004 0.0010 0.0001 0.0005 0.0004 0.0007 0.0018 0.0001 0.0003 0.0004 0.0003 0.0006 0.0034 0.0176 0.0179 0.0024 0.0410 0.0068 0.0150 0.0109 0.0052 0.0234 0.0023 0.0508 0.0163 0.0029 0.0678 0.0051 0.0088 0.0116 0.0020 0.0197 0.0104 0.0181 0.0076 0.0024 0.0202 0.0200 0.0129 0.0050 0.0042 0.0138 0.0074 0.0544 0.0108 0.0043 0.0428 0.0130 0.0077 0.0052 0.0018 0.0101 0.0006 0.0020 0.0008 0.0003 0.0011 0.0007 0.0007 0.0003 0.0005 0.0014 0.0010 0.0015 0.0010 0.0014 0.0030 0.0009 0.0008 0.0006 0.0004 0.0007 0.0069 0.0027 
+4     4055   0.0000 0.0001 0.0010 0.0006 0.0025 0.0000 0.0004 0.0022 0.0018 0.0085 0.0000 0.0002 0.0012 0.0007 0.0025 0.0000 0.0005 0.0014 0.0004 0.0024 0.0000 0.0000 0.0002 0.0004 0.0004 0.0000 0.0001 0.0005 0.0006 0.0004 0.0000 0.0001 0.0004 0.0002 0.0003 0.0000 0.0001 0.0004 0.0002 0.0005 0.0000 0.0002 0.0005 0.0008 0.0005 0.0000 0.0003 0.0010 0.0010 0.0005 0.0000 0.0004 0.0010 0.0007 0.0006 0.0000 0.0004 0.0008 0.0004 0.0006 0.0000 0.0010 0.0040 0.0024 0.0066 0.0000 0.0020 0.0054 0.0052 0.0127 0.0000 0.0017 0.0061 0.0040 0.0079 0.0000 0.0032 0.0054 0.0013 0.0043 0.0000 0.0001 

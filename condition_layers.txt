@@ -1,0 +1,1 @@
+1	../data/maski/penalty_rasteri_60.img

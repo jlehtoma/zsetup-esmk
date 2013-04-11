@@ -1,0 +1,75 @@
+Most important species in units; those occurring at a 1%+ level
+of original distribution
+Unit  Area  Mean-Rank  X   Y  Spp_distribution_sum  spp occurring at >10%  >1%  >0.1%  >0.01% >0.001% 
+1     79871  0.755  1754.958 1194.111 2.151  6     20    20    20    20    20   
+                    Species ../data/60/index_koivu_kp_1_60.img, 29.32% of full distribution
+                    Species ../data/60/index_koivu_kp_2_60.img, 7.32 % of full distribution
+                    Species ../data/60/index_koivu_kp_3_60.img, 6.00 % of full distribution
+                    Species ../data/60/index_koivu_kp_4_60.img, 10.19% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 8.56 % of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 23.91% of full distribution
+                    Species ../data/60/index_kuusi_kp_2_60.img, 2.74 % of full distribution
+                    Species ../data/60/index_kuusi_kp_3_60.img, 3.33 % of full distribution
+                    Species ../data/60/index_kuusi_kp_4_60.img, 5.05 % of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 5.75 % of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 28.28% of full distribution
+                    Species ../data/60/index_mlp_kp_2_60.img, 6.71 % of full distribution
+                    Species ../data/60/index_mlp_kp_3_60.img, 5.46 % of full distribution
+                    Species ../data/60/index_mlp_kp_4_60.img, 9.91 % of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 8.16 % of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 25.70% of full distribution
+                    Species ../data/60/index_manty_kp_2_60.img, 3.73 % of full distribution
+                    Species ../data/60/index_manty_kp_3_60.img, 4.45 % of full distribution
+                    Species ../data/60/index_manty_kp_4_60.img, 10.69% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 9.83 % of full distribution
+2     21191  0.636  1451.540 1516.400 0.864  4     8     20    20    20    20   
+                    Species ../data/60/index_koivu_kp_1_60.img, 15.28% of full distribution
+                    Species ../data/60/index_koivu_kp_5_60.img, 5.61 % of full distribution
+                    Species ../data/60/index_kuusi_kp_1_60.img, 10.73% of full distribution
+                    Species ../data/60/index_kuusi_kp_5_60.img, 4.87 % of full distribution
+                    Species ../data/60/index_mlp_kp_1_60.img, 21.20% of full distribution
+                    Species ../data/60/index_mlp_kp_5_60.img, 5.45 % of full distribution
+                    Species ../data/60/index_manty_kp_1_60.img, 11.80% of full distribution
+                    Species ../data/60/index_manty_kp_5_60.img, 5.76 % of full distribution
+3     2309   0.757  1823.445 1278.649 0.045  0     0     18    18    20    20   
+4     4055   0.621  2099.275 1515.745 0.031  0     0     11    11    16    16   
+Repeat without spp info for easy import
+Unit  Area  Mean-Rank  X   Y  Spp_distribution_sum  spp occurring at >10%  >1%  >0.1%  >0.01% >0.001% 
+1     79871  0.755  1754.958 1194.111 2.151  6     20    20    20    20    20   
+2     21191  0.636  1451.540 1516.400 0.864  4     8     20    20    20    20   
+3     2309   0.757  1823.445 1278.649 0.045  0     0     18    18    20    20   
+4     4055   0.621  2099.275 1515.745 0.031  0     0     11    11    16    16   
+
+
+Average proportion remaining over all spp in units = 0.154567
+Count of species with nothing remaining in the network = 0
+Total proportion and sum remaining for species
+../data/60/index_koivu_kp_1_60.img  0.45  1057851.1250
+../data/60/index_koivu_kp_2_60.img  0.08  4258921.0000
+../data/60/index_koivu_kp_3_60.img  0.07  5355859.0000
+../data/60/index_koivu_kp_4_60.img  0.11  1485955.2500
+../data/60/index_koivu_kp_5_60.img  0.15  237391.9844
+../data/60/index_kuusi_kp_1_60.img  0.35  811786.5000
+../data/60/index_kuusi_kp_2_60.img  0.03  5836251.0000
+../data/60/index_kuusi_kp_3_60.img  0.04  12366254.0000
+../data/60/index_kuusi_kp_4_60.img  0.06  1908670.7500
+../data/60/index_kuusi_kp_5_60.img  0.11  443887.0312
+../data/60/index_mlp_kp_1_60.img  0.50  1353148.1250
+../data/60/index_mlp_kp_2_60.img  0.08  2202595.7500
+../data/60/index_mlp_kp_3_60.img  0.06  2425261.0000
+../data/60/index_mlp_kp_4_60.img  0.11  806928.4375
+../data/60/index_mlp_kp_5_60.img  0.14  151049.3281
+../data/60/index_manty_kp_1_60.img  0.38  570011.0000
+../data/60/index_manty_kp_2_60.img  0.04  3405298.5000
+../data/60/index_manty_kp_3_60.img  0.05  13974560.0000
+../data/60/index_manty_kp_4_60.img  0.11  14297480.0000
+../data/60/index_manty_kp_5_60.img  0.16  1932055.2500
+
+
+Biological data of 4 units.
+units x species matrix
+Unit_number  area[cells]  sp_data .....
+1     79871  0.2932 0.0732 0.0600 0.1019 0.0856 0.2391 0.0274 0.0333 0.0505 0.0575 0.2828 0.0671 0.0546 0.0991 0.0816 0.2570 0.0373 0.0445 0.1069 0.0983 
+2     21191  0.1528 0.0073 0.0030 0.0051 0.0561 0.1073 0.0044 0.0023 0.0050 0.0487 0.2120 0.0094 0.0029 0.0063 0.0545 0.1180 0.0042 0.0022 0.0046 0.0576 
+3     2309   0.0039 0.0042 0.0016 0.0009 0.0014 0.0053 0.0012 0.0012 0.0010 0.0014 0.0042 0.0018 0.0013 0.0015 0.0035 0.0059 0.0019 0.0011 0.0008 0.0013 
+4     4055   0.0000 0.0003 0.0011 0.0014 0.0045 0.0000 0.0004 0.0011 0.0017 0.0059 0.0000 0.0005 0.0017 0.0021 0.0050 0.0000 0.0007 0.0014 0.0007 0.0028 
