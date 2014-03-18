@@ -1,0 +1,39 @@
+*** Koivu ***
+
+Koivu xmod: 0
+Koivu scale: 4
+Koivu median: 15
+Koivu mean: 15.3952542961291
+Koivu max avdia: 45
+Koivu scaled avdia: 11.25
+
+
+*** Kuusi ***
+
+Kuusi xmod: 4
+Kuusi scale: 6
+Kuusi median:  18
+Kuusi mean:  17.1380994834534
+Kuusi max avdia:  49
+Kuusi xmodded avdia:  0.0816326530612245
+Kuusi scaled avdia: 8.16666666666667
+
+*** Manty ***
+
+Manty xmod: 6
+Manty scale: 8
+Manty median:  19
+Manty mean:  18.7927228073751
+Manty max avdia:  49.8
+Manty xmodded avdia:  0.120481927710843
+Manty scaled avdia: 6.225
+
+*** Mlp ***
+
+Mlp xmod: -1
+Mlp scale: 4
+Mlp median:  13
+Mlp mean:  13.6771225101093
+Mlp max avdia:  60
+Mlp xmodded avdia:  -0.0166666666666667
+Mlp scaled avdia: 15
