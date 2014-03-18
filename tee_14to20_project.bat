@@ -1,7 +1,0 @@
-call ..\zig3.exe -r 14_60_5kp_abf/14_60_5kp_abf.dat 14_60_5kp_abf/14_60_5kp_abf.spp 14_60_5kp_abf/output/result_14_60_5kp_abf.txt 0 0 1 0
-call ..\zig3.exe -r 15_60_5kp_abf_pe\15_60_5kp_abf_pe.dat 15_60_5kp_abf_pe\15_60_5kp_abf_pe.spp 15_60_5kp_abf_pe\output\result_15_60_5kp_abf_pe.txt 0 0 1 0
-call ..\zig3.exe -r 16_60_5kp_abf_pe_w\16_60_5kp_abf_pe_w.dat 16_60_5kp_abf_pe_w\16_60_5kp_abf_pe_w.spp 16_60_5kp_abf_pe_w\output\result_16_60_5kp_abf_pe_w.txt 0 0 1 0
-call ..\zig3.exe -r 17_60_5kp_abf_pe_w_cmat\17_60_5kp_abf_pe_w_cmat.dat 17_60_5kp_abf_pe_w_cmat\17_60_5kp_abf_pe_w_cmat.spp 17_60_5kp_abf_pe_w_cmat\output\result_17_60_5kp_abf_pe_w_cmat.txt 0 0 1 0
-call ..\zig3.exe -r 18_60_5kp_abf_pe_w_cmat_cmete\18_60_5kp_abf_pe_w_cmat_cmete.dat 18_60_5kp_abf_pe_w_cmat_cmete\18_60_5kp_abf_pe_w_cmat_cmete.spp 18_60_5kp_abf_pe_w_cmat_cmete\output\result_18_60_5kp_abf_pe_w_cmat_cmete.txt 0 0 1 0
-call ..\zig3.exe -r 19_60_5kp_abf_pe_w_cmat_cmete_cres\19_60_5kp_abf_pe_w_cmat_cmete_cres.dat 19_60_5kp_abf_pe_w_cmat_cmete_cres\19_60_5kp_abf_pe_w_cmat_cmete_cres.spp 19_60_5kp_abf_pe_w_cmat_cmete_cres\output\result_19_60_5kp_abf_pe_w_cmat_cmete_cres.txt 0 0 1 0
-call ..\zig3.exe -r 20_60_5kp_abf_pe_w_cmat_cmete_cres_mask\20_60_5kp_abf_pe_w_cmat_cmete_cres_mask.dat 20_60_5kp_abf_pe_w_cmat_cmete_cres_mask\20_60_5kp_abf_pe_w_cmat_cmete_cres_mask.spp 20_60_5kp_abf_pe_w_cmat_cmete_cres_mask\output\result_20_60_5kp_abf_pe_w_cmat_cmete_cres_mask.txt 0 0 1 0

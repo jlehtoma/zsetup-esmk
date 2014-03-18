@@ -1,1 +1,0 @@
-call zig3.exe -r 23_60_5kp_abf_pe_w_altg\23_60_5kp_abf_pe_w_altg.dat 23_60_5kp_abf_pe_w_altg\23_60_5kp_abf_pe_w_altg.spp 23_60_5kp_abf_pe_w_altg\output\result_23_60_5kp_abf_pe_w_altg.txt 0 0 1 0 --grid-output-formats=compressed-img

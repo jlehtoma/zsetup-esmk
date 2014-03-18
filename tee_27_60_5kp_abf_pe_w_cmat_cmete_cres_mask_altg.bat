@@ -1,1 +1,0 @@
-call zig3.exe -r 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg\27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.dat 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg\27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.spp 27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg\output\result_27_60_5kp_abf_pe_w_cmat_cmete_cres_mask_altg.txt 0 0 1 0 --grid-output-formats=compressed-img
