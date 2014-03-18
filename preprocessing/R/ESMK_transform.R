@@ -1,7 +1,7 @@
 # For functions: sigmoidal
-source("R/utils.R")
-source("R/function.forms.R")
-source("R/function.plots.R")
+source("preprocessing/R/utils.R")
+source("preprocessing/R/function.forms.R")
+source("preprocessing/R/function.plots.R")
 
 # Create a new list with name of the tree type as key and average diameters 
 # vector as value
