@@ -1,0 +1,1 @@
+call ..\zig3c.exe -r wrscr\wrscr.dat wrscr\tee_mv_wrscr_60.spp wrscr\output\mv_wrscr_60.txt 0.0 0 1.0 0
