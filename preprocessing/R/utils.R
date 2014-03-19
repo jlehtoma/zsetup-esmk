@@ -30,6 +30,8 @@ print.params <- function(name, params, label) {
 read.reference.data <- function(inputfile=NULL) {
 	if (is.null(inputfile)) {
 		data.file <- file.path("data", "MV_data_kaikki.csv")
+	} else {
+    data.file <- inputfile
 	}
 	# Read in the table data
 	data <- read.table(data.file, header=TRUE, quote = "\"'", sep=";", as.is=TRUE)
