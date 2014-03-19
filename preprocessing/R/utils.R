@@ -30,15 +30,12 @@ print.params <- function(name, params, label) {
 read.parameters <- function(inputfile=NA) {
 	params  <- list()
 	if (is.na(inputfile)) {
-		# Set the workspace
-		if (.Platform$OS.type == "unix") {
-			setwd("/home/jlehtoma/dev/src/gdalscripts/R/")
-		} else {
-			setwd("C:/Users/admin_jlehtoma/workspace/gdalscripts/R")
-		}
+    params.file.new <- file.path("preprocessing//data", "parameters_new.csv")
+    params.file.old <- file.path("preprocessing//data", "parameters_old.csv")
+    
     #browser()
-		params$new <- read.csv("parameters_new.csv", header=TRUE, sep=";", as.is=TRUE)
-		params$old <- read.csv("parameters_old.csv", header=TRUE, sep=";", as.is=TRUE)	
+		params$new <- read.csv(params.file.new, header=TRUE, sep=",", as.is=TRUE)
+		params$old <- read.csv(params.file.old, header=TRUE, sep=",", as.is=TRUE)	
 	} else {
 		params <- read.csv(inputfile, header=TRUE, sep=";", as.is=TRUE)
 	}
