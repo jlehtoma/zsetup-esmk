@@ -5,44 +5,35 @@ source("preprocessing/R/function.plots.R")
 
 # Create a new list with name of the tree type as key and average diameters 
 # vector as value
-data <- read.reference.data()
-params <- read.parameters()
+reference.data <- read.reference.data()
+params <- read.table("preprocessing/data/parameters-esmk.csv", header=TRUE,
+                     as.is=TRUE, sep=",")
 
 gr.device()
 parop <- par(mfcol=c(2, 2))
 
 # Loop over the data
-for (i in 1:length(data)) {
+for (i in 1:length(reference.data)) {
 	# Get the current tree type string for a name
-	name <- names(data)[i]
-	item <- data[[i]]
-	#browser()
+	name <- names(reference.data)[i]
+	item <- reference.data[[i]]
+
 	# Extract relevant parameters, use only part of columns and the first row
-	p.old <- params$old[params$old$Luokka == name,][5:13][1,]
-	p.new <- params$new[params$new$Luokka == name,][5:13][1,]
-	
-	#browser()
+	params.spp <- params[params$Luokka == name,][5:13][1,]
 	
 	# Transform the data. Will use piece wise transformation even if there
-	# is only one scale value (i.e. lscale and rscale are the same
-	#transformed.old <- transform.sigmoidal(item, xmod=p.old$xmod, 
-	#							                         mod.asym=p.old$mod_asym,
-	#							                         scale=c(p.old$lscale, p.old$rscale))
-	xrange = 70
+	# is only one scale value (i.e. lscale and rscale are the same)
+	xrange = 50
   
-	transformed.new <- transform.sigmoidal(item, xmod=p.new$xmod, 
-								                         mod.asym=p.new$mod_asym,
-								                         scale=c(p.new$lscale, p.new$rscale),
-                                         xrange=xrange)
+	transformed <- transform.sigmoidal(item, xmod=params.spp$xmod, 
+								                     mod.asym=params.spp$mod_asym,
+								                     scale=c(params.spp$lscale, 
+                                             params.spp$rscale),
+                                     xrange=xrange)
 						
-	# Plot both curves. Max value is not calculated from the data, but is 
-	# obtained as a parameter
-	#sigmoidal.plot(transformed.old, xrange=1:p.old$max, main=name, 
-	#														col="blue")								
- 	sigmoidal.plot(transformed.new, xrange=1:xrange, main=name, 
-															col="black",  
-															xlab="Lapimitta",
-															ylab="Arvo",
-															add=FALSE)
-	print.params(name, p.new, "avdia")
+	# Plotcurves. Max value is not calculated from the data, but is 
+	# obtained as a parameter							
+ 	sigmoidal.plot(transformed, xrange=1:xrange, main=name, col="black",  
+                 xlab="Lapimitta", ylab="Arvo", add=FALSE)
+	print.params(name, params.spp, "avdia")
 }
