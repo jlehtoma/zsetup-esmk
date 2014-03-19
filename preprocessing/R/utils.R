@@ -27,34 +27,12 @@ print.params <- function(name, params, label) {
 	print("************************************")
 }
 
-read.parameters <- function(inputfile=NA) {
-	params  <- list()
-	if (is.na(inputfile)) {
-    params.file.new <- file.path("preprocessing//data", "parameters_new.csv")
-    params.file.old <- file.path("preprocessing//data", "parameters_old.csv")
-    
-    #browser()
-		params$new <- read.csv(params.file.new, header=TRUE, sep=",", as.is=TRUE)
-		params$old <- read.csv(params.file.old, header=TRUE, sep=",", as.is=TRUE)	
-	} else {
-		params <- read.csv(inputfile, header=TRUE, sep=";", as.is=TRUE)
-	}
-	return(params)
-}
-
-read.reference.data <- function(inputfile=NA) {
-	if (is.na(inputfile)) {
-		# Set the workspace
-		if (.Platform$OS.type == "unix") {
-			setwd("/media/DataVault/Data/Metsakeskukset/Etela-Savo/Metsavara/MV_lpm_puusto")
-			#setwd("/media/DataVault/Data/Metsakeskukset/Etela-Savo/Heterogeneity/MSNFI/North_section/tiff/")
-		} else {
-			setwd("G:/Data/Metsakeskukset/Etela-Savo/Metsavara/MV_lpm_puusto")
-		}
+read.reference.data <- function(inputfile=NULL) {
+	if (is.null(inputfile)) {
+		data.file <- file.path("data", "MV_data_kaikki.csv")
 	}
 	# Read in the table data
-	data <- read.table("MV_data_kaikki.csv", header=TRUE, quote = "\"'", sep=";", 
-			as.is=TRUE)
+	data <- read.table(data.file, header=TRUE, quote = "\"'", sep=";", as.is=TRUE)
 	
 	# Separate average diameters as an independent data frame
 	avdia <- data.frame(koivu=data$koivu_klpm, kuusi=data$kuusi_lpm, 
