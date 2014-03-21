@@ -5,7 +5,8 @@ source("preprocessing/R/function.plots.R")
 
 # Create a new list with name of the tree type as key and average diameters 
 # vector as value
-reference.data <- read.reference.data()
+cache.file <- "cache/refdata.Rdata"
+reference.data <- read.reference.data(cache.file=cache.file)
 params <- read.table("preprocessing/data/parameters-esmk.csv", header=TRUE,
                      as.is=TRUE, sep=",")
 
