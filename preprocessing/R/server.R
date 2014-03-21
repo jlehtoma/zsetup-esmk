@@ -14,14 +14,7 @@ source("function.plots.R")
 # Create a new list with name of the tree type as key and average diameters 
 # vector as value
 cache.file <- "../../cache/refdata.Rdata"
-if (file.exists(cache.file)) {
-  message("Cached reference data found, loading...")
-  load(cache.file)
-} else {
-  reference.data <- read.reference.data("../../data/MV_data_kaikki.csv")
-  message("Saving reference data to cache")
-  save(reference.data, file=cache.file)
-}
+reference.data <- read.reference.data(cache.file=cache.file)
 
 params <- read.table("../data/parameters-esmk.csv", header=TRUE,
                      as.is=TRUE, sep=",")
@@ -37,17 +30,28 @@ xrange <- 50
 
 shinyServer(function(input, output) {
    
+  datasetCurrentParams <- reactive({
+    switch(input$dataset,
+           "rock" = rock,
+           "pressure" = pressure,
+           "cars" = cars)
+  })
+  
+  
+  output$paramview <- renderTable({
+    data.frame(mod_asym=mod_asym, lscale=lscale, rscale=rscale)
+  }, include.rownames=FALSE)
+  
   output$sigmoidPlot <- renderPlot({
     
     transformed <- transform.sigmoidal(item, xmod=input$xmod, 
-                                       mod.asym=mod_asym,
-                                       scale=c(lscale, rscale),
-                                       xrange=xrange)
+                                       mod.asym=input$mod_asym,
+                                       scale=c(input$lscale, input$rscale))
     
     # Plotcurves. Max value is not calculated from the data, but is 
     # obtained as a parameter							
-    sigmoidal.plot(transformed, xrange=1:xrange, main="Test", col="black",  
-                   xlab="Lapimitta", ylab="Arvo", add=FALSE)
+    sigmoidal.plot(transformed, xrange=1:length(transformed), 
+                   col="black",  xlab="Average diameter", ylab="Value")
     
   })
   
