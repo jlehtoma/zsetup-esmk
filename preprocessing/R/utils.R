@@ -27,18 +27,29 @@ print.params <- function(name, params, label) {
 	print("************************************")
 }
 
-read.reference.data <- function(inputfile=NULL) {
+read.reference.data <- function(inputfile=NULL, cache.file=NULL) {
+  
+  
+  if (!is.null(cache.file) && file.exists(cache.file)) {
+    message("Cached reference data found, loading...")
+    load(cache.file)
+    return(reference.data)
+  }
+  
 	if (is.null(inputfile)) {
 		data.file <- file.path("data", "MV_data_kaikki.csv")
 	} else {
     data.file <- inputfile
 	}
 	# Read in the table data
-	data <- read.table(data.file, header=TRUE, quote = "\"'", sep=";", as.is=TRUE)
+	reference.data <- read.table(data.file, header=TRUE, quote = "\"'", sep=";", 
+                               as.is=TRUE)
 	
 	# Separate average diameters as an independent data frame
-	avdia <- data.frame(koivu=data$koivu_klpm, kuusi=data$kuusi_lpm, 
-			manty=data$manty_klpm, muulp=data$muulp_klpm)
+	avdia <- data.frame(koivu=reference.data$koivu_klpm, 
+                      kuusi=reference.data$kuusi_lpm, 
+			                manty=reference.data$manty_klpm, 
+                      muulp=reference.data$muulp_klpm)
 	
 	# summary(avdia)
 	
@@ -65,8 +76,13 @@ read.reference.data <- function(inputfile=NULL) {
 
 	# Create a new list with name of the tree type as key and average diameters 
 	# vector as value
-	data <- list("KOIVU"=avdia.koivu, "KUUSI"=avdia.kuusi, "MANTY"=avdia.manty, 
-			"MLP"=avdia.muulp)
+  reference.data <- list("KOIVU"=avdia.koivu, "KUUSI"=avdia.kuusi, "MANTY"=avdia.manty, 
+			                   "MLP"=avdia.muulp)
 
-	return(data)
+  if(!is.null(cache.file)) {
+    message("Saving reference data to cache")
+    save(reference.data, file=cache.file)
+  }
+  
+	return(reference.data)
 }
