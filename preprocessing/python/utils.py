@@ -564,10 +564,10 @@ if __name__ == '__main__':
 
     # ComplexName template
     ID1 = 'puulaji'
-    ID2 = 'osite' 
+    ID2 = 'osite'
 
     # ESMK
-    template = '<BODY1>_<ID1>_<BODY2>_<ID2>_<BODY3>'    
+    template = '<BODY1>_<ID1>_<BODY2>_<ID2>_<BODY3>'
 
     #template = "<BODY1>_<ID1>_<BODY2>"
 
