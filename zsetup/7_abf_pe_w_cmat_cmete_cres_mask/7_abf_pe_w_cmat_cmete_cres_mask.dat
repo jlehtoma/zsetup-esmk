@@ -42,6 +42,6 @@ Info-gap weights file =
 
 [Community analysis settings]
 load similarity matrix = 1
-connectivity similarity matrix file = con_mat_real_double_5kp.txt
+connectivity similarity matrix file = connectivity_matrix_double.txt
 apply to connectivity = 1
 apply to representation = 0
