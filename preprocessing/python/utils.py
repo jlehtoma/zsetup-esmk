@@ -4,8 +4,6 @@ import os
 import glob
 import re
 
-import DataFrame
-
 from osgeo import gdal
 from osgeo.gdalconst import *
 gdal.TermProgress = gdal.TermProgress_nocb
@@ -198,41 +196,3 @@ def list_rasters(indir, formats, sorted=False):
     if sorted:
         files.sort()
     return files
-
-
-
-
-if __name__ == '__main__':
-    # set the working directory
-    os.chdir('/home/fedemp/Public/indexer/indexer')
-
-    datadir = r'/home/fedemp/Public/zsetup-esmk/data/msnfi/segments/sub'
-    outputdir = r'/home/fedemp/Public/zsetup-esmk/data/msnfi/indices'
-
-    # read in the parameters
-
-    # ESMK
-    pfile = r"/home/fedemp/Public/zsetup-esmk/preprocessing/data/parameters-esmk.csv"
-
-    # SuperMetso
-    #pfile = r"H:/Data/SuperMetso/MSNFI_params.csv"
-    params = DataFrame.read_csv(pfile, dialect=DataFrame.ZCustom)
-
-    # Define the fields that link the CSV file to raster name template
-    idfield = "MLVMI_PUULAJI"
-
-    # ComplexName template
-    ID1 = 'puulaji'
-    ID2 = 'osite'
-
-    # ESMK
-    template = '<BODY1>_<ID1>_<BODY2>_<ID2>_<BODY3>'
-
-    #template = "<BODY1>_<ID1>_<BODY2>"
-
-    raw_rasters = [ParsedFileName(raster, template) for raster in list_rasters(datadir, ['tif'], sorted=True)]
-
-    #raster = os.path.join(datadir, 'vol_2_kuusi.img')
-    #raw_rasters = [ComplexName(raster, template)]
-    process_sigmoidal(raw_rasters, params, idfield, multiply=True)
-
