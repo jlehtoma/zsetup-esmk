@@ -1,1 +1,1 @@
-call zig3.exe -r 5_abf_pe_w_cmat_cmete/5_abf_pe_w_cmat_cmete.dat 5_abf_pe_w_cmat_cmete/5_abf_pe_w_cmat_cmete.spp output/5_abf_pe_w_cmat_cmete/result_5_abf_pe_w_cmat_cmete.txt 0 0 1 0 --grid-output-formats=compressed-img --image-output-formats=png
+call zig4.exe -r 5_abf_pe_w_cmat_cmete/5_abf_pe_w_cmat_cmete.dat 5_abf_pe_w_cmat_cmete/5_abf_pe_w_cmat_cmete.spp output/5_abf_pe_w_cmat_cmete/result_5_abf_pe_w_cmat_cmete.txt 0 0 1 0 --grid-output-formats=compressed-img --image-output-formats=png
