@@ -39,43 +39,6 @@ import sys
 import os
 from argparse import ArgumentParser
 
-from osgeo import gdal
-from osgeo.gdalconst import *
-gdal.TermProgress = gdal.TermProgress_nocb
-
-import numpy
-
-
-def ParseType(type):
-    if type == 'Byte':
-        return GDT_Byte
-    elif type == 'Int16':
-        return GDT_Int16
-    elif type == 'UInt16':
-        return GDT_UInt16
-    elif type == 'Int32':
-        return GDT_Int32
-    elif type == 'UInt32':
-        return GDT_UInt32
-    elif type == 'Float32':
-        return GDT_Float32
-    elif type == 'Float64':
-        return GDT_Float64
-    elif type == 'CInt16':
-        return GDT_CInt16
-    elif type == 'CInt32':
-        return GDT_CInt32
-    elif type == 'CFloat32':
-        return GDT_CFloat32
-    elif type == 'CFloat64':
-        return GDT_CFloat64
-    else:
-        return GDT_Byte
-
-
-def sigmoidal(args):
-    pass
-
 
 def main():
 
@@ -129,7 +92,7 @@ def main():
         print("Format: {0}".format(args.format))
         print("\n")
 
-    sigmoidal(args)
+    process_sigmoidal(raw_rasters, params, idfield, multiply=True)
 
 if __name__ == '__main__':
     sys.exit(main())
