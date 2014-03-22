@@ -1,1 +1,1 @@
-1	../data/common/esmk-penalty.img
+1	../data/common/esmk_penalty.img
