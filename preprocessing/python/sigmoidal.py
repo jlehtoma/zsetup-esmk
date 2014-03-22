@@ -231,13 +231,13 @@ def sigmoidal_multiply_index(raster1, raster2, output, mod_asym, xmid, lxmod,
     ma_product = ma_sig_lpm * ma_data_vol
     print 'Masked index max: %s' % ma_product.max()
 
-    test_mid = xmid + (ma_lpm_max * rxmod)
-    test_scale = (ma_lpm_max / rscale)
-    print 'test_mid: %s' % test_mid
-    print 'test_scale: %s' % test_scale
+    #test_mid = xmid + (ma_lpm_max * rxmod)
+    #test_scale = (ma_lpm_max / rscale)
+    #print 'test_mid: %s' % test_mid
+    #print 'test_scale: %s' % test_scale
 
-    test_val = sigmoidal(32.24, asym=mod_asym, xmid=test_mid, scale=test_scale)
-    print 'Testing calc: %s' % test_val
+    #test_val = sigmoidal(32.24, asym=mod_asym, xmid=test_mid, scale=test_scale)
+    #print 'Testing calc: %s' % test_val
 
     # Write data
     data = ma.filled(ma_product, fill_value=NO_DATA)
@@ -297,7 +297,7 @@ def multiprocess_sigmoidal(rasters, params, processes=4):
         time.sleep(2)
 
 
-def process_sigmoidal(raw_rasters, params, idfield, multiply=True):
+def process_sigmoidal(raw_rasters, params, idfield, outputdir, multiply=True):
 
     if multiply:
 
