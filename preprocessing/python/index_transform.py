@@ -39,6 +39,10 @@ import sys
 import os
 from argparse import ArgumentParser
 
+import DataFrame
+from sigmoidal import process_sigmoidal
+from utils import list_rasters, ParsedFileName
+
 
 def main():
 
@@ -49,11 +53,15 @@ def main():
     parser.add_argument("-o", "--out", dest="outws", help="Output workspace")
     parser.add_argument("-p", "--parameters", dest="parameters",
                         help="Path to parameters csv file")
-    parser.add_argument("-f", "--format", dest="format", default="GTiff",
+    parser.add_argument("-l", "--link-field", dest="link_field",
+                        help="Link field in the parameters file")
+    parser.add_argument("-f", "--format", dest="format", default="tif",
                         help="file format for FILENAME")
+    parser.add_argument("-t", "--template", dest="template",
+                        default="<BODY1>_<ID1>_<BODY2>_<ID2>_<BODY3>",
+                        help="Template for file names in input workspace")
 
-    parser.add_argument("-v", "--verbose", default=False,
-                        action="store_true", dest="verbose")
+    parser.add_argument("-v", "--verbose", action="store_true", dest="verbose")
 
     args = parser.parse_args()
 
@@ -80,19 +88,49 @@ def main():
                          " exist")
 
     if args.format not in formats:
-        parser.error("Provided format must be one of: "
+        parser.error("Provided format must be one of: %s"
                      % ', '.join(formats))
+
+    # List the rasters found in the input workspace
+    inrasters = list_rasters(inws, [args.format], sorted=True)
+
+    # Read the parameters file in as Dataframe
+    parameters_df = DataFrame.read_csv(args.parameters,
+                                       dialect=DataFrame.ZCustom)
+
+    # Get all the field names from the generated DataFrame
+    fields = parameters_df.get_fields()
+    if not args.link_field:
+        parser.error("No link field provided, available fields " +
+                     "are: \n" + '\n'.join(fields))
+    elif args.link_field not in fields:
+        parser.error("Link field provided not found, available fields " +
+                     "are: \n" + '\n'.join(fields))
+    else:
+        link_field = args.link_field
 
     if args.verbose:
         print("\n")
-        print("INITIATING " + "*" * 70)
-        print("Using input workspace: {0}".format(inws))
-        print("Using output workspace: {0}".format(outws))
-        print("Using parameters file: {0}".format(parameters))
+        print("STARTING " + "*" * 70)
+        print("Input workspace: {0}".format(inws))
+        print("Output workspace: {0}".format(outws))
+        print("Parameters file: {0}".format(parameters))
         print("Format: {0}".format(args.format))
+        print("File name template: {0}".format(args.template))
+        if len(inrasters) > 0:
+            print("Following rasters found in input workspace:")
+            for raster in inrasters:
+                print("\t" + os.path.basename(raster))
+        else:
+            print("Could not find any rasters with format <" +
+                  "{0}> in input workspace".format(args.format))
         print("\n")
 
-    process_sigmoidal(raw_rasters, params, idfield, multiply=True)
+    # Construct ParsedFileNames from the input workspace based on a template
+    inrasters = [ParsedFileName(raster, args.template) for raster in inrasters]
+
+    process_sigmoidal(inrasters, parameters_df, link_field, outws,
+                      multiply=True)
 
 if __name__ == '__main__':
     sys.exit(main())
