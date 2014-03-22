@@ -30,26 +30,26 @@
 
 import math
 try:
-	 set
+     set
 except NameError:
-	 from sets import Set as set
+     from sets import Set as set
 from scipy import *
 try:
-	import Numeric
+    import Numeric
 except ImportError:
-	import numpy as Numeric
+    import numpy as Numeric
 import cStringIO as StringIO
 import csv # with Python 2.3
 
 class access2000(csv.Dialect):
-	"""A dialect to properly interpret Microsoft Access2000 CSV exports for international languages.
-	"""
-	delimiter = ';'
-	quotechar = '"'
-	doublequote = True
-	quoting = csv.QUOTE_NONNUMERIC
-	lineterminator = '\n'
-	skipinitialspace = True
+    """A dialect to properly interpret Microsoft Access2000 CSV exports for international languages.
+    """
+    delimiter = ';'
+    quotechar = '"'
+    doublequote = True
+    quoting = csv.QUOTE_NONNUMERIC
+    lineterminator = '\n'
+    skipinitialspace = True
     
 class ZCustom(csv.Dialect):
     delimiter = ','
@@ -151,7 +151,7 @@ class DataFrame(object):
 
     def drop_all_columns_except(self, *field_names):
         save_names = list(field_names)
-	for field_name in self.fields_order[:]:
+        for field_name in self.fields_order[:]:
             if field_name not in save_names:
                 self.drop_column( field_name )
 
