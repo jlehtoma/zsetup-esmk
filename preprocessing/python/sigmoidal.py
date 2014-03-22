@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#
 # -*- coding: utf-8 -*-
 ###############################################################################
 # $Id$
@@ -7,14 +8,14 @@
 # Purpose:  Script to deal with with signed bytes used by e.g. ArcGIS by default
 #           for specific data sets. Signed byte is not a valid data type for
 #           GDAL, so it needs to be converted to at least Int16/UInt16. Script
-#           uses parts from val_repl.py script in GDAL examples by Andrey 
+#           uses parts from val_repl.py script in GDAL examples by Andrey
 #           Kiselev.
 #
-# Author:   Joona Lehtomäki, joona.lehtomaki@gmail.com
+# Author:   Joona Lehtomaki, joona.lehtomaki@gmail.com
 #
 ###############################################################################
-# Copyright (c) 2010, Joona Lehtomäki <joona.lehtomaki@gmail.com>
-# 
+# Copyright (c) 2010, Joona Lehtomaki <joona.lehtomaki@gmail.com>
+#
 # Permission is hereby granted, free of charge, to any person obtaining a
 # copy of this software and associated documentation files (the "Software"),
 # to deal in the Software without restriction, including without limitation
@@ -34,26 +35,16 @@
 # DEALINGS IN THE SOFTWARE.
 ###############################################################################
 
-
-try:
-    from osgeo import gdal
-    from osgeo.gdalconst import *
-    gdal.TermProgress = gdal.TermProgress_nocb
-except ImportError:
-    import gdal
-    from gdalconst import *
-
-try:
-    import numpy
-except ImportError:
-    import Numeric as numpy
-
-
-import sys, os
-import glob
+import sys
 from optparse import OptionParser
 
-# =============================================================================
+from osgeo import gdal
+from osgeo.gdalconst import *
+gdal.TermProgress = gdal.TermProgress_nocb
+
+import numpy
+
+
 def ParseType(type):
     if type == 'Byte':
         return GDT_Byte
@@ -79,26 +70,27 @@ def ParseType(type):
         return GDT_CFloat64
     else:
         return GDT_Byte
-# =============================================================================
+
 
 def sigmoidal(options):
     pass
-    
+
+
 def main():
-    
+
     formats = ['tif', 'img']
-    
+
     usage = "usage: %prog [options] format infile1 infile2 outfile"
-    
+
     parser = OptionParser(usage)
     parser.add_option("--infile1", dest="infile1", help="Infile 1")
     parser.add_option("--infile2", dest="infile2", help="Infile 2")
     parser.add_option("-o", "--outfile", dest="outfile",
                       help="write data to FILENAME")
-    
+
     parser.add_option("-f", "--format", dest="format", default="GTiff",
                       help="file format for FILENAME")
-    
+
     parser.add_option("-v", "--verbose", default=False,
                       action="store_true", dest="verbose")
     parser.add_option("-q", "--quiet",
@@ -110,10 +102,13 @@ def main():
         parser.error("Names of the input files must be provided")
     if options.outfile is None and not options.info:
         parser.error("Name of the output file must be provided")
-    
-    if options.verbose: 
+    if options.format not in formats:
+        parser.error("Provided format must be one of: "
+                     % ', '.join(formats))
+
+    if options.verbose:
         print "Using %s and %s..." % (options.infile1, options.infile2)
-    
+
     sigmoidal(options)
 
 if __name__ == '__main__':
