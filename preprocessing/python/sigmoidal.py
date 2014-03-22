@@ -36,7 +36,8 @@
 ###############################################################################
 
 import sys
-from optparse import OptionParser
+import os
+from argparse import ArgumentParser
 
 from osgeo import gdal
 from osgeo.gdalconst import *
@@ -72,7 +73,7 @@ def ParseType(type):
         return GDT_Byte
 
 
-def sigmoidal(options):
+def sigmoidal(args):
     pass
 
 
@@ -80,36 +81,54 @@ def main():
 
     formats = ['tif', 'img']
 
-    usage = "usage: %prog [options] format infile1 infile2 outfile"
+    parser = ArgumentParser()
+    parser.add_argument("-i", "--in", dest="inws", help="Input workspace")
+    parser.add_argument("-o", "--out", dest="outws", help="Output workspace")
+    parser.add_argument("-p", "--parameters", dest="parameters",
+                        help="Path to parameters csv file")
+    parser.add_argument("-f", "--format", dest="format", default="GTiff",
+                        help="file format for FILENAME")
 
-    parser = OptionParser(usage)
-    parser.add_option("--infile1", dest="infile1", help="Infile 1")
-    parser.add_option("--infile2", dest="infile2", help="Infile 2")
-    parser.add_option("-o", "--outfile", dest="outfile",
-                      help="write data to FILENAME")
+    parser.add_argument("-v", "--verbose", default=False,
+                        action="store_true", dest="verbose")
 
-    parser.add_option("-f", "--format", dest="format", default="GTiff",
-                      help="file format for FILENAME")
+    args = parser.parse_args()
 
-    parser.add_option("-v", "--verbose", default=False,
-                      action="store_true", dest="verbose")
-    parser.add_option("-q", "--quiet",
-                      action="store_false", dest="verbose")
+    if not args.inws:
+        parser.error("Path to input workspace must be provided")
+    else:
+        inws = os.path.abspath(args.inws)
+        if not os.path.exists(inws):
+            parser.error("Input workspace {0} does not exist".format(inws))
 
-    (options, args) = parser.parse_args()
+    if not args.outws:
+        parser.error("Path to output workspace must be provided")
+    else:
+        outws = os.path.abspath(args.outws)
+        if not os.path.exists(args.outws):
+            parser.error("Output workspace {0} does not exist".format(outws))
 
-    if options.infile1 is None or options.infile2 is None:
-        parser.error("Names of the input files must be provided")
-    if options.outfile is None and not options.info:
-        parser.error("Name of the output file must be provided")
-    if options.format not in formats:
+    if not args.parameters:
+        parser.error("Path to parameters CSV file must be provided")
+    else:
+        parameters = os.path.abspath(args.parameters)
+        if not os.path.exists(parameters):
+            parser.error("Parameters file {0} does not ".format(parameters) +
+                         " exist")
+
+    if args.format not in formats:
         parser.error("Provided format must be one of: "
                      % ', '.join(formats))
 
-    if options.verbose:
-        print "Using %s and %s..." % (options.infile1, options.infile2)
+    if args.verbose:
+        print("\n")
+        print("INITIATING " + "*" * 70)
+        print("Using input workspace: {0}".format(inws))
+        print("Using output workspace: {0}".format(outws))
+        print("Format: {0}".format(args.format))
+        print("\n")
 
-    sigmoidal(options)
+    sigmoidal(args)
 
 if __name__ == '__main__':
     sys.exit(main())
