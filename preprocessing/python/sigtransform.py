@@ -125,6 +125,7 @@ def main():
         print("INITIATING " + "*" * 70)
         print("Using input workspace: {0}".format(inws))
         print("Using output workspace: {0}".format(outws))
+        print("Using parameters file: {0}".format(parameters))
         print("Format: {0}".format(args.format))
         print("\n")
 
