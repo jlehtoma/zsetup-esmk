@@ -6,3 +6,5 @@
 cache/
 *.pyc
 *.py~
+*.sublime-project
+*.sublime-workspace
