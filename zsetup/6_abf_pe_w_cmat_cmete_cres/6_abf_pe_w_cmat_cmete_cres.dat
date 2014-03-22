@@ -1,13 +1,14 @@
 [Settings]
 removal rule = 2
 warp factor = 1000
-edge removal = 0
+edge removal = 1
 add edge points = 0
 use SSI = 0
 SSI file name = 
 use planning unit layer = 0
 planning unit layer file = 
 initial removal percent = 0.0
+
 use cost = 0
 cost file = 
 use mask = 0
