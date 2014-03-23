@@ -15,24 +15,30 @@ arcpy.CheckOutExtension("Spatial")
 wd = os.path.dirname(__file__)
 # Set the workspaces to the correct location. This is mostly to avoid
 # hard coding paths
-inputws = os.path.abspath(os.path.join(wd, "../../data/msnfi/indices"))
-outputws = os.path.join(inputws, "per_sf_class")
-
-conditional_raster = os.path.abspath(os.path.join(wd, "../../data/common",
-                                     "esmk_soil_fertility.img"))
+inputws = os.path.abspath(os.path.join(wd, "../../data/msnfi/indices/60"))
+# Just uset the input workspace as output workspace
+outputws = inputws
 
 # Check that workspaces exists
 if not os.path.exists(inputws):
-    print("Input workspace {0} does not exist".format(outputws))
+    print("ERROR: Input workspace {0} does not exist".format(outputws))
     sys.exit(0)
 elif not os.path.exists(outputws):
-    print("Output workspace {0} does not exist".format(outputws))
+    print("ERROR: Output workspace {0} does not exist".format(outputws))
     sys.exit(0)
 else:
-    print("Using input workspace: {0}".format(inputws))
-    print("Using output workspace: {0}".format(outputws))
+    print("INFO: Using input workspace: {0}".format(inputws))
+    print("INFO: Using output workspace: {0}".format(outputws))
     # Set the workspace to provided input workspace
     env.workspace = inputws
+
+# Set the condition raster, i.e. the soil fertility class raster
+conditional_raster = os.path.abspath(os.path.join(wd, "../../data/common/60",
+                                     "esmk_soil_fertility.img"))
+if not os.path.exists(conditional_raster):
+    print("ERROR: Conditional raster " +
+          "{0} does not exist".format(conditional_raster))
+    sys.exit(0)
 
 # Hard code the used soil fertility classes that will be the basis of extraction
 sfc_classes = [1, 2, 3, 4, 5]
