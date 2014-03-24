@@ -15,7 +15,8 @@ arcpy.CheckOutExtension("Spatial")
 wd = os.path.dirname(__file__)
 # Set the workspaces to the correct location. This is mostly to avoid
 # hard coding paths
-inputws = os.path.abspath(os.path.join(wd, "../../data/msnfi/indices/60"))
+inputws = os.path.abspath(os.path.join(wd,
+                          "../../data/msnfi/segment/60/indices"))
 # Just uset the input workspace as output workspace
 outputws = inputws
 
@@ -33,8 +34,10 @@ else:
     env.workspace = inputws
 
 # Set the condition raster, i.e. the soil fertility class raster
-conditional_raster = os.path.abspath(os.path.join(wd, "../../data/common/60",
-                                     "esmk_soil_fertility.img"))
+conditional_raster = os.path.abspath(os.path.join(wd,
+                                     "../../data/msnfi/segment/60",
+                                     "segment_soil_fertility.tif"))
+
 if not os.path.exists(conditional_raster):
     print("ERROR: Conditional raster " +
           "{0} does not exist".format(conditional_raster))
