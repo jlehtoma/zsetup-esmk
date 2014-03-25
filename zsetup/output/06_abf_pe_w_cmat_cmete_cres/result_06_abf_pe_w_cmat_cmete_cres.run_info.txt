@@ -1,0 +1,1407 @@
+Zonation 4.0.0b24_compact, build: Feb 25 2014 18:59:15
+==========================================================================
+The Zonation software is distributed in the  hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+==========================================================================
+ For more information and conditions of use of this software, see the
+ disclaimer in Help->About Zonation, in the graphical user interface
+
+Starting Zonation run on 'CBIG-arnold' at 6:58:58 PM (2014/3/23) 
+Locale is: en_US.UTF-8
+Zonation core process parameters: 
+   run mode: normal run (-r)
+   settings file: 06_abf_pe_w_cmat_cmete_cres/06_abf_pe_w_cmat_cmete_cres.dat
+   biodiversity features list file: 06_abf_pe_w_cmat_cmete_cres/06_abf_pe_w_cmat_cmete_cres.spp
+   output file(s): output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres
+   info-gap alpha: 0
+   use_smoothing: 0
+   smoothing_alpha_multiplier: 1
+   autoclose (deprecated): 0
+
+Reading settings file: 06_abf_pe_w_cmat_cmete_cres/06_abf_pe_w_cmat_cmete_cres.dat
+   Option not overriden in command line, removal rule: 2
+   Option not overriden in command line, warp factor: 1000
+
+Output settings:
+   Output weighted range size corrected richness map: yes
+   Output proportional loss rank map: no
+
+********** Arbitrary kernels disabled ********
+
+*************** NOT USING ANALYSIS AREA MASK **************
+
+
+******* Condition layers used. Will load list of condition layers from file: condition_layers.txt
+*************** USING feature/species interactions **************
+  IA list file = interact_cmete_cres.txt
+Loading list of biodiversity features from file: 06_abf_pe_w_cmat_cmete_cres/06_abf_pe_w_cmat_cmete_cres.spp
+Row count in the features/species list file: 82
+../data/composite/60/index_birch_1.img: 2815 rows, 3044 columns read. Nodata cells =  8545926, sum of elements = 2.65052e+06
+Number of interaction pairs = 120
+
+Matrix columns/x dimension: 3044, rows/y dimension: 2815
+*******************************************************
+Loading feature grouping information from groups_wrscr_cmete_cres.txt
+Groups information loaded.
+
+****** REMOVAL RULE: Convex additive benefit function; r^par *******
+
+****** NOT using Info-gap distribution discounting uncertainty analysis ****************
+
+
+*** Not using "drop 0 occurrence features", all features will be processed even if they do not occur anywhere in the analysis area.
+===============
+Note: using the following features which require additional memory for smoothing kernels: , interactions , matrix connectivity
+Approximately 653.8 MBs of additional memory are required. Trying to allocate...
+Note: using 'matrix connectivity transform' with 0 features, which requires further additional memory: 3.815e-06 MBs
+Doing connectivity smoothings: initializing
+Using 1 thread(s) for preprocessing.
+Memory allocated successfully!
+===============
+
+======------ Allocating memory for input layers... ------======
+Using compact structure (lookup version),  sizeof(Occur_Container): 18, sizeof(allocated occurrence): 6
+Counting effective occurrencies
+Time: 1395593939 = 6:58:59 PM (2014/3/23) 
+Feature file #1: ../data/composite/60/index_birch_1.img; non-missing cells: 22934
+Feature file #2: ../data/composite/60/index_birch_2.img; non-missing cells: 852719
+Feature file #3: ../data/composite/60/index_birch_3.img; non-missing cells: 2031803
+Feature file #4: ../data/composite/60/index_birch_4.img; non-missing cells: 585915
+Feature file #5: ../data/composite/60/index_birch_5.img; non-missing cells: 113763
+Feature file #6: ../data/composite/60/index_spruce_1.img; non-missing cells: 21166
+Feature file #7: ../data/composite/60/index_spruce_2.img; non-missing cells: 846143
+Feature file #8: ../data/composite/60/index_spruce_3.img; non-missing cells: 2016872
+Feature file #9: ../data/composite/60/index_spruce_4.img; non-missing cells: 530217
+Feature file #10: ../data/composite/60/index_spruce_5.img; non-missing cells: 101817
+Feature file #11: ../data/composite/60/index_odecid_1.img; non-missing cells: 22666
+Feature file #12: ../data/composite/60/index_odecid_2.img; non-missing cells: 862751
+Feature file #13: ../data/composite/60/index_odecid_3.img; non-missing cells: 2035568
+Feature file #14: ../data/composite/60/index_odecid_4.img; non-missing cells: 541616
+Feature file #15: ../data/composite/60/index_odecid_5.img; non-missing cells: 101165
+Feature file #16: ../data/composite/60/index_pine_1.img; non-missing cells: 19896
+Feature file #17: ../data/composite/60/index_pine_2.img; non-missing cells: 781672
+Feature file #18: ../data/composite/60/index_pine_3.img; non-missing cells: 2069465
+Feature file #19: ../data/composite/60/index_pine_4.img; non-missing cells: 684863
+Feature file #20: ../data/composite/60/index_pine_5.img; non-missing cells: 138442
+Feature file #21: ../data/composite/60/index_birch_1.img; non-missing cells: 22934
+Feature file #22: ../data/composite/60/index_birch_2.img; non-missing cells: 852719
+Feature file #23: ../data/composite/60/index_birch_3.img; non-missing cells: 2031803
+Feature file #24: ../data/composite/60/index_birch_4.img; non-missing cells: 585915
+Feature file #25: ../data/composite/60/index_birch_5.img; non-missing cells: 113763
+Feature file #26: ../data/composite/60/index_spruce_1.img; non-missing cells: 21166
+Feature file #27: ../data/composite/60/index_spruce_2.img; non-missing cells: 846143
+Feature file #28: ../data/composite/60/index_spruce_3.img; non-missing cells: 2016872
+Feature file #29: ../data/composite/60/index_spruce_4.img; non-missing cells: 530217
+Feature file #30: ../data/composite/60/index_spruce_5.img; non-missing cells: 101817
+Feature file #31: ../data/composite/60/index_odecid_1.img; non-missing cells: 22666
+Feature file #32: ../data/composite/60/index_odecid_2.img; non-missing cells: 862751
+Feature file #33: ../data/composite/60/index_odecid_3.img; non-missing cells: 2035568
+Feature file #34: ../data/composite/60/index_odecid_4.img; non-missing cells: 541616
+Feature file #35: ../data/composite/60/index_odecid_5.img; non-missing cells: 101165
+Feature file #36: ../data/composite/60/index_pine_1.img; non-missing cells: 19896
+Feature file #37: ../data/composite/60/index_pine_2.img; non-missing cells: 781672
+Feature file #38: ../data/composite/60/index_pine_3.img; non-missing cells: 2069465
+Feature file #39: ../data/composite/60/index_pine_4.img; non-missing cells: 684863
+Feature file #40: ../data/composite/60/index_pine_5.img; non-missing cells: 138442
+Feature file #41: ../data/composite/60/index_birch_1.img; non-missing cells: 22934
+Feature file #42: ../data/composite/60/index_birch_2.img; non-missing cells: 852719
+Feature file #43: ../data/composite/60/index_birch_3.img; non-missing cells: 2031803
+Feature file #44: ../data/composite/60/index_birch_4.img; non-missing cells: 585915
+Feature file #45: ../data/composite/60/index_birch_5.img; non-missing cells: 113763
+Feature file #46: ../data/composite/60/index_spruce_1.img; non-missing cells: 21166
+Feature file #47: ../data/composite/60/index_spruce_2.img; non-missing cells: 846143
+Feature file #48: ../data/composite/60/index_spruce_3.img; non-missing cells: 2016872
+Feature file #49: ../data/composite/60/index_spruce_4.img; non-missing cells: 530217
+Feature file #50: ../data/composite/60/index_spruce_5.img; non-missing cells: 101817
+Feature file #51: ../data/composite/60/index_odecid_1.img; non-missing cells: 22666
+Feature file #52: ../data/composite/60/index_odecid_2.img; non-missing cells: 862751
+Feature file #53: ../data/composite/60/index_odecid_3.img; non-missing cells: 2035568
+Feature file #54: ../data/composite/60/index_odecid_4.img; non-missing cells: 541616
+Feature file #55: ../data/composite/60/index_odecid_5.img; non-missing cells: 101165
+Feature file #56: ../data/composite/60/index_pine_1.img; non-missing cells: 19896
+Feature file #57: ../data/composite/60/index_pine_2.img; non-missing cells: 781672
+Feature file #58: ../data/composite/60/index_pine_3.img; non-missing cells: 2069465
+Feature file #59: ../data/composite/60/index_pine_4.img; non-missing cells: 684863
+Feature file #60: ../data/composite/60/index_pine_5.img; non-missing cells: 138442
+Feature file #61: ../data/composite/60/index_birch_1.img; non-missing cells: 22934
+Feature file #62: ../data/composite/60/index_birch_2.img; non-missing cells: 852719
+Feature file #63: ../data/composite/60/index_birch_3.img; non-missing cells: 2031803
+Feature file #64: ../data/composite/60/index_birch_4.img; non-missing cells: 585915
+Feature file #65: ../data/composite/60/index_birch_5.img; non-missing cells: 113763
+Feature file #66: ../data/composite/60/index_spruce_1.img; non-missing cells: 21166
+Feature file #67: ../data/composite/60/index_spruce_2.img; non-missing cells: 846143
+Feature file #68: ../data/composite/60/index_spruce_3.img; non-missing cells: 2016872
+Feature file #69: ../data/composite/60/index_spruce_4.img; non-missing cells: 530217
+Feature file #70: ../data/composite/60/index_spruce_5.img; non-missing cells: 101817
+Feature file #71: ../data/composite/60/index_odecid_1.img; non-missing cells: 22666
+Feature file #72: ../data/composite/60/index_odecid_2.img; non-missing cells: 862751
+Feature file #73: ../data/composite/60/index_odecid_3.img; non-missing cells: 2035568
+Feature file #74: ../data/composite/60/index_odecid_4.img; non-missing cells: 541616
+Feature file #75: ../data/composite/60/index_odecid_5.img; non-missing cells: 101165
+Feature file #76: ../data/composite/60/index_pine_1.img; non-missing cells: 19896
+Feature file #77: ../data/composite/60/index_pine_2.img; non-missing cells: 781672
+Feature file #78: ../data/composite/60/index_pine_3.img; non-missing cells: 2069465
+Feature file #79: ../data/composite/60/index_pine_4.img; non-missing cells: 684863
+Feature file #80: ../data/composite/60/index_pine_5.img; non-missing cells: 138442
+Feature file #81: ../data/composite/60/wrscr_ffc.img; non-missing cells: 21305
+Feature file #82: ../data/composite/60/wrscr_mh.img; non-missing cells: 84050
+Total # of feature layers: 82
+Total # of cells in every layer: 8568860
+Effective # of cells (cells with any occurrence, globally): 3888952
+Total # of occurrencies: 57631167, counted across 82 layers; average across layers: 702819
+Percentage of globally effective occurrencies = 18.0722 % (relative to total effective cells) = 8.20201 % (relative to total cells)
+Memory required for biodiversity features: 461.9 MB, of which base memory: 132.1 MB, and occurrencies require: 329.8 MB
+Time now: 1395593945 = 6:59:05 PM (2014/3/23) 
+Finished preload/counting effective occurrencies. Elapsed: 6 seconds.
+======------ Allocating memory for input layers: finished successfully ------======
+
+******=====----- Loading feature (e.g., species) data layers -----=====**********
+* Loaded biodiversity feature file #1, ../data/composite/60/index_birch_1.img, non-missing cells:22934, their sum: 2.65052e+06
+* Loaded biodiversity feature file #2, ../data/composite/60/index_birch_2.img, non-missing cells:852719, their sum: 6.11075e+07
+* Loaded biodiversity feature file #3, ../data/composite/60/index_birch_3.img, non-missing cells:2031803, their sum: 9.47557e+07
+* Loaded biodiversity feature file #4, ../data/composite/60/index_birch_4.img, non-missing cells:585915, their sum: 1.65307e+07
+* Loaded biodiversity feature file #5, ../data/composite/60/index_birch_5.img, non-missing cells:113763, their sum: 2.01373e+06
+* Loaded biodiversity feature file #6, ../data/composite/60/index_spruce_1.img, non-missing cells:21166, their sum: 2.42941e+06
+* Loaded biodiversity feature file #7, ../data/composite/60/index_spruce_2.img, non-missing cells:846143, their sum: 1.91258e+08
+* Loaded biodiversity feature file #8, ../data/composite/60/index_spruce_3.img, non-missing cells:2016872, their sum: 3.61132e+08
+* Loaded biodiversity feature file #9, ../data/composite/60/index_spruce_4.img, non-missing cells:530217, their sum: 3.88909e+07
+* Loaded biodiversity feature file #10, ../data/composite/60/index_spruce_5.img, non-missing cells:101817, their sum: 4.6241e+06
+* Loaded biodiversity feature file #11, ../data/composite/60/index_odecid_1.img, non-missing cells:22666, their sum: 3.61882e+06
+* Loaded biodiversity feature file #12, ../data/composite/60/index_odecid_2.img, non-missing cells:862751, their sum: 1.39785e+08
+* Loaded biodiversity feature file #13, ../data/composite/60/index_odecid_3.img, non-missing cells:2035568, their sum: 2.24358e+08
+* Loaded biodiversity feature file #14, ../data/composite/60/index_odecid_4.img, non-missing cells:541616, their sum: 2.24738e+07
+* Loaded biodiversity feature file #15, ../data/composite/60/index_odecid_5.img, non-missing cells:101165, their sum: 2.31623e+06
+* Loaded biodiversity feature file #16, ../data/composite/60/index_pine_1.img, non-missing cells:19896, their sum: 1.42116e+06
+* Loaded biodiversity feature file #17, ../data/composite/60/index_pine_2.img, non-missing cells:781672, their sum: 7.12032e+07
+* Loaded biodiversity feature file #18, ../data/composite/60/index_pine_3.img, non-missing cells:2069465, their sum: 2.60668e+08
+* Loaded biodiversity feature file #19, ../data/composite/60/index_pine_4.img, non-missing cells:684863, their sum: 1.13438e+08
+* Loaded biodiversity feature file #20, ../data/composite/60/index_pine_5.img, non-missing cells:138442, their sum: 1.08863e+07
+* Loaded biodiversity feature file #21, ../data/composite/60/index_birch_1.img, non-missing cells:22934, their sum: 2.65052e+06
+* Loaded biodiversity feature file #22, ../data/composite/60/index_birch_2.img, non-missing cells:852719, their sum: 6.11075e+07
+* Loaded biodiversity feature file #23, ../data/composite/60/index_birch_3.img, non-missing cells:2031803, their sum: 9.47557e+07
+* Loaded biodiversity feature file #24, ../data/composite/60/index_birch_4.img, non-missing cells:585915, their sum: 1.65307e+07
+* Loaded biodiversity feature file #25, ../data/composite/60/index_birch_5.img, non-missing cells:113763, their sum: 2.01373e+06
+* Loaded biodiversity feature file #26, ../data/composite/60/index_spruce_1.img, non-missing cells:21166, their sum: 2.42941e+06
+* Loaded biodiversity feature file #27, ../data/composite/60/index_spruce_2.img, non-missing cells:846143, their sum: 1.91258e+08
+* Loaded biodiversity feature file #28, ../data/composite/60/index_spruce_3.img, non-missing cells:2016872, their sum: 3.61132e+08
+* Loaded biodiversity feature file #29, ../data/composite/60/index_spruce_4.img, non-missing cells:530217, their sum: 3.88909e+07
+* Loaded biodiversity feature file #30, ../data/composite/60/index_spruce_5.img, non-missing cells:101817, their sum: 4.6241e+06
+* Loaded biodiversity feature file #31, ../data/composite/60/index_odecid_1.img, non-missing cells:22666, their sum: 3.61882e+06
+* Loaded biodiversity feature file #32, ../data/composite/60/index_odecid_2.img, non-missing cells:862751, their sum: 1.39785e+08
+* Loaded biodiversity feature file #33, ../data/composite/60/index_odecid_3.img, non-missing cells:2035568, their sum: 2.24358e+08
+* Loaded biodiversity feature file #34, ../data/composite/60/index_odecid_4.img, non-missing cells:541616, their sum: 2.24738e+07
+* Loaded biodiversity feature file #35, ../data/composite/60/index_odecid_5.img, non-missing cells:101165, their sum: 2.31623e+06
+* Loaded biodiversity feature file #36, ../data/composite/60/index_pine_1.img, non-missing cells:19896, their sum: 1.42116e+06
+* Loaded biodiversity feature file #37, ../data/composite/60/index_pine_2.img, non-missing cells:781672, their sum: 7.12032e+07
+* Loaded biodiversity feature file #38, ../data/composite/60/index_pine_3.img, non-missing cells:2069465, their sum: 2.60668e+08
+* Loaded biodiversity feature file #39, ../data/composite/60/index_pine_4.img, non-missing cells:684863, their sum: 1.13438e+08
+* Loaded biodiversity feature file #40, ../data/composite/60/index_pine_5.img, non-missing cells:138442, their sum: 1.08863e+07
+* Loaded biodiversity feature file #41, ../data/composite/60/index_birch_1.img, non-missing cells:22934, their sum: 2.65052e+06
+* Loaded biodiversity feature file #42, ../data/composite/60/index_birch_2.img, non-missing cells:852719, their sum: 6.11075e+07
+* Loaded biodiversity feature file #43, ../data/composite/60/index_birch_3.img, non-missing cells:2031803, their sum: 9.47557e+07
+* Loaded biodiversity feature file #44, ../data/composite/60/index_birch_4.img, non-missing cells:585915, their sum: 1.65307e+07
+* Loaded biodiversity feature file #45, ../data/composite/60/index_birch_5.img, non-missing cells:113763, their sum: 2.01373e+06
+* Loaded biodiversity feature file #46, ../data/composite/60/index_spruce_1.img, non-missing cells:21166, their sum: 2.42941e+06
+* Loaded biodiversity feature file #47, ../data/composite/60/index_spruce_2.img, non-missing cells:846143, their sum: 1.91258e+08
+* Loaded biodiversity feature file #48, ../data/composite/60/index_spruce_3.img, non-missing cells:2016872, their sum: 3.61132e+08
+* Loaded biodiversity feature file #49, ../data/composite/60/index_spruce_4.img, non-missing cells:530217, their sum: 3.88909e+07
+* Loaded biodiversity feature file #50, ../data/composite/60/index_spruce_5.img, non-missing cells:101817, their sum: 4.6241e+06
+* Loaded biodiversity feature file #51, ../data/composite/60/index_odecid_1.img, non-missing cells:22666, their sum: 3.61882e+06
+* Loaded biodiversity feature file #52, ../data/composite/60/index_odecid_2.img, non-missing cells:862751, their sum: 1.39785e+08
+* Loaded biodiversity feature file #53, ../data/composite/60/index_odecid_3.img, non-missing cells:2035568, their sum: 2.24358e+08
+* Loaded biodiversity feature file #54, ../data/composite/60/index_odecid_4.img, non-missing cells:541616, their sum: 2.24738e+07
+* Loaded biodiversity feature file #55, ../data/composite/60/index_odecid_5.img, non-missing cells:101165, their sum: 2.31623e+06
+* Loaded biodiversity feature file #56, ../data/composite/60/index_pine_1.img, non-missing cells:19896, their sum: 1.42116e+06
+* Loaded biodiversity feature file #57, ../data/composite/60/index_pine_2.img, non-missing cells:781672, their sum: 7.12032e+07
+* Loaded biodiversity feature file #58, ../data/composite/60/index_pine_3.img, non-missing cells:2069465, their sum: 2.60668e+08
+* Loaded biodiversity feature file #59, ../data/composite/60/index_pine_4.img, non-missing cells:684863, their sum: 1.13438e+08
+* Loaded biodiversity feature file #60, ../data/composite/60/index_pine_5.img, non-missing cells:138442, their sum: 1.08863e+07
+* Loaded biodiversity feature file #61, ../data/composite/60/index_birch_1.img, non-missing cells:22934, their sum: 2.65052e+06
+* Loaded biodiversity feature file #62, ../data/composite/60/index_birch_2.img, non-missing cells:852719, their sum: 6.11075e+07
+* Loaded biodiversity feature file #63, ../data/composite/60/index_birch_3.img, non-missing cells:2031803, their sum: 9.47557e+07
+* Loaded biodiversity feature file #64, ../data/composite/60/index_birch_4.img, non-missing cells:585915, their sum: 1.65307e+07
+* Loaded biodiversity feature file #65, ../data/composite/60/index_birch_5.img, non-missing cells:113763, their sum: 2.01373e+06
+* Loaded biodiversity feature file #66, ../data/composite/60/index_spruce_1.img, non-missing cells:21166, their sum: 2.42941e+06
+* Loaded biodiversity feature file #67, ../data/composite/60/index_spruce_2.img, non-missing cells:846143, their sum: 1.91258e+08
+* Loaded biodiversity feature file #68, ../data/composite/60/index_spruce_3.img, non-missing cells:2016872, their sum: 3.61132e+08
+* Loaded biodiversity feature file #69, ../data/composite/60/index_spruce_4.img, non-missing cells:530217, their sum: 3.88909e+07
+* Loaded biodiversity feature file #70, ../data/composite/60/index_spruce_5.img, non-missing cells:101817, their sum: 4.6241e+06
+* Loaded biodiversity feature file #71, ../data/composite/60/index_odecid_1.img, non-missing cells:22666, their sum: 3.61882e+06
+* Loaded biodiversity feature file #72, ../data/composite/60/index_odecid_2.img, non-missing cells:862751, their sum: 1.39785e+08
+* Loaded biodiversity feature file #73, ../data/composite/60/index_odecid_3.img, non-missing cells:2035568, their sum: 2.24358e+08
+* Loaded biodiversity feature file #74, ../data/composite/60/index_odecid_4.img, non-missing cells:541616, their sum: 2.24738e+07
+* Loaded biodiversity feature file #75, ../data/composite/60/index_odecid_5.img, non-missing cells:101165, their sum: 2.31623e+06
+* Loaded biodiversity feature file #76, ../data/composite/60/index_pine_1.img, non-missing cells:19896, their sum: 1.42116e+06
+* Loaded biodiversity feature file #77, ../data/composite/60/index_pine_2.img, non-missing cells:781672, their sum: 7.12032e+07
+* Loaded biodiversity feature file #78, ../data/composite/60/index_pine_3.img, non-missing cells:2069465, their sum: 2.60668e+08
+* Loaded biodiversity feature file #79, ../data/composite/60/index_pine_4.img, non-missing cells:684863, their sum: 1.13438e+08
+* Loaded biodiversity feature file #80, ../data/composite/60/index_pine_5.img, non-missing cells:138442, their sum: 1.08863e+07
+* Loaded biodiversity feature file #81, ../data/composite/60/wrscr_ffc.img, non-missing cells:21305, their sum: 13510.4
+* Loaded biodiversity feature file #82, ../data/composite/60/wrscr_mh.img, non-missing cells:84050, their sum: 59569.6
+Calculating centers of the distributions of 82 features...
+
+******=====----- 'use condition' is on. Transforming input layers... -----=====******
+
+Loading condition file list from file condition_layers.txt
+
+ * Applying condition layer number 1:
+../data/common/60/esmk_penalty.img: 2815 rows, 3044 columns read. Nodata cells =  11714, sum of elements = 8.11589e+06
+Condition layer loaded without errors, count of effective elements (with values in [0,1]) = 8557146 , missing (<0) elements count = 11714
+ --- Report on loss of biodiversity feature proportions (by condition transformation) ---
+Feature#  proportion_lost
+1	0.06922
+2	0.10328
+3	0.10813
+4	0.09433
+5	0.09262
+6	0.08494
+7	0.11523
+8	0.12002
+9	0.10186
+10	0.10218
+11	0.07473
+12	0.11626
+13	0.11943
+14	0.10268
+15	0.09481
+16	0.06956
+17	0.10850
+18	0.11235
+19	0.09699
+20	0.09544
+21	0.06922
+22	0.10328
+23	0.10813
+24	0.09433
+25	0.09262
+26	0.08494
+27	0.11523
+28	0.12002
+29	0.10186
+30	0.10218
+31	0.07473
+32	0.11626
+33	0.11943
+34	0.10268
+35	0.09481
+36	0.06956
+37	0.10850
+38	0.11235
+39	0.09699
+40	0.09544
+41	0.06922
+42	0.10328
+43	0.10813
+44	0.09433
+45	0.09262
+46	0.08494
+47	0.11523
+48	0.12002
+49	0.10186
+50	0.10218
+51	0.07473
+52	0.11626
+53	0.11943
+54	0.10268
+55	0.09481
+56	0.06956
+57	0.10850
+58	0.11235
+59	0.09699
+60	0.09544
+61	0.06922
+62	0.10328
+63	0.10813
+64	0.09433
+65	0.09262
+66	0.08494
+67	0.11523
+68	0.12002
+69	0.10186
+70	0.10218
+71	0.07473
+72	0.11626
+73	0.11943
+74	0.10268
+75	0.09481
+76	0.06956
+77	0.10850
+78	0.11235
+79	0.09699
+80	0.09544
+81	0.09523
+82	0.01549
+-----------------------
+The condition transformation with condition layer number 1 was applied to 82 biodiversity features.
+ * Applied condition layer number 1
+
+Read condition layers list file, number of condition layers: 1
+
+Applied condition layers through the landscape.
+Consequently, initial remaining fractions do not necessarily start from 1.
+******=====----- Finished condition transformations in 1 seconds. -----=====******
+
+
+******=====----- 'load similarity matrix' is on, using similarity matrix for matrix connectivity transform (with 'apply to connectivity'). Transforming input layers... -----=====******
+
+Loading community connectivty similarity matrix from file connectivity_matrix_double.txt
+Read similarity matrix with row count = 40, and same number of columns.
+Community similarity matrix loaded successfully from fileconnectivity_matrix_double.txt
+Applying community similarity matrix to connectivity
+DS connectivity calculations - Kernel calculated; alpha= 0.005
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 0 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 1 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 2 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 3 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 4 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 5 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 6 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 7 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 8 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 9 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 10 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 11 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 12 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 13 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 14 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 15 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 16 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 17 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 18 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 19 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 20 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 21 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 22 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 23 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 24 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 25 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 26 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 27 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 28 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 29 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 30 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 31 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 32 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 33 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 34 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 35 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 36 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 37 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 38 transformed via matrix connectivity calculations using alpha 0.005000.
+0 locations exceeded the connectivity threshold for maximum resource use density.
+Input feature 39 transformed via matrix connectivity calculations using alpha 0.005000.
+******=====----- Finished matrix connectivity transformations in 265 seconds. -----=====******
+
+
+******=====----- 'use interactions' is on. Transforming input layers... -----=====******
+Loading feature/species interaction specifications from file interact_cmete_cres.txt
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 21 (resource, ../data/composite/60/index_birch_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 22 (resource, ../data/composite/60/index_birch_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 23 (resource, ../data/composite/60/index_birch_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 24 (resource, ../data/composite/60/index_birch_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 25 (resource, ../data/composite/60/index_birch_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 26 (resource, ../data/composite/60/index_spruce_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 27 (resource, ../data/composite/60/index_spruce_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 28 (resource, ../data/composite/60/index_spruce_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 29 (resource, ../data/composite/60/index_spruce_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 30 (resource, ../data/composite/60/index_spruce_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 31 (resource, ../data/composite/60/index_odecid_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 32 (resource, ../data/composite/60/index_odecid_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 33 (resource, ../data/composite/60/index_odecid_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 34 (resource, ../data/composite/60/index_odecid_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 35 (resource, ../data/composite/60/index_odecid_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 36 (resource, ../data/composite/60/index_pine_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 37 (resource, ../data/composite/60/index_pine_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 38 (resource, ../data/composite/60/index_pine_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 39 (resource, ../data/composite/60/index_pine_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 40 (resource, ../data/composite/60/index_pine_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 41 (resource, ../data/composite/60/index_birch_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 42 (resource, ../data/composite/60/index_birch_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 43 (resource, ../data/composite/60/index_birch_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 44 (resource, ../data/composite/60/index_birch_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 45 (resource, ../data/composite/60/index_birch_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 46 (resource, ../data/composite/60/index_spruce_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 47 (resource, ../data/composite/60/index_spruce_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 48 (resource, ../data/composite/60/index_spruce_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 49 (resource, ../data/composite/60/index_spruce_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 50 (resource, ../data/composite/60/index_spruce_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 51 (resource, ../data/composite/60/index_odecid_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 52 (resource, ../data/composite/60/index_odecid_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 53 (resource, ../data/composite/60/index_odecid_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 54 (resource, ../data/composite/60/index_odecid_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 55 (resource, ../data/composite/60/index_odecid_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 56 (resource, ../data/composite/60/index_pine_1.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 57 (resource, ../data/composite/60/index_pine_2.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 58 (resource, ../data/composite/60/index_pine_3.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 59 (resource, ../data/composite/60/index_pine_4.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.008
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 60 (resource, ../data/composite/60/index_pine_5.img) transformed by connectivity to L81 (consumer, ../data/composite/60/wrscr_ffc.img), alpha=0.008
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 1 (resource, ../data/composite/60/index_birch_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 2 (resource, ../data/composite/60/index_birch_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 3 (resource, ../data/composite/60/index_birch_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 4 (resource, ../data/composite/60/index_birch_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 5 (resource, ../data/composite/60/index_birch_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 6 (resource, ../data/composite/60/index_spruce_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 7 (resource, ../data/composite/60/index_spruce_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 8 (resource, ../data/composite/60/index_spruce_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 9 (resource, ../data/composite/60/index_spruce_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 10 (resource, ../data/composite/60/index_spruce_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 11 (resource, ../data/composite/60/index_odecid_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 12 (resource, ../data/composite/60/index_odecid_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 13 (resource, ../data/composite/60/index_odecid_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 14 (resource, ../data/composite/60/index_odecid_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 15 (resource, ../data/composite/60/index_odecid_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 16 (resource, ../data/composite/60/index_pine_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 17 (resource, ../data/composite/60/index_pine_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 18 (resource, ../data/composite/60/index_pine_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 19 (resource, ../data/composite/60/index_pine_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 20 (resource, ../data/composite/60/index_pine_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 21 (resource, ../data/composite/60/index_birch_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 22 (resource, ../data/composite/60/index_birch_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 23 (resource, ../data/composite/60/index_birch_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 24 (resource, ../data/composite/60/index_birch_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 25 (resource, ../data/composite/60/index_birch_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 26 (resource, ../data/composite/60/index_spruce_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 27 (resource, ../data/composite/60/index_spruce_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 28 (resource, ../data/composite/60/index_spruce_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 29 (resource, ../data/composite/60/index_spruce_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 30 (resource, ../data/composite/60/index_spruce_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 31 (resource, ../data/composite/60/index_odecid_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 32 (resource, ../data/composite/60/index_odecid_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 33 (resource, ../data/composite/60/index_odecid_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 34 (resource, ../data/composite/60/index_odecid_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 35 (resource, ../data/composite/60/index_odecid_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 36 (resource, ../data/composite/60/index_pine_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 37 (resource, ../data/composite/60/index_pine_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 38 (resource, ../data/composite/60/index_pine_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 39 (resource, ../data/composite/60/index_pine_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 40 (resource, ../data/composite/60/index_pine_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 41 (resource, ../data/composite/60/index_birch_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 42 (resource, ../data/composite/60/index_birch_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 43 (resource, ../data/composite/60/index_birch_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 44 (resource, ../data/composite/60/index_birch_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 45 (resource, ../data/composite/60/index_birch_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 46 (resource, ../data/composite/60/index_spruce_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 47 (resource, ../data/composite/60/index_spruce_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 48 (resource, ../data/composite/60/index_spruce_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 49 (resource, ../data/composite/60/index_spruce_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 50 (resource, ../data/composite/60/index_spruce_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 51 (resource, ../data/composite/60/index_odecid_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 52 (resource, ../data/composite/60/index_odecid_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 53 (resource, ../data/composite/60/index_odecid_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 54 (resource, ../data/composite/60/index_odecid_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 55 (resource, ../data/composite/60/index_odecid_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 56 (resource, ../data/composite/60/index_pine_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 57 (resource, ../data/composite/60/index_pine_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 58 (resource, ../data/composite/60/index_pine_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 59 (resource, ../data/composite/60/index_pine_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 60 (resource, ../data/composite/60/index_pine_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 61 (resource, ../data/composite/60/index_birch_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 62 (resource, ../data/composite/60/index_birch_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 63 (resource, ../data/composite/60/index_birch_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 64 (resource, ../data/composite/60/index_birch_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 65 (resource, ../data/composite/60/index_birch_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 66 (resource, ../data/composite/60/index_spruce_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 67 (resource, ../data/composite/60/index_spruce_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 68 (resource, ../data/composite/60/index_spruce_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 69 (resource, ../data/composite/60/index_spruce_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 70 (resource, ../data/composite/60/index_spruce_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 71 (resource, ../data/composite/60/index_odecid_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 72 (resource, ../data/composite/60/index_odecid_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 73 (resource, ../data/composite/60/index_odecid_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 74 (resource, ../data/composite/60/index_odecid_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 75 (resource, ../data/composite/60/index_odecid_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 76 (resource, ../data/composite/60/index_pine_1.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 77 (resource, ../data/composite/60/index_pine_2.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 78 (resource, ../data/composite/60/index_pine_3.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 79 (resource, ../data/composite/60/index_pine_4.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+DS connectivity calculations - Kernel calculated; alpha= 0.00117647
+0 locations exceeded the connectivity threshold for maximum resource use density.
+IAtype1: Layer 80 (resource, ../data/composite/60/index_pine_5.img) transformed by connectivity to L82 (consumer, ../data/composite/60/wrscr_mh.img), alpha=0.0011765
+Interactions between biodiversity features loaded successfully from file: interact_cmete_cres.txt
+
+******=====----- Finished interactions transformations in 1135 seconds. -----=====******
+
+Freeing FFTWF structures... 
+ ...Done.
+
+******=====----- Finished loading and transformation of feature data layers -----=====*********
+
+Calculating richness across biodiversity features...
+Done in 0 seconds. Time now: 7:22:41 PM (2014/3/23) 
+Saving raster map of weighted range size corrected richness
+Saving raster: output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres.wrscr.compressed.img (HFA format)
+
+******=====----- Preparing to start the ranking process... -----=====**********
+Note: using edge removal.
+
+Loaded data and initialized in 1425 seconds. Current time: 7:22:43 PM (2014/3/23) 
+Cells with data = 3888952; locations with missing values = 4679908
+
+---------------------======********** RANKING STARTS HERE ***********======-----------------------
+Initially removed cells count = 0
+Note: No initial removal was used.
+
+Biodiversity features performance levels check. Proportions remaining:
+---------
+Feature 1: 1.000038
+Feature 2: 1.001487
+Feature 3: 1.003381
+Feature 4: 1.001103
+Feature 5: 1.000179
+Feature 6: 1.000025
+Feature 7: 1.001537
+Feature 8: 1.003668
+Feature 9: 1.000965
+Feature 10: 1.00015
+Feature 11: 1.000036
+Feature 12: 1.001846
+Feature 13: 1.003238
+Feature 14: 1.000863
+Feature 15: 1.000161
+Feature 16: 1.000035
+Feature 17: 1.001488
+Feature 18: 1.003249
+Feature 19: 1.001431
+Feature 20: 1.000234
+Feature 21: 1.000014
+Feature 22: 1.000536
+Feature 23: 1.001036
+Feature 24: 1.00034
+Feature 25: 1.000063
+Feature 26: 1.000005
+Feature 27: 1.000594
+Feature 28: 1.001228
+Feature 29: 1.000383
+Feature 30: 1.000066
+Feature 31: 1.000009
+Feature 32: 1.000648
+Feature 33: 1.001172
+Feature 34: 1.000284
+Feature 35: 1.000049
+Feature 36: 1.000011
+Feature 37: 1.000555
+Feature 38: 1.001226
+Feature 39: 1.000493
+Feature 40: 1.000085
+Feature 41: 1.000012
+Feature 42: 1.0007
+Feature 43: 1.001324
+Feature 44: 1.000496
+Feature 45: 1.000076
+Feature 46: 1.000012
+Feature 47: 1.000801
+Feature 48: 1.001495
+Feature 49: 1.000526
+Feature 50: 1.000076
+Feature 51: 1.000013
+Feature 52: 1.000849
+Feature 53: 1.001496
+Feature 54: 1.000461
+Feature 55: 1.000063
+Feature 56: 1.000014
+Feature 57: 1.000655
+Feature 58: 1.001394
+Feature 59: 1.000651
+Feature 60: 1.000105
+Feature 61: 1.000035
+Feature 62: 1.001626
+Feature 63: 1.004013
+Feature 64: 1.001237
+Feature 65: 1.000168
+Feature 66: 1.000041
+Feature 67: 1.001335
+Feature 68: 1.003733
+Feature 69: 1.000961
+Feature 70: 1.000145
+Feature 71: 1.000042
+Feature 72: 1.001475
+Feature 73: 1.003862
+Feature 74: 1.00107
+Feature 75: 1.000149
+Feature 76: 1.000026
+Feature 77: 1.001381
+Feature 78: 1.003821
+Feature 79: 1.001293
+Feature 80: 1.000235
+Feature 81: 0.9047711
+Feature 82: 0.9845117
+---------
+Minimum proportion remaining: 0.9047711, average: 0.9995248, weighted average: 1.000689, maximum: 1.004013
+
+
+The following lines provide information on how the ranking is done by iterative removal of cells, with 6 columns per line:
+Cells removed, proportion of landscape remaining, cost of remaining landscape, edge list size, smallest remaining proportion in all biodiversity features (e.g. species), time elapsed (s)
+----------------------------------------------------------------------------------------------------------------------------
+             0            100%%              0         793413       0.904771            0
+         10000        99.7429%%    3.87895e+06         797608       0.903213            4
+         20000        99.4857%%    3.86895e+06         802437       0.903164            6
+         30000        99.2286%%    3.85895e+06         806764       0.903076            8
+         40000        98.9714%%    3.84895e+06         810402       0.902932           10
+         50000        98.7143%%    3.83895e+06         813458       0.902862           12
+         60000        98.4572%%    3.82895e+06         816284       0.902741           15
+         70000           98.2%%    3.81895e+06         819106       0.902588           17
+         80000        97.9429%%    3.80895e+06         821410       0.902333           19
+         90000        97.6858%%    3.79895e+06         824127       0.902216           22
+        100000        97.4286%%    3.78895e+06         826945       0.902207           24
+        110000        97.1715%%    3.77895e+06         829200       0.902008           26
+        120000        96.9143%%    3.76895e+06         831638       0.901927           29
+        130000        96.6572%%    3.75895e+06         833885       0.901751           31
+        140000        96.4001%%    3.74895e+06         835518       0.901497           34
+        150000        96.1429%%    3.73895e+06         837204       0.901372           36
+        160000        95.8858%%    3.72895e+06         838853       0.901164           38
+        170000        95.6286%%    3.71895e+06         840854        0.90098           41
+        180000        95.3715%%    3.70895e+06         842880       0.900801           43
+        190000        95.1144%%    3.69895e+06         844942       0.900558           46
+        200000        94.8572%%    3.68895e+06         847186       0.900133           48
+        210000        94.6001%%    3.67895e+06         848235       0.900026           51
+        220000         94.343%%    3.66895e+06         849506       0.899869           54
+        230000        94.0858%%    3.65895e+06         851198       0.899714           56
+        240000        93.8287%%    3.64895e+06         852681       0.899358           59
+        250000        93.5715%%    3.63895e+06         854541       0.898953           61
+        260000        93.3144%%    3.62895e+06         855922       0.898618           64
+        270000        93.0573%%    3.61895e+06         857171       0.898344           67
+        280000        92.8001%%    3.60895e+06         858447       0.897962           69
+        290000         92.543%%    3.59895e+06         859690        0.89783           72
+        300000        92.2858%%    3.58895e+06         860962       0.897599           75
+        310000        92.0287%%    3.57895e+06         861994        0.89726           77
+        320000        91.7716%%    3.56895e+06         863223       0.896976           80
+        330000        91.5144%%    3.55895e+06         863759       0.896849           83
+        340000        91.2573%%    3.54895e+06         864908       0.896536           86
+        350000        91.0002%%    3.53895e+06         865653       0.896168           88
+        360000         90.743%%    3.52895e+06         866720       0.895793           91
+        370000        90.4859%%    3.51895e+06         867869       0.895535           94
+        380000        90.2287%%    3.50895e+06         868380       0.895266           97
+        390000        89.9716%%    3.49895e+06         869447       0.894817           99
+        400000        89.7145%%    3.48895e+06         870319       0.894508          102
+        410000        89.4573%%    3.47895e+06         870897       0.894121          105
+        420000        89.2002%%    3.46895e+06         871421       0.893714          108
+        430000         88.943%%    3.45895e+06         872048       0.893333          111
+        440000        88.6859%%    3.44895e+06         872408       0.892961          114
+        450000        88.4288%%    3.43895e+06         872802       0.892534          116
+        460000        88.1716%%    3.42895e+06         873789       0.892079          119
+        470000        87.9145%%    3.41895e+06         874719       0.891928          122
+        480000        87.6573%%    3.40895e+06         875510       0.891468          125
+        490000        87.4002%%    3.39895e+06         876222       0.891035          128
+        500000        87.1431%%    3.38895e+06         876859       0.890568          131
+        510000        86.8859%%    3.37895e+06         877525       0.890048          134
+        520000        86.6288%%    3.36895e+06         878363       0.889778          137
+        530000        86.3717%%    3.35895e+06         879130       0.889387          140
+        540000        86.1145%%    3.34895e+06         879985       0.888807          143
+        550000        85.8574%%    3.33895e+06         880530       0.888274          146
+        560000        85.6002%%    3.32895e+06         881134       0.888048          149
+        570000        85.3431%%    3.31895e+06         881152       0.887684          152
+        580000         85.086%%    3.30895e+06         881808        0.88728          155
+        590000        84.8288%%    3.29895e+06         882322       0.886853          158
+        600000        84.5717%%    3.28895e+06         882910       0.886515          161
+        610000        84.3145%%    3.27895e+06         883234       0.886206          164
+        620000        84.0574%%    3.26895e+06         883476       0.885708          167
+        630000        83.8003%%    3.25895e+06         883899       0.885163          170
+        640000        83.5431%%    3.24895e+06         884412       0.884923          173
+        650000         83.286%%    3.23895e+06         885284       0.884227          176
+        660000        83.0289%%    3.22895e+06         885550       0.883779          179
+        670000        82.7717%%    3.21895e+06         886310       0.883259          182
+        680000        82.5146%%    3.20895e+06         886806       0.882574          185
+        690000        82.2574%%    3.19895e+06         887054       0.882222          188
+        700000        82.0003%%    3.18895e+06         887395       0.881801          191
+        710000        81.7432%%    3.17895e+06         887864       0.881566          194
+        720000         81.486%%    3.16895e+06         888022       0.880972          197
+        730000        81.2289%%    3.15895e+06         888169       0.880632          201
+        740000        80.9717%%    3.14895e+06         888186       0.880219          204
+        750000        80.7146%%    3.13895e+06         888409         0.8795          207
+        760000        80.4575%%    3.12895e+06         888758       0.878755          210
+        770000        80.2003%%    3.11895e+06         889073       0.877978          213
+        780000        79.9432%%    3.10895e+06         889660       0.877468          216
+        790000         79.686%%    3.09895e+06         890081       0.877133          220
+        800000        79.4289%%    3.08895e+06         890702       0.876752          223
+        810000        79.1718%%    3.07895e+06         890813       0.876308          226
+        820000        78.9146%%    3.06895e+06         891269         0.8758          229
+        830000        78.6575%%    3.05895e+06         891185       0.874484          232
+        840000        78.4004%%    3.04895e+06         891269       0.874047          236
+        850000        78.1432%%    3.03895e+06         892029       0.873347          239
+        860000        77.8861%%    3.02895e+06         892630        0.87256          242
+        870000        77.6289%%    3.01895e+06         893379       0.872179          245
+        880000        77.3718%%    3.00895e+06         893945       0.871974          248
+        890000        77.1147%%    2.99895e+06         894631       0.871345          252
+        900000        76.8575%%    2.98895e+06         894697       0.870466          255
+        910000        76.6004%%    2.97895e+06         894658       0.869965          258
+        920000        76.3432%%    2.96895e+06         894827       0.869513          261
+        930000        76.0861%%    2.95895e+06         895561        0.86916          265
+        940000         75.829%%    2.94895e+06         895628        0.86887          268
+        950000        75.5718%%    2.93895e+06         895518       0.868201          271
+        960000        75.3147%%    2.92895e+06         895784       0.867717          275
+        970000        75.0576%%    2.91895e+06         895977       0.867327          278
+        980000        74.8004%%    2.90895e+06         896002       0.866771          281
+        990000        74.5433%%    2.89895e+06         895630        0.86624          285
+       1000000        74.2861%%    2.88895e+06         895327       0.865375          288
+       1010000         74.029%%    2.87895e+06         894997       0.864991          291
+       1020000        73.7719%%    2.86895e+06         895020       0.864568          295
+       1030000        73.5147%%    2.85895e+06         894525       0.864078          298
+       1040000        73.2576%%    2.84895e+06         895055       0.863547          301
+       1050000        73.0004%%    2.83895e+06         895675       0.862804          305
+       1060000        72.7433%%    2.82895e+06         895482       0.861975          308
+       1070000        72.4862%%    2.81895e+06         894743       0.861265          311
+       1080000         72.229%%    2.80895e+06         894865       0.860702          315
+       1090000        71.9719%%    2.79895e+06         894597        0.86027          318
+       1100000        71.7148%%    2.78895e+06         893555       0.859729          321
+       1110000        71.4576%%    2.77895e+06         893180        0.85915          325
+       1120000        71.2005%%    2.76895e+06         893029       0.858589          328
+       1130000        70.9433%%    2.75895e+06         892397       0.858138          332
+       1140000        70.6862%%    2.74895e+06         892078       0.857469          335
+       1150000        70.4291%%    2.73895e+06         892173       0.856919          338
+       1160000        70.1719%%    2.72895e+06         891625       0.855854          342
+       1170000        69.9148%%    2.71895e+06         891201       0.855149          345
+       1180000        69.6576%%    2.70895e+06         890838       0.854515          349
+       1190000        69.4005%%    2.69895e+06         889904       0.853991          352
+       1200000        69.1434%%    2.68895e+06         888934       0.853443          356
+       1210000        68.8862%%    2.67895e+06         888745       0.852616          359
+       1220000        68.6291%%    2.66895e+06         888400       0.852148          362
+       1230000        68.3719%%    2.65895e+06         887719        0.85127          366
+       1240000        68.1148%%    2.64895e+06         887058       0.850453          369
+       1250000        67.8577%%    2.63895e+06         886746       0.850011          373
+       1260000        67.6005%%    2.62895e+06         886476       0.849338          376
+       1270000        67.3434%%    2.61895e+06         885815       0.848837          379
+       1280000        67.0863%%    2.60895e+06         884975       0.848301          383
+       1290000        66.8291%%    2.59895e+06         884606       0.847619          386
+       1300000         66.572%%    2.58895e+06         883682       0.847302          390
+       1310000        66.3148%%    2.57895e+06         882693       0.846298          393
+       1320000        66.0577%%    2.56895e+06         881950       0.845666          397
+       1330000        65.8006%%    2.55895e+06         881449       0.845307          400
+       1340000        65.5434%%    2.54895e+06         881328       0.844802          403
+       1350000        65.2863%%    2.53895e+06         880516       0.844025          407
+       1360000        65.0291%%    2.52895e+06         880322       0.843351          410
+       1370000         64.772%%    2.51895e+06         879451       0.842939          414
+       1380000        64.5149%%    2.50895e+06         878316       0.842303          417
+       1390000        64.2577%%    2.49895e+06         877135       0.841766          421
+       1400000        64.0006%%    2.48895e+06         875994       0.841178          424
+       1410000        63.7435%%    2.47895e+06         875084       0.840539          428
+       1420000        63.4863%%    2.46895e+06         874164       0.839958          431
+       1430000        63.2292%%    2.45895e+06         873234       0.839486          434
+       1440000         62.972%%    2.44895e+06         871929       0.839227          438
+       1450000        62.7149%%    2.43895e+06         870783       0.838559          441
+       1460000        62.4578%%    2.42895e+06         869767       0.837495          445
+       1470000        62.2006%%    2.41895e+06         868944        0.83656          448
+       1480000        61.9435%%    2.40895e+06         868203       0.836095          452
+       1490000        61.6863%%    2.39895e+06         867161       0.835218          455
+       1500000        61.4292%%    2.38895e+06         866375       0.834546          459
+       1510000        61.1721%%    2.37895e+06         865302       0.833979          462
+       1520000        60.9149%%    2.36895e+06         864219       0.833357          466
+       1530000        60.6578%%    2.35895e+06         863101       0.832667          469
+       1540000        60.4007%%    2.34895e+06         862574       0.832353          472
+       1550000        60.1435%%    2.33895e+06         861160       0.831746          476
+       1560000        59.8864%%    2.32895e+06         859483       0.831204          479
+       1570000        59.6292%%    2.31895e+06         858422        0.83073          483
+       1580000        59.3721%%    2.30895e+06         857402       0.829942          486
+       1590000         59.115%%    2.29895e+06         856051       0.829476          490
+       1600000        58.8578%%    2.28895e+06         854757       0.828917          493
+       1610000        58.6007%%    2.27895e+06         853654       0.827907          497
+       1620000        58.3435%%    2.26895e+06         852297       0.827362          500
+       1630000        58.0864%%    2.25895e+06         850901       0.826623          503
+       1640000        57.8293%%    2.24895e+06         849549       0.825718          507
+       1650000        57.5721%%    2.23895e+06         848348       0.824838          510
+       1660000         57.315%%    2.22895e+06         846932       0.824357          514
+       1670000        57.0578%%    2.21895e+06         845599        0.82371          517
+       1680000        56.8007%%    2.20895e+06         843939       0.822988          521
+       1690000        56.5436%%    2.19895e+06         842571       0.822277          524
+       1700000        56.2864%%    2.18895e+06         841149       0.821761          527
+       1710000        56.0293%%    2.17895e+06         839836       0.821024          531
+       1720000        55.7722%%    2.16895e+06         838219       0.820571          534
+       1730000         55.515%%    2.15895e+06         836858       0.819624          538
+       1740000        55.2579%%    2.14895e+06         835067       0.818742          541
+       1750000        55.0007%%    2.13895e+06         832912       0.818223          545
+       1760000        54.7436%%    2.12895e+06         831038       0.817389          548
+       1770000        54.4865%%    2.11895e+06         829646       0.816558          551
+       1780000        54.2293%%    2.10895e+06         828163       0.815969          555
+       1790000        53.9722%%    2.09895e+06         826455       0.815089          558
+       1800000         53.715%%    2.08895e+06         824452        0.81445          561
+       1810000        53.4579%%    2.07895e+06         822188        0.81375          565
+       1820000        53.2008%%    2.06895e+06         820569       0.813174          568
+       1830000        52.9436%%    2.05895e+06         819359       0.812439          572
+       1840000        52.6865%%    2.04895e+06         817862       0.811592          575
+       1850000        52.4294%%    2.03895e+06         816130       0.811133          578
+       1860000        52.1722%%    2.02895e+06         814465       0.810406          582
+       1870000        51.9151%%    2.01895e+06         812378        0.80985          585
+       1880000        51.6579%%    2.00895e+06         810012        0.80891          588
+       1890000        51.4008%%    1.99895e+06         808195       0.808214          592
+       1900000        51.1437%%    1.98895e+06         806404       0.807321          595
+       1910000        50.8865%%    1.97895e+06         804346       0.806569          598
+       1920000        50.6294%%    1.96895e+06         802067       0.805613          602
+       1930000        50.3722%%    1.95895e+06         801082       0.805069          605
+       1940000        50.1151%%    1.94895e+06         799283       0.804093          608
+       1950000         49.858%%    1.93895e+06         796814        0.80341          612
+       1960000        49.6008%%    1.92895e+06         794543       0.802931          615
+       1970000        49.3437%%    1.91895e+06         792026        0.80232          618
+       1980000        49.0866%%    1.90895e+06         789850        0.80141          623
+       1990000        48.8294%%    1.89895e+06         787882       0.800831          626
+       2000000        48.5723%%    1.88895e+06         785805       0.800398          629
+       2010000        48.3151%%    1.87895e+06         783677       0.799607          633
+       2020000         48.058%%    1.86895e+06         781513       0.798824          636
+       2030000        47.8009%%    1.85895e+06         779492       0.798101          639
+       2040000        47.5437%%    1.84895e+06         777368       0.797413          642
+       2050000        47.2866%%    1.83895e+06         775314       0.796601          646
+       2060000        47.0294%%    1.82895e+06         772994       0.796043          649
+       2070000        46.7723%%    1.81895e+06         770588       0.795412          652
+       2080000        46.5152%%    1.80895e+06         768599       0.794644          655
+       2090000         46.258%%    1.79895e+06         766348       0.793656          659
+       2100000        46.0009%%    1.78895e+06         763960       0.792796          663
+       2110000        45.7438%%    1.77895e+06         761562       0.792108          666
+       2120000        45.4866%%    1.76895e+06         759677       0.790952          670
+       2130000        45.2295%%    1.75895e+06         757504       0.790285          674
+       2140000        44.9723%%    1.74895e+06         755023         0.7889          678
+       2150000        44.7152%%    1.73895e+06         752461       0.788423          682
+       2160000        44.4581%%    1.72895e+06         749962       0.787174          686
+       2170000        44.2009%%    1.71895e+06         747471       0.786235          690
+       2180000        43.9438%%    1.70895e+06         745474       0.785554          694
+       2190000        43.6866%%    1.69895e+06         742960       0.784967          697
+       2200000        43.4295%%    1.68895e+06         740355       0.783799          700
+       2210000        43.1724%%    1.67895e+06         737833       0.782951          703
+       2220000        42.9152%%    1.66895e+06         735011       0.782224          706
+       2230000        42.6581%%    1.65895e+06         732551       0.781537          709
+       2240000         42.401%%    1.64895e+06         729802       0.780388          713
+       2250000        42.1438%%    1.63895e+06         727625       0.779756          716
+       2260000        41.8867%%    1.62895e+06         725115       0.779382          719
+       2270000        41.6295%%    1.61895e+06         722425       0.777949          722
+       2280000        41.3724%%    1.60895e+06         719421       0.776865          725
+       2290000        41.1153%%    1.59895e+06         716047       0.775823          728
+       2300000        40.8581%%    1.58895e+06         713607       0.774286          731
+       2310000         40.601%%    1.57895e+06         711028       0.773131          734
+       2320000        40.3438%%    1.56895e+06         708605        0.77223          738
+       2330000        40.0867%%    1.55895e+06         705769       0.771362          741
+       2340000        39.8296%%    1.54895e+06         703220       0.770118          744
+       2350000        39.5724%%    1.53895e+06         700593       0.769213          747
+       2360000        39.3153%%    1.52895e+06         697652       0.768004          750
+       2370000        39.0581%%    1.51895e+06         694450       0.766679          753
+       2380000         38.801%%    1.50895e+06         691789       0.765681          756
+       2390000        38.5439%%    1.49895e+06         689232       0.764895          759
+       2400000        38.2867%%    1.48895e+06         686916       0.763847          762
+       2410000        38.0296%%    1.47895e+06         684167       0.763002          765
+       2420000        37.7725%%    1.46895e+06         680940       0.761832          768
+       2430000        37.5153%%    1.45895e+06         677839       0.760796          771
+       2440000        37.2582%%    1.44895e+06         674819       0.759233          774
+       2450000         37.001%%    1.43895e+06         672047       0.758058          777
+       2460000        36.7439%%    1.42895e+06         669104       0.756747          781
+       2470000        36.4868%%    1.41895e+06         666509       0.755032          784
+       2480000        36.2296%%    1.40895e+06         663591       0.752952          787
+       2490000        35.9725%%    1.39895e+06         660409       0.751439          790
+       2500000        35.7153%%    1.38895e+06         657298       0.750312          793
+       2510000        35.4582%%    1.37895e+06         653824       0.749219          796
+       2520000        35.2011%%    1.36895e+06         650753       0.748065          800
+       2530000        34.9439%%    1.35895e+06         647721       0.746576          803
+       2540000        34.6868%%    1.34895e+06         644819       0.745394          806
+       2550000        34.4297%%    1.33895e+06         641818       0.744376          809
+       2560000        34.1725%%    1.32895e+06         638528       0.743361          812
+       2570000        33.9154%%    1.31895e+06         635503       0.742106          816
+       2580000        33.6582%%    1.30895e+06         632417       0.740371          819
+       2590000        33.4011%%    1.29895e+06         629051       0.738599          822
+       2600000         33.144%%    1.28895e+06         625921       0.737243          825
+       2610000        32.8868%%    1.27895e+06         622321       0.736161          828
+       2620000        32.6297%%    1.26895e+06         619425       0.734675          830
+       2630000        32.3725%%    1.25895e+06         616120       0.732592          834
+       2640000        32.1154%%    1.24895e+06         612803       0.731054          837
+       2650000        31.8583%%    1.23895e+06         609671       0.729967          840
+       2660000        31.6011%%    1.22895e+06         606293       0.728445          843
+       2670000         31.344%%    1.21895e+06         602378       0.726542          846
+       2680000        31.0868%%    1.20895e+06         598501       0.725038          849
+       2690000        30.8297%%    1.19895e+06         595085       0.723597          852
+       2700000        30.5726%%    1.18895e+06         591644       0.722037          855
+       2710000        30.3154%%    1.17895e+06         588137        0.72021          858
+       2720000        30.0583%%    1.16895e+06         584359       0.718858          860
+       2730000        29.8012%%    1.15895e+06         580934       0.717688          863
+       2740000         29.544%%    1.14895e+06         577484        0.71657          866
+       2750000        29.2869%%    1.13895e+06         574235       0.715458          868
+       2760000        29.0297%%    1.12895e+06         570292       0.713894          871
+       2770000        28.7726%%    1.11895e+06         566723        0.71208          875
+       2780000        28.5155%%    1.10895e+06         563374       0.710269          877
+       2790000        28.2583%%    1.09895e+06         559781       0.708775          880
+       2800000        28.0012%%    1.08895e+06         556101       0.707268          883
+       2810000         27.744%%    1.07895e+06         552433       0.705751          886
+       2820000        27.4869%%    1.06895e+06         548639       0.704178          888
+       2830000        27.2298%%    1.05895e+06         544414       0.702972          891
+       2840000        26.9726%%    1.04895e+06         540542       0.701376          894
+       2850000        26.7155%%    1.03895e+06         537200       0.699688          897
+       2860000        26.4584%%    1.02895e+06         533810       0.697879          900
+       2870000        26.2012%%    1.01895e+06         530269       0.696679          903
+       2880000        25.9441%%    1.00895e+06         526413       0.694784          905
+       2890000        25.6869%%         998953         522465       0.692434          908
+       2900000        25.4298%%         988953         518823        0.69017          911
+       2910000        25.1727%%         978953         514727       0.688163          914
+       2920000        24.9155%%         968953         511125       0.685911          917
+       2930000        24.6584%%         958953         507534       0.684096          919
+       2940000        24.4012%%         948953         503944       0.682252          923
+       2950000        24.1441%%         938953         500222       0.679968          925
+       2960000         23.887%%         928953         496089        0.67818          928
+       2970000        23.6298%%         918953         492204       0.676627          930
+       2980000        23.3727%%         908953         488006       0.674595          932
+       2990000        23.1156%%         898953         483945        0.67239          935
+       3000000        22.8584%%         888953         479696       0.670185          937
+       3010000        22.6013%%         878953         475070       0.668315          940
+       3020000        22.3441%%         868953         470507       0.666715          942
+       3030000         22.087%%         858953         466249       0.664996          945
+       3040000        21.8299%%         848953         461550        0.66313          947
+       3050000        21.5727%%         838953         457036       0.661483          949
+       3060000        21.3156%%         828953         452400       0.659393          951
+       3070000        21.0584%%         818953         448311       0.657454          954
+       3080000        20.8013%%         808953         444095       0.655098          957
+       3090000        20.5442%%         798953         439952       0.653348          960
+       3100000         20.287%%         788953         435837       0.650997          962
+       3110000        20.0299%%         778953         431497       0.648843          964
+       3120000        19.7728%%         768953         427614        0.64691          966
+       3130000        19.5156%%         758953         423275       0.644142          968
+       3140000        19.2585%%         748953         418734        0.64175          970
+       3150000        19.0013%%         738953         414252       0.638117          972
+       3160000        18.7442%%         728953         410111       0.635726          974
+       3170000        18.4871%%         718953         405906       0.633464          976
+       3180000        18.2299%%         708953         401719       0.630909          978
+       3190000        17.9728%%         698953         397532       0.628764          980
+       3200000        17.7156%%         688953         393182       0.626491          982
+       3210000        17.4585%%         678953         388229       0.623709          984
+       3220000        17.2014%%         668953         383094         0.6206          988
+       3230000        16.9442%%         658953         378342       0.618136          990
+       3240000        16.6871%%         648953         373956       0.615447          992
+       3250000        16.4299%%         638953         369283       0.612739          994
+       3260000        16.1728%%         628953         364270       0.609441          996
+       3270000        15.9157%%         618953         359145       0.606485          998
+       3280000        15.6585%%         608953         354114       0.603383         1001
+       3290000        15.4014%%         598953         349445       0.600321         1002
+       3300000        15.1443%%         588953         344812       0.597256         1004
+       3310000        14.8871%%         578953         340127       0.594067         1006
+       3320000          14.63%%         568953         335554       0.589958         1007
+       3330000        14.3728%%         558953         330540       0.586621         1009
+       3340000        14.1157%%         548953         325393       0.582913         1011
+       3350000        13.8586%%         538953         320697       0.579594         1013
+       3360000        13.6014%%         528953         315945        0.57651         1015
+       3370000        13.3443%%         518953         310860       0.573197         1017
+       3380000        13.0871%%         508953         305796       0.569006         1018
+       3390000          12.83%%         498953         300860        0.56558         1020
+       3400000        12.5729%%         488953         296698       0.561754         1021
+       3410000        12.3157%%         478953         292271       0.557869         1023
+       3420000        12.0586%%         468953         287106       0.554289         1025
+       3430000        11.8015%%         458953         282283        0.55027         1027
+       3440000        11.5443%%         448953         277465       0.547184         1029
+       3450000        11.2872%%         438953         272613        0.54354         1030
+       3460000          11.03%%         428953         267383       0.539018         1032
+       3470000        10.7729%%         418953         261853       0.535455         1034
+       3480000        10.5158%%         408953         256571       0.530849         1035
+       3490000        10.2586%%         398953         251212       0.526513         1037
+       3500000        10.0015%%         388953         245973        0.52286         1038
+       3510000        9.74435%%         378953         240465       0.518621         1040
+       3520000        9.48721%%         368953         235135       0.513624         1042
+       3530000        9.23007%%         358953         229980       0.509502         1043
+       3540000        8.97293%%         348953         224567       0.504794         1044
+       3550000        8.71579%%         338953         219163       0.499661         1045
+       3560000        8.45865%%         328953         213951        0.49546         1046
+       3570000        8.20152%%         318953         208285       0.491461         1049
+       3580000        7.94438%%         308953         202615       0.486236         1051
+       3590000        7.68723%%         298953         196715       0.481287         1052
+       3600000         7.4301%%         288953         191300       0.475651         1054
+       3610000        7.17296%%         278953         185781       0.469891         1055
+       3620000        6.91582%%         268953         180028        0.46376         1056
+       3630000        6.65868%%         258953         174167       0.459224         1058
+       3640000        6.40154%%         248953         168143       0.453479         1059
+       3650000         6.1444%%         238953         161836       0.446917         1060
+       3660000        5.88726%%         228953         155957       0.440615         1061
+       3670000        5.63013%%         218953         149927       0.434844         1062
+       3680000        5.37299%%         208953         143540       0.427778         1063
+       3690000        5.11585%%         198953         137266       0.420268         1064
+       3700000        4.85871%%         188953         130816       0.411926         1065
+       3710000        4.60157%%         178953         124299       0.403205         1066
+       3720000        4.34443%%         168953         117915       0.396056         1067
+       3730000        4.08729%%         158953         111283       0.387163         1068
+       3740000        3.83016%%         148953         104819       0.378298         1070
+       3750000        3.57302%%         138953          98102       0.368874         1071
+       3760000        3.31588%%         128953          91316       0.357576         1072
+       3770000        3.05874%%         118953          84544       0.345874         1073
+       3780000         2.8016%%         108953          77879       0.333232         1074
+       3790000        2.54446%%          98953          70995        0.32096         1076
+       3800000        2.28732%%          88953          64448       0.306587         1077
+       3810000        2.03019%%          78953          57868       0.290797         1078
+       3820000        1.77305%%          68953          51040       0.271143         1079
+       3830000        1.51591%%          58953          44092       0.251291         1079
+       3840000        1.25877%%          48953          37410       0.228412         1079
+       3850000        1.00163%%          38953          30579       0.200131         1080
+       3860000       0.744492%%          28953          23340       0.167153         1080
+       3870000       0.487357%%          18953          15811       0.129143         1081
+       3880000       0.230217%%           8953           7549      0.0572587         1082
+       3888952              0%%              0              0              0         1083
+----------------------------------------------------------------------------------------------------------------------------
+Total count of cells removed = 3888952
+
+Done in 1083 seconds.
+Found 0 ties.
+
+Biodiversity features performance levels check. Proportions remaining:
+---------
+Feature 1:    0
+Feature 2:    0
+Feature 3:    0
+Feature 4:    0
+Feature 5:    0
+Feature 6:    0
+Feature 7:    0
+Feature 8:    0
+Feature 9:    0
+Feature 10:    0
+Feature 11:    0
+Feature 12:    0
+Feature 13:    0
+Feature 14:    0
+Feature 15:    0
+Feature 16:    0
+Feature 17:    0
+Feature 18:    0
+Feature 19:    0
+Feature 20:    0
+Feature 21:    0
+Feature 22:    0
+Feature 23:    0
+Feature 24:    0
+Feature 25:    0
+Feature 26:    0
+Feature 27:    0
+Feature 28:    0
+Feature 29:    0
+Feature 30:    0
+Feature 31:    0
+Feature 32:    0
+Feature 33:    0
+Feature 34:    0
+Feature 35:    0
+Feature 36:    0
+Feature 37:    0
+Feature 38:    0
+Feature 39:    0
+Feature 40:    0
+Feature 41:    0
+Feature 42:    0
+Feature 43:    0
+Feature 44:    0
+Feature 45:    0
+Feature 46:    0
+Feature 47:    0
+Feature 48:    0
+Feature 49:    0
+Feature 50:    0
+Feature 51:    0
+Feature 52:    0
+Feature 53:    0
+Feature 54:    0
+Feature 55:    0
+Feature 56:    0
+Feature 57:    0
+Feature 58:    0
+Feature 59:    0
+Feature 60:    0
+Feature 61:    0
+Feature 62:    0
+Feature 63:    0
+Feature 64:    0
+Feature 65:    0
+Feature 66:    0
+Feature 67:    0
+Feature 68:    0
+Feature 69:    0
+Feature 70:    0
+Feature 71:    0
+Feature 72:    0
+Feature 73:    0
+Feature 74:    0
+Feature 75:    0
+Feature 76:    0
+Feature 77:    0
+Feature 78:    0
+Feature 79:    0
+Feature 80:    0
+Feature 81:    0
+Feature 82:    0
+---------
+Minimum proportion remaining:    0, average:    0, weighted average:    0, maximum:    0
+
+============================================================
+* Writing final output files...
+Writing file of feature information: output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres.features_info.txt
+Writing file of performance (representation, coverage, etc.) curves: output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres.curves.txt
+Saving rank image: output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres.png (PNG format)
+Saving raster: output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres.rank.compressed.img (HFA format)
+Writing group curves file: output/06_abf_pe_w_cmat_cmete_cres/result_06_abf_pe_w_cmat_cmete_cres.grp_curves.txt
+No automated post-processing file specified
+============================================================
+Finished spatial prioritization process. Freeing data structures in memory...
+Finished at 7:40:49 PM (2014/3/23) 
+Elapsed time: 2510639 ms == 0.697 hours == 0.0291 days

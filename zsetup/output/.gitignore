@@ -1,0 +1,14 @@
+# Ignore everything in this directory
+#*
+# Except these files
+*.txt
+*.png
+*.jpg
+*.img
+*.tif
+*.asc
+*.xml
+*.rrd
+*.tfw
+!.gitignore 
+!*.run_info.txt
