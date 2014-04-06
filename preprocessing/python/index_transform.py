@@ -118,7 +118,8 @@ def main():
         print("Format: {0}".format(args.format))
         print("File name template: {0}".format(args.template))
         if len(inrasters) > 0:
-            print("Following rasters found in input workspace:")
+            print("Following {0} rasters found ".format(len(inrasters) / 2) +
+                  "in the input workspace:")
             for raster in inrasters:
                 print("\t" + os.path.basename(raster))
         else:

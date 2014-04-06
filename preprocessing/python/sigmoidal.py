@@ -305,6 +305,9 @@ def process_sigmoidal(raw_rasters, params, idfield, outputdir, multiply=True):
         if no_rasters % 2 != 0:
             print 'An even number of rasters needed!'
             sys.exit(1)
+        else:
+            no_pairs = no_rasters / 2
+            current_pair = 1
 
         rasters = raw_rasters
         rasters = []
@@ -321,9 +324,10 @@ def process_sigmoidal(raw_rasters, params, idfield, outputdir, multiply=True):
             if ID1 == b_raster.get_tag('ID1'):
                 if ID2 == b_raster.get_tag('ID2'):
 
-                    print 'Workspace: %s' % os.path.dirname(a_raster.path)
-                    print 'Starting with %s and %s' % (a_raster.name,
-                                                       b_raster.name)
+                    print("[{0} / {1}]".format(current_pair, no_pairs))
+                    print('Workspace: %s' % os.path.dirname(a_raster.path))
+                    print('Starting with %s and %s' % (a_raster.name,
+                                                       b_raster.name))
 
                     try:
                         # Extract the parameter information from params
@@ -358,6 +362,7 @@ def process_sigmoidal(raw_rasters, params, idfield, outputdir, multiply=True):
                 print('ID1 do not match for %s and %s'
                       % (a_raster.name, b_raster.name))
                 print 'Skipping.'
+            current_pair += 1
 
     else:
         for raster in raw_rasters:
