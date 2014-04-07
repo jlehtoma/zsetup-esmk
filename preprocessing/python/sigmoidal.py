@@ -141,10 +141,13 @@ def sigmoidal_multiply_index(raster1, raster2, output, mod_asym, xmid, lxmod,
 
     # open the image
     raster_lpm = raster1
+    print("Raster 1 (AVDIA): {0}".format(os.path.basename(raster_lpm)))
     raster_vol = raster2
+    print("Raster 2 (VOL): {0}".format(os.path.basename(raster_vol)))
     output_name = os.path.join(output,
                                create_output_name(os.path.basename(raster_lpm)))
-
+    print("Output: {0}".format(output_name))
+    
     ds_lpm = gdal.Open(raster_lpm, GA_ReadOnly)
     ds_vol = gdal.Open(raster_vol, GA_ReadOnly)
 
@@ -324,7 +327,7 @@ def process_sigmoidal(raw_rasters, params, idfield, outputdir, multiply=True):
             if ID1 == b_raster.get_tag('ID1'):
                 if ID2 == b_raster.get_tag('ID2'):
 
-                    print("[{0} / {1}]".format(current_pair, no_pairs))
+                    print("\n[{0} / {1}]".format(current_pair, no_pairs))
                     print('Workspace: %s' % os.path.dirname(a_raster.path))
                     print('Starting with %s and %s' % (a_raster.name,
                                                        b_raster.name))
