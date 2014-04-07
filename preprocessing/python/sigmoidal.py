@@ -59,7 +59,8 @@ def sigmoidal_index(raster, output, mod_asym, rxmod, lxmod, lscale, rscale,
 
     # create the output image
     driver = gdal.GetDriverByName('HFA')
-    outDs = driver.Create(output_name, cols, rows, 1, GDT_Float32)
+    dst_options = ['COMPRESS=LZW']
+    outDs = driver.Create(output_name, cols, rows, 1, GDT_Float32, dst_options)
     if outDs is None:
         print 'Could not create %s' % output_name
         sys.exit(1)
