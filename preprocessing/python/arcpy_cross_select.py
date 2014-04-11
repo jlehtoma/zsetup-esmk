@@ -13,12 +13,10 @@ arcpy.CheckOutExtension("Spatial")
 
 # Current working directory is the directory where this file resides
 wd = os.path.dirname(__file__)
-# Set the workspaces to the correct location. This is mostly to avoid
-# hard coding paths
-inputws = os.path.abspath(os.path.join(wd,
-                          "../../data/msnfi/segment/60/indices"))
+# Set the workspaces to the correct location.
+inputws = "C:/Data/ESMK/preprocessing/workspace/composite/60"
 # Just uset the input workspace as output workspace
-outputws = inputws
+outputws = os.path.join(inputws, "sfc_classified")
 
 # Check that workspaces exists
 if not os.path.exists(inputws):
@@ -35,8 +33,8 @@ else:
 
 # Set the condition raster, i.e. the soil fertility class raster
 conditional_raster = os.path.abspath(os.path.join(wd,
-                                     "../../data/msnfi/segment/60",
-                                     "segment_soil_fertility.tif"))
+                                     "../../data/common/60",
+                                     "esmk_soil_fertility.img"))
 
 if not os.path.exists(conditional_raster):
     print("ERROR: Conditional raster " +
@@ -60,11 +58,18 @@ for raster in rasters:
         # [fixme] - creation of output name is tied to an exact structure of
         # e.g. 'index_msnfi_4_odecid.tif'
         tokens = raster.split("_")
-        # Remove the numeric component
-        del tokens[2]
-        # Add sfc_class value to the end of the file name
-        tokens[2] = tokens[2].split(".")[0] + "_{0}.".format(value) + \
-            tokens[2].split(".")[1]
+        # MSNFI
+        if len(tokens) == 4:
+            # Remove the numeric component
+            del tokens[2]
+            # Add sfc_class value to the end of the file name
+            tokens[2] = tokens[2].split(".")[0] + "_{0}.".format(value) + \
+                tokens[2].split(".")[1]
+        # Composite
+        elif len(tokens) == 2:
+            tokens[1] = tokens[1].split(".")[0] + "_{0}.".format(value) + \
+                tokens[1].split(".")[1]
+
         output_name = "_".join(tokens)
         outputRaster = os.path.join(outputws, output_name)
         outSetNull.save(outputRaster)
