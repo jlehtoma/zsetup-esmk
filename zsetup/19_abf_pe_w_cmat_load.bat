@@ -1,1 +1,0 @@
-call zig4.exe -loutput/11_msnfi_abf_pe_w_cmat/result_11_msnfi_abf_pe_w_cmat.rank.compressed.img 19_abf_pe_w_cmat_load/19_abf_pe_w_cmat_load.dat 19_abf_pe_w_cmat_load/19_abf_pe_w_cmat_load.spp output/19_abf_pe_w_cmat_load/result_19_abf_pe_w_cmat_load.txt 0 0 1 0 --grid-output-formats=compressed-img
