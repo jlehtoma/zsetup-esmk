@@ -1,0 +1,1 @@
+call zig4.exe -loutput/16_msnfi_abf_pe_w_nosfc/result_16_msnfi_abf_pe_w_nosfc.rank.compressed.img 20_abf_pe_w_load_msnfi_nosfc/20_abf_pe_w_load_msnfi_nosfc.dat 20_abf_pe_w_load_msnfi_nosfc/20_abf_pe_w_load_msnfi_nosfc.spp output/20_abf_pe_w_load_msnfi_nosfc/result_20_abf_pe_w_load_msnfi_nosfc.txt 0 0 1 0 --grid-output-formats=compressed-img
