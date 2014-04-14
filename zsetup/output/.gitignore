@@ -1,4 +1,5 @@
 *.txt
+!*.run_info.txt
 *.png
 *.jpg
 *.img*
