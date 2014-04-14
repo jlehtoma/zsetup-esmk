@@ -181,7 +181,7 @@ def create_output_name(name, prefix='index'):
     extension = name.split('.')[-1]
     name = name.replace('.' + extension, '')
     # HACK!!! This needs to be taken care properly, USE TEMPLATES
-    name = '_'.join(name.split('_')[0:3])
+    name = '_'.join(name.split('_')[0:4])
     name = prefix + '_' + name + '.' + extension
     return name
 
