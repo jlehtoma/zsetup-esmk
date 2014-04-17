@@ -25,8 +25,8 @@ mask missing areas = 0
 area mask file = 
 use groups = 1
 groups file = groups.txt 
-use condition layer = 1
-condition file = condition_layers.txt
+use condition layer = 0
+condition file = 
 memory save mode = 0
 post-processing list file = 
 
