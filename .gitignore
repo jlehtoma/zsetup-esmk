@@ -9,3 +9,6 @@ cache/
 *.sublime-project
 *.sublime-workspace
 questions.md
+
+.directory
+.fuse*
