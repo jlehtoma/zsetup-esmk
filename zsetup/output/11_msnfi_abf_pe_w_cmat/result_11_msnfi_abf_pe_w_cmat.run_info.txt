@@ -7,7 +7,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  For more information and conditions of use of this software, see the
  disclaimer in Help->About Zonation, in the graphical user interface
 
-Starting Zonation run on 'CBIG-arnold' at 11:18:16 AM (2014/4/18) 
+Starting Zonation run on 'CBIG-arnold' at 11:46:09 AM (2014/4/18) 
 Locale is: en_US.UTF-8
 Zonation core process parameters: 
    run mode: normal run (-r)
@@ -61,7 +61,7 @@ Memory allocated successfully!
 ======------ Allocating memory for input layers... ------======
 Using compact structure (lookup version),  sizeof(Occur_Container): 18, sizeof(allocated occurrence): 6
 Counting effective occurrencies
-Time: 1397809097 = 11:18:17 AM (2014/4/18) 
+Time: 1397810771 = 11:46:11 AM (2014/4/18) 
 Feature file #1: ../data/msnfi/segment/full/60/indices/index_msnfi_birch_1.tif; non-missing cells: 11700
 Feature file #2: ../data/msnfi/segment/full/60/indices/index_msnfi_birch_2.tif; non-missing cells: 874389
 Feature file #3: ../data/msnfi/segment/full/60/indices/index_msnfi_birch_3.tif; non-missing cells: 2564251
@@ -108,8 +108,8 @@ Effective # of cells (cells with any occurrence, globally): 3845825
 Total # of occurrencies: 30633200, counted across 40 layers; average across layers: 765830
 Percentage of globally effective occurrencies = 19.9133 % (relative to total effective cells) = 8.93736 % (relative to total cells)
 Memory required for biodiversity features: 306.7 MB, of which base memory: 131.4 MB, and occurrencies require: 175.3 MB
-Time now: 1397809100 = 11:18:20 AM (2014/4/18) 
-Finished preload/counting effective occurrencies. Elapsed: 3 seconds.
+Time now: 1397810775 = 11:46:15 AM (2014/4/18) 
+Finished preload/counting effective occurrencies. Elapsed: 4 seconds.
 ======------ Allocating memory for input layers: finished successfully ------======
 
 ******=====----- Loading feature (e.g., species) data layers -----=====**********
@@ -161,48 +161,48 @@ Loading community connectivty similarity matrix from file connectivity_matrix.tx
 Read similarity matrix with row count = 20, and same number of columns.
 Community similarity matrix loaded successfully from fileconnectivity_matrix.txt
 Applying community similarity matrix to connectivity
-DS connectivity calculations - Kernel calculated; alpha= 0.005
+DS connectivity calculations - Kernel calculated; alpha= 0.001
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 0 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 0 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 1 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 1 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 2 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 2 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 3 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 3 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 4 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 4 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 5 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 5 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 6 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 6 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 7 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 7 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 8 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 8 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 9 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 9 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 10 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 10 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 11 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 11 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 12 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 12 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 13 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 13 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 14 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 14 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 15 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 15 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 16 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 16 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 17 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 17 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 18 transformed via matrix connectivity calculations using alpha 0.005000.
+Input feature 18 transformed via matrix connectivity calculations using alpha 0.001000.
 0 locations exceeded the connectivity threshold for maximum resource use density.
-Input feature 19 transformed via matrix connectivity calculations using alpha 0.005000.
-******=====----- Finished matrix connectivity transformations in 103 seconds. -----=====******
+Input feature 19 transformed via matrix connectivity calculations using alpha 0.001000.
+******=====----- Finished matrix connectivity transformations in 110 seconds. -----=====******
 
 Freeing FFTWF structures... 
  ...Done.
@@ -210,14 +210,14 @@ Freeing FFTWF structures...
 ******=====----- Finished loading and transformation of feature data layers -----=====*********
 
 Calculating richness across biodiversity features...
-Done in 0 seconds. Time now: 11:20:12 AM (2014/4/18) 
+Done in 0 seconds. Time now: 11:48:14 AM (2014/4/18) 
 Saving raster map of weighted range size corrected richness
 Saving raster: output/11_msnfi_abf_pe_w_cmat/result_11_msnfi_abf_pe_w_cmat.wrscr.compressed.img (HFA format)
 
 ******=====----- Preparing to start the ranking process... -----=====**********
 Note: using edge removal.
 
-Loaded data and initialized in 118 seconds. Current time: 11:20:14 AM (2014/4/18) 
+Loaded data and initialized in 127 seconds. Current time: 11:48:16 AM (2014/4/18) 
 Cells with data = 3845825; locations with missing values = 4723035
 
 ---------------------======********** RANKING STARTS HERE ***********======-----------------------
@@ -227,25 +227,25 @@ Note: No initial removal was used.
 Biodiversity features performance levels check. Proportions remaining:
 ---------
 Feature 1: 1.000002
-Feature 2: 1.000339
-Feature 3: 1.001817
-Feature 4: 1.000082
-Feature 5: 1.000013
+Feature 2: 1.000193
+Feature 3: 1.001544
+Feature 4: 1.000037
+Feature 5: 1.000008
 Feature 6: 1.000005
-Feature 7: 1.00087
-Feature 8: 1.003159
-Feature 9: 1.000113
-Feature 10: 0.9999991
-Feature 11: 1.000002
-Feature 12: 1.000061
-Feature 13: 1.000378
+Feature 7: 1.00065
+Feature 8: 1.002766
+Feature 9: 1.000047
+Feature 10: 1.000007
+Feature 11: 0.9999983
+Feature 12: 1.000023
+Feature 13: 1.00023
 Feature 14: 1.000005
-Feature 15: 1.000002
-Feature 16: 1.000002
-Feature 17: 1.000354
-Feature 18: 1.001837
-Feature 19: 1.000016
-Feature 20: 1.000002
+Feature 15: 1.000005
+Feature 16: 0.9999969
+Feature 17: 1.00019
+Feature 18: 1.001243
+Feature 19: 1.000002
+Feature 20: 0.9999989
 Feature 21:    1
 Feature 22:    1
 Feature 23:    1
@@ -267,402 +267,402 @@ Feature 38:    1
 Feature 39:    1
 Feature 40:    1
 ---------
-Minimum proportion remaining: 0.999999, average: 1.000226, weighted average: 1.000127, maximum: 1.003159
+Minimum proportion remaining: 0.9999969, average: 1.000174, weighted average: 1.000094, maximum: 1.002766
 
 
 The following lines provide information on how the ranking is done by iterative removal of cells, with 6 columns per line:
 Cells removed, proportion of landscape remaining, cost of remaining landscape, edge list size, smallest remaining proportion in all biodiversity features (e.g. species), time elapsed (s)
 ----------------------------------------------------------------------------------------------------------------------------
-             0            100%%              0         811680       0.999999            0
-         10000          99.74%%    3.83583e+06         809262       0.999995            2
-         20000          99.48%%    3.82583e+06         810929       0.999958            3
-         30000        99.2199%%    3.81583e+06         813970       0.999871            5
-         40000        98.9599%%    3.80583e+06         818144       0.999731            7
-         50000        98.6999%%    3.79583e+06         823080       0.999546            9
-         60000        98.4399%%    3.78583e+06         827949       0.999316           10
-         70000        98.1798%%    3.77583e+06         832536       0.999043           12
-         80000        97.9198%%    3.76583e+06         837495       0.998733           14
-         90000        97.6598%%    3.75583e+06         842594       0.998388           16
-        100000        97.3998%%    3.74583e+06         847459       0.998015           18
-        110000        97.1398%%    3.73583e+06         852555       0.997601           20
-        120000        96.8797%%    3.72583e+06         857085       0.997158           22
-        130000        96.6197%%    3.71583e+06         861666       0.996684           24
-        140000        96.3597%%    3.70583e+06         866367       0.996174           26
-        150000        96.0997%%    3.69583e+06         871319       0.995642           28
-        160000        95.8396%%    3.68583e+06         875696       0.995086           30
-        170000        95.5796%%    3.67583e+06         879919       0.994501           32
-        180000        95.3196%%    3.66583e+06         884115       0.993886           34
-        190000        95.0596%%    3.65583e+06         888697       0.993245           37
-        200000        94.7996%%    3.64583e+06         892949       0.992586           39
-        210000        94.5395%%    3.63583e+06         897215       0.991901           41
-        220000        94.2795%%    3.62583e+06         901649       0.991183           44
-        230000        94.0195%%    3.61583e+06         906475       0.990473           46
-        240000        93.7595%%    3.60583e+06         910422       0.989697           48
-        250000        93.4994%%    3.59583e+06         914090       0.988891           51
-        260000        93.2394%%    3.58583e+06         917996       0.988076           53
-        270000        92.9794%%    3.57583e+06         922426       0.987235           56
-        280000        92.7194%%    3.56583e+06         926617       0.986404           58
-        290000        92.4594%%    3.55583e+06         930306       0.985542           61
-        300000        92.1993%%    3.54583e+06         934206       0.984621           63
-        310000        91.9393%%    3.53583e+06         938268       0.983686           66
-        320000        91.6793%%    3.52583e+06         941834       0.982725           69
-        330000        91.4193%%    3.51583e+06         945558       0.981758           71
-        340000        91.1592%%    3.50583e+06         949215       0.980726           74
-        350000        90.8992%%    3.49583e+06         952766       0.979687           77
-        360000        90.6392%%    3.48583e+06         956681       0.978631           79
-        370000        90.3792%%    3.47583e+06         960283       0.977565           82
-        380000        90.1192%%    3.46583e+06         964201       0.976475           85
-        390000        89.8591%%    3.45583e+06         967901       0.975353           88
-        400000        89.5991%%    3.44583e+06         971489       0.974217           90
-        410000        89.3391%%    3.43583e+06         974827       0.973074           93
-        420000        89.0791%%    3.42583e+06         978632       0.971893           96
-        430000         88.819%%    3.41583e+06         981796       0.970669           99
-        440000         88.559%%    3.40583e+06         985424       0.969466          102
-        450000         88.299%%    3.39583e+06         988550       0.968239          105
-        460000         88.039%%    3.38583e+06         991988       0.966952          108
-        470000         87.779%%    3.37583e+06         995401       0.965656          111
-        480000        87.5189%%    3.36583e+06         998803       0.964357          114
-        490000        87.2589%%    3.35583e+06        1002452       0.963042          117
-        500000        86.9989%%    3.34583e+06        1005797       0.961708          120
-        510000        86.7389%%    3.33583e+06        1008972       0.960359          123
-        520000        86.4788%%    3.32583e+06        1012599       0.959074          126
-        530000        86.2188%%    3.31583e+06        1015499       0.957698          130
-        540000        85.9588%%    3.30583e+06        1018814        0.95629          133
-        550000        85.6988%%    3.29583e+06        1021859       0.954866          136
-        560000        85.4388%%    3.28583e+06        1025006       0.953386          139
-        570000        85.1787%%    3.27583e+06        1028042       0.951895          142
-        580000        84.9187%%    3.26583e+06        1030758       0.950381          146
-        590000        84.6587%%    3.25583e+06        1034039       0.948854          149
-        600000        84.3987%%    3.24583e+06        1037230       0.947327          152
-        610000        84.1386%%    3.23583e+06        1040506       0.945786          156
-        620000        83.8786%%    3.22583e+06        1043103       0.944228          159
-        630000        83.6186%%    3.21583e+06        1045921       0.942632          162
-        640000        83.3586%%    3.20583e+06        1048616       0.941013          166
-        650000        83.0986%%    3.19583e+06        1051620       0.939388          169
-        660000        82.8385%%    3.18583e+06        1054715       0.937789          173
-        670000        82.5785%%    3.17583e+06        1057640       0.936139          176
-        680000        82.3185%%    3.16583e+06        1060445       0.934454          180
-        690000        82.0585%%    3.15583e+06        1063060       0.932739          183
-        700000        81.7984%%    3.14583e+06        1065525       0.931002          187
-        710000        81.5384%%    3.13583e+06        1068258       0.929231          190
-        720000        81.2784%%    3.12583e+06        1070855        0.92744          194
-        730000        81.0184%%    3.11583e+06        1073958       0.925733          197
-        740000        80.7584%%    3.10583e+06        1076051       0.923958          201
-        750000        80.4983%%    3.09583e+06        1078298       0.922094          205
-        760000        80.2383%%    3.08583e+06        1080935       0.920237          208
-        770000        79.9783%%    3.07583e+06        1083274       0.918373          212
-        780000        79.7183%%    3.06583e+06        1085436       0.916495          216
-        790000        79.4583%%    3.05583e+06        1087678       0.914609          219
-        800000        79.1982%%    3.04583e+06        1089355       0.912673          223
-        810000        78.9382%%    3.03583e+06        1091054       0.910711          227
-        820000        78.6782%%    3.02583e+06        1092619        0.90872          231
-        830000        78.4182%%    3.01583e+06        1094400       0.906745          234
-        840000        78.1581%%    3.00583e+06        1096700       0.904826          238
-        850000        77.8981%%    2.99583e+06        1098918       0.902892          242
-        860000        77.6381%%    2.98583e+06        1100908       0.900827          246
-        870000        77.3781%%    2.97583e+06        1103349       0.898802          250
-        880000         77.118%%    2.96583e+06        1105573       0.896767          253
-        890000         76.858%%    2.95583e+06        1107841       0.894695          257
-        900000         76.598%%    2.94583e+06        1109750       0.892591          261
-        910000         76.338%%    2.93583e+06        1111612        0.89048          265
-        920000         76.078%%    2.92583e+06        1113905       0.888381          269
-        930000        75.8179%%    2.91583e+06        1115464       0.886241          273
-        940000        75.5579%%    2.90583e+06        1117074        0.88408          277
-        950000        75.2979%%    2.89583e+06        1118848       0.881901          281
-        960000        75.0379%%    2.88583e+06        1120140        0.87968          285
-        970000        74.7779%%    2.87583e+06        1122032       0.877462          289
-        980000        74.5178%%    2.86583e+06        1123363       0.875203          293
-        990000        74.2578%%    2.85583e+06        1124697       0.872881          297
-       1000000        73.9978%%    2.84583e+06        1126069       0.870627          301
-       1010000        73.7378%%    2.83583e+06        1127969       0.868384          305
-       1020000        73.4777%%    2.82583e+06        1129805       0.866195          309
-       1030000        73.2177%%    2.81583e+06        1131528       0.863921          313
-       1040000        72.9577%%    2.80583e+06        1133033       0.861668          317
-       1050000        72.6977%%    2.79583e+06        1134871       0.859468          322
-       1060000        72.4377%%    2.78583e+06        1135947       0.857138          326
-       1070000        72.1776%%    2.77583e+06        1137536       0.854781          330
-       1080000        71.9176%%    2.76583e+06        1139032       0.852431          334
-       1090000        71.6576%%    2.75583e+06        1140531       0.849991          338
-       1100000        71.3976%%    2.74583e+06        1142184       0.847618          342
-       1110000        71.1375%%    2.73583e+06        1143422       0.845226          347
-       1120000        70.8775%%    2.72583e+06        1144929       0.842852          351
-       1130000        70.6175%%    2.71583e+06        1146365       0.840449          355
-       1140000        70.3575%%    2.70583e+06        1147419       0.838031          359
-       1150000        70.0975%%    2.69583e+06        1148756       0.835544          364
-       1160000        69.8374%%    2.68583e+06        1150021       0.833033          368
-       1170000        69.5774%%    2.67583e+06        1150947       0.830532          372
-       1180000        69.3174%%    2.66583e+06        1152091       0.828054          377
-       1190000        69.0574%%    2.65583e+06        1153258       0.825515          381
-       1200000        68.7973%%    2.64583e+06        1153938       0.822989          385
-       1210000        68.5373%%    2.63583e+06        1154915       0.820405          390
-       1220000        68.2773%%    2.62583e+06        1156019       0.817843          394
-       1230000        68.0173%%    2.61583e+06        1157781       0.815288          398
-       1240000        67.7572%%    2.60583e+06        1158527       0.812672          403
-       1250000        67.4972%%    2.59583e+06        1159283       0.809971          407
-       1260000        67.2372%%    2.58583e+06        1159706       0.807298          411
-       1270000        66.9772%%    2.57583e+06        1160389       0.804613          416
-       1280000        66.7172%%    2.56583e+06        1160852        0.80191          420
-       1290000        66.4571%%    2.55583e+06        1161444       0.799245          425
-       1300000        66.1971%%    2.54583e+06        1161781       0.796522          429
-       1310000        65.9371%%    2.53583e+06        1162524       0.793844          434
-       1320000        65.6771%%    2.52583e+06        1162757       0.791107          438
-       1330000        65.4171%%    2.51583e+06        1163122       0.788303          443
-       1340000         65.157%%    2.50583e+06        1163356       0.785492          447
-       1350000         64.897%%    2.49583e+06        1163620       0.782705          452
-       1360000         64.637%%    2.48583e+06        1163747       0.779909          456
-       1370000         64.377%%    2.47583e+06        1164126       0.777142          461
-       1380000        64.1169%%    2.46583e+06        1164627       0.774314          465
-       1390000        63.8569%%    2.45583e+06        1164934       0.771496          470
-       1400000        63.5969%%    2.44583e+06        1164817       0.768695          474
-       1410000        63.3369%%    2.43583e+06        1165319       0.765878          479
-       1420000        63.0769%%    2.42583e+06        1164955        0.76296          483
-       1430000        62.8168%%    2.41583e+06        1164666       0.760059          488
-       1440000        62.5568%%    2.40583e+06        1165092       0.757188          492
-       1450000        62.2968%%    2.39583e+06        1164956       0.754254          497
-       1460000        62.0368%%    2.38583e+06        1164759        0.75134          502
-       1470000        61.7767%%    2.37583e+06        1164767       0.748386          506
-       1480000        61.5167%%    2.36583e+06        1164974       0.745467          511
-       1490000        61.2567%%    2.35583e+06        1164661       0.742551          515
-       1500000        60.9967%%    2.34583e+06        1164678       0.739597          520
-       1510000        60.7367%%    2.33583e+06        1164323        0.73664          525
-       1520000        60.4766%%    2.32583e+06        1163903        0.73363          529
-       1530000        60.2166%%    2.31583e+06        1163071       0.730615          534
-       1540000        59.9566%%    2.30583e+06        1162678       0.727596          538
-       1550000        59.6966%%    2.29583e+06        1162257       0.724583          543
-       1560000        59.4365%%    2.28583e+06        1162460       0.721678          548
-       1570000        59.1765%%    2.27583e+06        1162254       0.718641          552
-       1580000        58.9165%%    2.26583e+06        1161777       0.715612          557
-       1590000        58.6565%%    2.25583e+06        1160861       0.712522          562
-       1600000        58.3965%%    2.24583e+06        1160563       0.709459          566
-       1610000        58.1364%%    2.23583e+06        1159874       0.706377          571
-       1620000        57.8764%%    2.22583e+06        1159367        0.70336          575
-       1630000        57.6164%%    2.21583e+06        1158462       0.700294          580
-       1640000        57.3564%%    2.20583e+06        1157749       0.697224          584
-       1650000        57.0963%%    2.19583e+06        1157099       0.694079          589
-       1660000        56.8363%%    2.18583e+06        1156170       0.690944          593
-       1670000        56.5763%%    2.17583e+06        1154831       0.687785          597
-       1680000        56.3163%%    2.16583e+06        1153936       0.684606          602
-       1690000        56.0563%%    2.15583e+06        1153033       0.681369          606
-       1700000        55.7962%%    2.14583e+06        1151473       0.678122          611
-       1710000        55.5362%%    2.13583e+06        1150166        0.67493          615
-       1720000        55.2762%%    2.12583e+06        1148874       0.671768          619
-       1730000        55.0162%%    2.11583e+06        1147728       0.668607          624
-       1740000        54.7561%%    2.10583e+06        1146173       0.665457          628
-       1750000        54.4961%%    2.09583e+06        1144855       0.662337          633
-       1760000        54.2361%%    2.08583e+06        1143737       0.659126          637
-       1770000        53.9761%%    2.07583e+06        1142311       0.655935          641
-       1780000        53.7161%%    2.06583e+06        1140523       0.652654          646
-       1790000         53.456%%    2.05583e+06        1138769       0.649356          650
-       1800000         53.196%%    2.04583e+06        1136699       0.646006          655
-       1810000         52.936%%    2.03583e+06        1135123       0.642743          659
-       1820000         52.676%%    2.02583e+06        1133348       0.639499          663
-       1830000        52.4159%%    2.01583e+06        1131450       0.636204          668
-       1840000        52.1559%%    2.00583e+06        1129639       0.632877          672
-       1850000        51.8959%%    1.99583e+06        1128028       0.629596          677
-       1860000        51.6359%%    1.98583e+06        1125884       0.626248          681
-       1870000        51.3759%%    1.97583e+06        1123912       0.622907          685
-       1880000        51.1158%%    1.96583e+06        1122062       0.619593          690
-       1890000        50.8558%%    1.95583e+06        1119913       0.616237          694
-       1900000        50.5958%%    1.94583e+06        1118029       0.612812          699
-       1910000        50.3358%%    1.93583e+06        1116396       0.609493          703
-       1920000        50.0757%%    1.92583e+06        1114043        0.60612          707
-       1930000        49.8157%%    1.91583e+06        1111604       0.602698          712
-       1940000        49.5557%%    1.90583e+06        1109372       0.599322          716
-       1950000        49.2957%%    1.89583e+06        1107058       0.595954          720
-       1960000        49.0357%%    1.88583e+06        1105069       0.592623          725
-       1970000        48.7756%%    1.87583e+06        1102974       0.589235          729
-       1980000        48.5156%%    1.86583e+06        1100707       0.585854          733
-       1990000        48.2556%%    1.85583e+06        1097816       0.582367          738
-       2000000        47.9956%%    1.84583e+06        1095317       0.578936          742
-       2010000        47.7355%%    1.83583e+06        1092885       0.575577          746
-       2020000        47.4755%%    1.82583e+06        1090613       0.572178          751
-       2030000        47.2155%%    1.81583e+06        1087710       0.568734          755
-       2040000        46.9555%%    1.80583e+06        1085291       0.565335          759
-       2050000        46.6955%%    1.79583e+06        1082398       0.561924          764
-       2060000        46.4354%%    1.78583e+06        1079639       0.558471          768
-       2070000        46.1754%%    1.77583e+06        1077092       0.555079          772
-       2080000        45.9154%%    1.76583e+06        1074174       0.551627          777
-       2090000        45.6554%%    1.75583e+06        1070671       0.548152          781
-       2100000        45.3953%%    1.74583e+06        1067778       0.544664          785
-       2110000        45.1353%%    1.73583e+06        1064847       0.541227          790
-       2120000        44.8753%%    1.72583e+06        1061816       0.537722          794
-       2130000        44.6153%%    1.71583e+06        1058946        0.53424          798
-       2140000        44.3553%%    1.70583e+06        1055761        0.53074          802
-       2150000        44.0952%%    1.69583e+06        1052273       0.527174          807
-       2160000        43.8352%%    1.68583e+06        1048914        0.52375          811
-       2170000        43.5752%%    1.67583e+06        1045608       0.520248          815
-       2180000        43.3152%%    1.66583e+06        1042254       0.516706          819
-       2190000        43.0551%%    1.65583e+06        1038737       0.513213          823
-       2200000        42.7951%%    1.64583e+06        1035389       0.509755          828
-       2210000        42.5351%%    1.63583e+06        1031917        0.50625          832
-       2220000        42.2751%%    1.62583e+06        1028742       0.502797          836
-       2230000        42.0151%%    1.61583e+06        1025682       0.499333          840
-       2240000         41.755%%    1.60583e+06        1022386       0.495875          844
-       2250000         41.495%%    1.59583e+06        1018823       0.492367          848
-       2260000         41.235%%    1.58583e+06        1015101        0.48886          852
-       2270000         40.975%%    1.57583e+06        1011389       0.485345          857
-       2280000         40.715%%    1.56583e+06        1007551       0.481838          861
-       2290000        40.4549%%    1.55583e+06        1003709       0.478354          865
-       2300000        40.1949%%    1.54583e+06        1000345       0.474864          869
-       2310000        39.9349%%    1.53583e+06         996396       0.471377          873
-       2320000        39.6749%%    1.52583e+06         992659       0.467863          877
-       2330000        39.4148%%    1.51583e+06         988776       0.464363          881
-       2340000        39.1548%%    1.50583e+06         984802       0.460844          885
-       2350000        38.8948%%    1.49583e+06         980764        0.45739          889
-       2360000        38.6348%%    1.48583e+06         976454       0.453956          893
-       2370000        38.3747%%    1.47583e+06         972313       0.450437          897
-       2380000        38.1147%%    1.46583e+06         968198       0.446905          901
-       2390000        37.8547%%    1.45583e+06         963890        0.44338          905
-       2400000        37.5947%%    1.44583e+06         959522       0.439889          909
-       2410000        37.3347%%    1.43583e+06         955570       0.436393          913
-       2420000        37.0746%%    1.42583e+06         951511       0.432951          917
-       2430000        36.8146%%    1.41583e+06         947417       0.429466          920
-       2440000        36.5546%%    1.40583e+06         942791       0.425906          924
-       2450000        36.2946%%    1.39583e+06         938617       0.422428          928
-       2460000        36.0345%%    1.38583e+06         934020       0.418966          932
-       2470000        35.7745%%    1.37583e+06         929739       0.415443          936
-       2480000        35.5145%%    1.36583e+06         925181       0.411953          940
-       2490000        35.2545%%    1.35583e+06         920336       0.408424          944
-       2500000        34.9945%%    1.34583e+06         915379       0.404854          947
-       2510000        34.7344%%    1.33583e+06         910384       0.401408          951
-       2520000        34.4744%%    1.32583e+06         905264       0.397897          955
-       2530000        34.2144%%    1.31583e+06         900710       0.394392          958
-       2540000        33.9544%%    1.30583e+06         896033       0.390934          962
-       2550000        33.6944%%    1.29583e+06         891371       0.387451          966
-       2560000        33.4343%%    1.28583e+06         886693       0.383991          969
-       2570000        33.1743%%    1.27583e+06         881615       0.380509          973
-       2580000        32.9143%%    1.26583e+06         876862       0.377104          977
-       2590000        32.6543%%    1.25583e+06         872125       0.373623          980
-       2600000        32.3942%%    1.24583e+06         867296       0.370177          984
-       2610000        32.1342%%    1.23583e+06         862294       0.366679          988
-       2620000        31.8742%%    1.22583e+06         857174       0.363226          991
-       2630000        31.6142%%    1.21583e+06         852207        0.35982          995
-       2640000        31.3541%%    1.20583e+06         847410       0.356412          998
-       2650000        31.0941%%    1.19583e+06         842140       0.352943         1002
-       2660000        30.8341%%    1.18583e+06         836661       0.349468         1005
-       2670000        30.5741%%    1.17583e+06         831598       0.346048         1009
-       2680000        30.3141%%    1.16583e+06         825993       0.342638         1012
-       2690000         30.054%%    1.15583e+06         820862        0.33926         1016
-       2700000         29.794%%    1.14583e+06         815526       0.335819         1019
-       2710000         29.534%%    1.13583e+06         809742        0.33238         1023
-       2720000         29.274%%    1.12583e+06         804521       0.328981         1026
-       2730000         29.014%%    1.11583e+06         799138       0.325654         1029
-       2740000        28.7539%%    1.10583e+06         793698       0.322283         1033
-       2750000        28.4939%%    1.09583e+06         788222       0.318898         1036
-       2760000        28.2339%%    1.08583e+06         782686       0.315534         1039
-       2770000        27.9739%%    1.07583e+06         777122       0.312131         1043
-       2780000        27.7138%%    1.06583e+06         771555       0.308737         1046
-       2790000        27.4538%%    1.05583e+06         765640       0.305304         1049
-       2800000        27.1938%%    1.04583e+06         759913        0.30192         1052
-       2810000        26.9338%%    1.03583e+06         754217       0.298554         1056
-       2820000        26.6738%%    1.02583e+06         748381       0.295118         1059
-       2830000        26.4137%%    1.01583e+06         742875       0.291842         1062
-       2840000        26.1537%%    1.00583e+06         737145       0.288514         1065
-       2850000        25.8937%%         995826         731164       0.285125         1068
-       2860000        25.6337%%         985826         725848       0.281863         1071
-       2870000        25.3736%%         975826         720404       0.278492         1074
-       2880000        25.1136%%         965826         714573       0.275202         1077
-       2890000        24.8536%%         955826         709087       0.271897         1081
-       2900000        24.5936%%         945826         703104       0.268517         1084
-       2910000        24.3335%%         935826         697655       0.265271         1087
-       2920000        24.0735%%         925826         691684        0.26199         1090
-       2930000        23.8135%%         915826         685704        0.25873         1093
-       2940000        23.5535%%         905826         679648        0.25544         1095
-       2950000        23.2935%%         895826         673590       0.252165         1098
-       2960000        23.0334%%         885826         667692       0.248894         1101
-       2970000        22.7734%%         875826         661474       0.245644         1104
-       2980000        22.5134%%         865826         655268       0.242434         1107
-       2990000        22.2534%%         855826         648980       0.239172         1110
-       3000000        21.9934%%         845826         642991       0.235909         1113
-       3010000        21.7333%%         835826         636557       0.232704         1116
-       3020000        21.4733%%         825826         630060       0.229446         1119
-       3030000        21.2133%%         815826         623569       0.226301         1122
-       3040000        20.9533%%         805826         617283       0.223114         1124
-       3050000        20.6932%%         795826         611062       0.219944         1127
-       3060000        20.4332%%         785826         604865       0.216738         1130
-       3070000        20.1732%%         775826         598480        0.21352         1132
-       3080000        19.9132%%         765826         591884       0.210314         1135
-       3090000        19.6532%%         755826         585408       0.207099         1137
-       3100000        19.3931%%         745826         578810       0.203979         1140
-       3110000        19.1331%%         735826         571969       0.200841         1143
-       3120000        18.8731%%         725826         565250       0.197647         1145
-       3130000        18.6131%%         715826         558394       0.194521         1148
-       3140000         18.353%%         705826         551802       0.191405         1150
-       3150000         18.093%%         695826         545165       0.188263         1152
-       3160000         17.833%%         685826         538465       0.185192         1155
-       3170000         17.573%%         675826         531626       0.182161         1157
-       3180000         17.313%%         665826         524793       0.179121         1160
-       3190000        17.0529%%         655826         518239       0.176012         1162
-       3200000        16.7929%%         645826         511487       0.172928         1164
-       3210000        16.5329%%         635826         504633       0.169919         1167
-       3220000        16.2729%%         625826         497741       0.166867         1169
-       3230000        16.0128%%         615826         490533        0.16379         1171
-       3240000        15.7528%%         605826         483464        0.16075         1173
-       3250000        15.4928%%         595826         476483       0.157724         1175
-       3260000        15.2328%%         585826         469484       0.154632         1177
-       3270000        14.9728%%         575826         462474       0.151602         1180
-       3280000        14.7127%%         565826         455431       0.148552         1182
-       3290000        14.4527%%         555826         448353       0.145556         1184
-       3300000        14.1927%%         545826         441310       0.142664         1186
-       3310000        13.9327%%         535826         434219       0.139784         1188
-       3320000        13.6726%%         525826         426949        0.13682         1190
-       3330000        13.4126%%         515826         419782       0.133905         1192
-       3340000        13.1526%%         505826         412580       0.130977         1194
-       3350000        12.8926%%         495826         405254       0.128054         1195
-       3360000        12.6326%%         485826         397977       0.125184         1197
-       3370000        12.3725%%         475826         390694       0.122294         1199
-       3380000        12.1125%%         465826         383284       0.119499         1201
-       3390000        11.8525%%         455826         376022       0.116572         1203
-       3400000        11.5925%%         445826         368574       0.113801         1204
-       3410000        11.3324%%         435826         361315       0.111049         1206
-       3420000        11.0724%%         425826         354021       0.108254         1208
-       3430000        10.8124%%         415826         346559       0.105408         1209
-       3440000        10.5524%%         405826         339076       0.102681         1211
-       3450000        10.2924%%         395826         331566      0.0998943         1212
-       3460000        10.0323%%         385826         323901      0.0971769         1214
-       3470000        9.77231%%         375826         316328      0.0943663         1215
-       3480000        9.51229%%         365826         308676       0.091672         1217
-       3490000        9.25226%%         355826         300901       0.089007         1218
-       3500000        8.99224%%         345826         293087      0.0861631         1220
-       3510000        8.73222%%         335826         285271      0.0835146         1221
-       3520000         8.4722%%         325826         277638      0.0809715         1222
-       3530000        8.21218%%         315826         270073       0.078233         1224
-       3540000        7.95215%%         305826         262298      0.0757116         1225
-       3550000        7.69213%%         295826         254309       0.072915         1226
-       3560000        7.43211%%         285826         246257      0.0701444         1227
-       3570000        7.17209%%         275826         238215       0.067174         1228
-       3580000        6.91206%%         265826         230039      0.0643725         1230
-       3590000        6.65205%%         255826         221918      0.0614484         1231
-       3600000        6.39202%%         245826         213734      0.0587857         1232
-       3610000          6.132%%         235826         205508      0.0557224         1233
-       3620000        5.87198%%         225826         197417      0.0528918         1234
-       3630000        5.61196%%         215826         189156      0.0499451         1235
-       3640000        5.35193%%         205826         180866      0.0473084         1236
-       3650000        5.09191%%         195826         172591       0.044439         1236
-       3660000        4.83189%%         185826         164119      0.0416385         1237
-       3670000        4.57187%%         175826         155787      0.0389809         1238
-       3680000        4.31184%%         165826         147454      0.0361778         1239
-       3690000        4.05182%%         155826         139173       0.033581         1240
-       3700000         3.7918%%         145826         130690      0.0310771         1240
-       3710000        3.53178%%         135826         122113      0.0284362         1241
-       3720000        3.27175%%         125826         113568      0.0259012         1241
-       3730000        3.01173%%         115826         104843       0.023371         1242
-       3740000        2.75171%%         105826          96126       0.021021         1243
-       3750000        2.49169%%          95826          87505      0.0186799         1243
-       3760000        2.23166%%          85826          78793      0.0162345         1244
-       3770000        1.97164%%          75826          69958      0.0140459         1244
-       3780000        1.71162%%          65826          61001      0.0118352         1245
-       3790000         1.4516%%          55826          51939     0.00965962         1245
-       3800000        1.19158%%          45826          42902      0.0076416         1246
-       3810000       0.931555%%          35826          33777     0.00569305         1246
-       3820000       0.671536%%          25826          24641     0.00374292         1246
-       3830000        0.41151%%          15826          15258     0.00199654         1246
-       3840000       0.151491%%           5826           5688    0.000554993         1247
-       3845825              0%%              0              0              0         1247
+             0            100%%              0         811680       0.999997            0
+         10000          99.74%%    3.83583e+06         809328       0.999995            2
+         20000          99.48%%    3.82583e+06         811130       0.999958            4
+         30000        99.2199%%    3.81583e+06         814327       0.999873            5
+         40000        98.9599%%    3.80583e+06         818783       0.999734            6
+         50000        98.6999%%    3.79583e+06         823795       0.999552            8
+         60000        98.4399%%    3.78583e+06         828913       0.999324            9
+         70000        98.1798%%    3.77583e+06         833934       0.999054           11
+         80000        97.9198%%    3.76583e+06         838738       0.998746           12
+         90000        97.6598%%    3.75583e+06         843889       0.998396           14
+        100000        97.3998%%    3.74583e+06         848931       0.998023           15
+        110000        97.1398%%    3.73583e+06         854425       0.997618           17
+        120000        96.8797%%    3.72583e+06         859289       0.997176           18
+        130000        96.6197%%    3.71583e+06         864234       0.996704           20
+        140000        96.3597%%    3.70583e+06         868828       0.996206           21
+        150000        96.0997%%    3.69583e+06         873764       0.995677           23
+        160000        95.8396%%    3.68583e+06         878221       0.995107           25
+        170000        95.5796%%    3.67583e+06         882856       0.994514           26
+        180000        95.3196%%    3.66583e+06         887585       0.993906           28
+        190000        95.0596%%    3.65583e+06         892214       0.993277           30
+        200000        94.7996%%    3.64583e+06         896518       0.992602           32
+        210000        94.5395%%    3.63583e+06         901298       0.991921           33
+        220000        94.2795%%    3.62583e+06         906107       0.991193           35
+        230000        94.0195%%    3.61583e+06         910743       0.990496           37
+        240000        93.7595%%    3.60583e+06         915046       0.989749           39
+        250000        93.4994%%    3.59583e+06         919225       0.988962           41
+        260000        93.2394%%    3.58583e+06         923540       0.988142           42
+        270000        92.9794%%    3.57583e+06         927888       0.987294           44
+        280000        92.7194%%    3.56583e+06         931819       0.986425           46
+        290000        92.4594%%    3.55583e+06         936088       0.985542           48
+        300000        92.1993%%    3.54583e+06         940412       0.984641           50
+        310000        91.9393%%    3.53583e+06         944522       0.983729           52
+        320000        91.6793%%    3.52583e+06         948635       0.982792           54
+        330000        91.4193%%    3.51583e+06         952352       0.981787           56
+        340000        91.1592%%    3.50583e+06         956439       0.980785           58
+        350000        90.8992%%    3.49583e+06         960948        0.97978           60
+        360000        90.6392%%    3.48583e+06         965065       0.978748           62
+        370000        90.3792%%    3.47583e+06         969332       0.977687           64
+        380000        90.1192%%    3.46583e+06         973166       0.976588           66
+        390000        89.8591%%    3.45583e+06         976730       0.975467           68
+        400000        89.5991%%    3.44583e+06         980348       0.974323           70
+        410000        89.3391%%    3.43583e+06         984556        0.97316           72
+        420000        89.0791%%    3.42583e+06         988270       0.971979           75
+        430000         88.819%%    3.41583e+06         991916         0.9708           77
+        440000         88.559%%    3.40583e+06         995633        0.96957           79
+        450000         88.299%%    3.39583e+06         999054       0.968301           81
+        460000         88.039%%    3.38583e+06        1002757       0.967036           83
+        470000         87.779%%    3.37583e+06        1006290       0.965762           86
+        480000        87.5189%%    3.36583e+06        1009802       0.964458           88
+        490000        87.2589%%    3.35583e+06        1013650       0.963164           90
+        500000        86.9989%%    3.34583e+06        1017267       0.961862           92
+        510000        86.7389%%    3.33583e+06        1020959       0.960518           95
+        520000        86.4788%%    3.32583e+06        1024536       0.959144           97
+        530000        86.2188%%    3.31583e+06        1028046       0.957718           99
+        540000        85.9588%%    3.30583e+06        1031412       0.956296          102
+        550000        85.6988%%    3.29583e+06        1035166       0.954859          104
+        560000        85.4388%%    3.28583e+06        1038631       0.953424          107
+        570000        85.1787%%    3.27583e+06        1041852       0.951974          109
+        580000        84.9187%%    3.26583e+06        1045229       0.950468          111
+        590000        84.6587%%    3.25583e+06        1048840       0.948912          114
+        600000        84.3987%%    3.24583e+06        1051995       0.947307          116
+        610000        84.1386%%    3.23583e+06        1055487       0.945733          119
+        620000        83.8786%%    3.22583e+06        1058799       0.944182          121
+        630000        83.6186%%    3.21583e+06        1061890       0.942574          124
+        640000        83.3586%%    3.20583e+06        1065325       0.940918          126
+        650000        83.0986%%    3.19583e+06        1068424       0.939278          129
+        660000        82.8385%%    3.18583e+06        1071492       0.937678          131
+        670000        82.5785%%    3.17583e+06        1074293       0.935992          134
+        680000        82.3185%%    3.16583e+06        1077663       0.934326          136
+        690000        82.0585%%    3.15583e+06        1080685       0.932649          139
+        700000        81.7984%%    3.14583e+06        1084131       0.930989          141
+        710000        81.5384%%    3.13583e+06        1086986       0.929245          144
+        720000        81.2784%%    3.12583e+06        1089752       0.927535          147
+        730000        81.0184%%    3.11583e+06        1092740       0.925806          149
+        740000        80.7584%%    3.10583e+06        1095442       0.924029          152
+        750000        80.4983%%    3.09583e+06        1098081       0.922258          155
+        760000        80.2383%%    3.08583e+06        1100525       0.920419          157
+        770000        79.9783%%    3.07583e+06        1103226       0.918568          160
+        780000        79.7183%%    3.06583e+06        1105887       0.916711          163
+        790000        79.4583%%    3.05583e+06        1108814       0.914856          165
+        800000        79.1982%%    3.04583e+06        1111477       0.912934          168
+        810000        78.9382%%    3.03583e+06        1113965       0.911022          171
+        820000        78.6782%%    3.02583e+06        1116754       0.909064          174
+        830000        78.4182%%    3.01583e+06        1119340       0.907112          176
+        840000        78.1581%%    3.00583e+06        1121647        0.90516          179
+        850000        77.8981%%    2.99583e+06        1124564       0.903231          182
+        860000        77.6381%%    2.98583e+06        1126711       0.901195          185
+        870000        77.3781%%    2.97583e+06        1129138         0.8992          188
+        880000         77.118%%    2.96583e+06        1131232       0.897116          191
+        890000         76.858%%    2.95583e+06        1133049       0.894985          193
+        900000         76.598%%    2.94583e+06        1135292       0.892938          196
+        910000         76.338%%    2.93583e+06        1137504       0.890862          199
+        920000         76.078%%    2.92583e+06        1139686       0.888755          202
+        930000        75.8179%%    2.91583e+06        1141787       0.886619          205
+        940000        75.5579%%    2.90583e+06        1143917       0.884481          208
+        950000        75.2979%%    2.89583e+06        1146044       0.882328          211
+        960000        75.0379%%    2.88583e+06        1148091        0.88013          214
+        970000        74.7779%%    2.87583e+06        1149814        0.87792          217
+        980000        74.5178%%    2.86583e+06        1151306       0.875695          221
+        990000        74.2578%%    2.85583e+06        1153177       0.873442          224
+       1000000        73.9978%%    2.84583e+06        1155362       0.871257          227
+       1010000        73.7378%%    2.83583e+06        1157448       0.869035          230
+       1020000        73.4777%%    2.82583e+06        1159208       0.866743          233
+       1030000        73.2177%%    2.81583e+06        1161183       0.864483          236
+       1040000        72.9577%%    2.80583e+06        1163029       0.862183          240
+       1050000        72.6977%%    2.79583e+06        1164721       0.859906          243
+       1060000        72.4377%%    2.78583e+06        1166833       0.857567          247
+       1070000        72.1776%%    2.77583e+06        1168761       0.855249          251
+       1080000        71.9176%%    2.76583e+06        1170374       0.852873          254
+       1090000        71.6576%%    2.75583e+06        1172057       0.850478          258
+       1100000        71.3976%%    2.74583e+06        1173376       0.848038          261
+       1110000        71.1375%%    2.73583e+06        1175341       0.845687          265
+       1120000        70.8775%%    2.72583e+06        1177043       0.843305          268
+       1130000        70.6175%%    2.71583e+06        1178677       0.840872          271
+       1140000        70.3575%%    2.70583e+06        1180008       0.838381          274
+       1150000        70.0975%%    2.69583e+06        1181616       0.835873          277
+       1160000        69.8374%%    2.68583e+06        1183179       0.833418          280
+       1170000        69.5774%%    2.67583e+06        1184515       0.830939          285
+       1180000        69.3174%%    2.66583e+06        1185931       0.828416          288
+       1190000        69.0574%%    2.65583e+06        1187433        0.82589          293
+       1200000        68.7973%%    2.64583e+06        1188420       0.823346          296
+       1210000        68.5373%%    2.63583e+06        1189888       0.820823          300
+       1220000        68.2773%%    2.62583e+06        1190510       0.818264          304
+       1230000        68.0173%%    2.61583e+06        1191439       0.815613          307
+       1240000        67.7572%%    2.60583e+06        1192101       0.812951          312
+       1250000        67.4972%%    2.59583e+06        1193014       0.810267          315
+       1260000        67.2372%%    2.58583e+06        1193884        0.80767          319
+       1270000        66.9772%%    2.57583e+06        1194819       0.805064          323
+       1280000        66.7172%%    2.56583e+06        1195806       0.802518          327
+       1290000        66.4571%%    2.55583e+06        1196393       0.799842          330
+       1300000        66.1971%%    2.54583e+06        1196995       0.797119          335
+       1310000        65.9371%%    2.53583e+06        1197584        0.79444          338
+       1320000        65.6771%%    2.52583e+06        1198206       0.791663          341
+       1330000        65.4171%%    2.51583e+06        1198753       0.788878          345
+       1340000         65.157%%    2.50583e+06        1199528       0.786124          348
+       1350000         64.897%%    2.49583e+06        1200531       0.783324          352
+       1360000         64.637%%    2.48583e+06        1200600       0.780532          356
+       1370000         64.377%%    2.47583e+06        1201183       0.777749          360
+       1380000        64.1169%%    2.46583e+06        1201603       0.774917          363
+       1390000        63.8569%%    2.45583e+06        1202376        0.77208          367
+       1400000        63.5969%%    2.44583e+06        1202742       0.769305          371
+       1410000        63.3369%%    2.43583e+06        1203338       0.766484          375
+       1420000        63.0769%%    2.42583e+06        1203696       0.763658          379
+       1430000        62.8168%%    2.41583e+06        1203885       0.760817          383
+       1440000        62.5568%%    2.40583e+06        1203874       0.757909          387
+       1450000        62.2968%%    2.39583e+06        1204036        0.75499          391
+       1460000        62.0368%%    2.38583e+06        1204289       0.752102          394
+       1470000        61.7767%%    2.37583e+06        1204708       0.749143          398
+       1480000        61.5167%%    2.36583e+06        1204610       0.746187          402
+       1490000        61.2567%%    2.35583e+06        1204768       0.743194          406
+       1500000        60.9967%%    2.34583e+06        1204703       0.740256          409
+       1510000        60.7367%%    2.33583e+06        1205072       0.737338          413
+       1520000        60.4766%%    2.32583e+06        1204996       0.734335          416
+       1530000        60.2166%%    2.31583e+06        1204627        0.73131          420
+       1540000        59.9566%%    2.30583e+06        1203874       0.728286          424
+       1550000        59.6966%%    2.29583e+06        1202997       0.725241          428
+       1560000        59.4365%%    2.28583e+06        1202285       0.722173          432
+       1570000        59.1765%%    2.27583e+06        1201959       0.719201          436
+       1580000        58.9165%%    2.26583e+06        1201249       0.716146          440
+       1590000        58.6565%%    2.25583e+06        1200628       0.713082          444
+       1600000        58.3965%%    2.24583e+06        1199993       0.710037          448
+       1610000        58.1364%%    2.23583e+06        1199798       0.706972          453
+       1620000        57.8764%%    2.22583e+06        1199523       0.703958          456
+       1630000        57.6164%%    2.21583e+06        1199533       0.700934          460
+       1640000        57.3564%%    2.20583e+06        1198727       0.697842          464
+       1650000        57.0963%%    2.19583e+06        1197873       0.694698          468
+       1660000        56.8363%%    2.18583e+06        1196860        0.69155          472
+       1670000        56.5763%%    2.17583e+06        1195760       0.688367          475
+       1680000        56.3163%%    2.16583e+06        1195021       0.685237          479
+       1690000        56.0563%%    2.15583e+06        1193588       0.682009          482
+       1700000        55.7962%%    2.14583e+06        1192504        0.67883          486
+       1710000        55.5362%%    2.13583e+06        1191689       0.675711          489
+       1720000        55.2762%%    2.12583e+06        1190799       0.672569          493
+       1730000        55.0162%%    2.11583e+06        1189622       0.669372          498
+       1740000        54.7561%%    2.10583e+06        1187966       0.666143          502
+       1750000        54.4961%%    2.09583e+06        1186435       0.662889          506
+       1760000        54.2361%%    2.08583e+06        1185099       0.659666          509
+       1770000        53.9761%%    2.07583e+06        1183896       0.656502          513
+       1780000        53.7161%%    2.06583e+06        1182238       0.653292          516
+       1790000         53.456%%    2.05583e+06        1180675       0.650023          519
+       1800000         53.196%%    2.04583e+06        1179525       0.646766          523
+       1810000         52.936%%    2.03583e+06        1178130       0.643546          526
+       1820000         52.676%%    2.02583e+06        1176827       0.640338          530
+       1830000        52.4159%%    2.01583e+06        1174764       0.637071          534
+       1840000        52.1559%%    2.00583e+06        1173027       0.633847          538
+       1850000        51.8959%%    1.99583e+06        1171520       0.630637          541
+       1860000        51.6359%%    1.98583e+06        1169555       0.627348          545
+       1870000        51.3759%%    1.97583e+06        1167637       0.624011          548
+       1880000        51.1158%%    1.96583e+06        1165706       0.620688          552
+       1890000        50.8558%%    1.95583e+06        1163462       0.617344          555
+       1900000        50.5958%%    1.94583e+06        1160999       0.613958          559
+       1910000        50.3358%%    1.93583e+06        1159131       0.610631          564
+       1920000        50.0757%%    1.92583e+06        1156323       0.607215          568
+       1930000        49.8157%%    1.91583e+06        1153952       0.603806          571
+       1940000        49.5557%%    1.90583e+06        1151282       0.600424          574
+       1950000        49.2957%%    1.89583e+06        1148951       0.597057          578
+       1960000        49.0357%%    1.88583e+06        1146816       0.593698          581
+       1970000        48.7756%%    1.87583e+06        1144297       0.590376          584
+       1980000        48.5156%%    1.86583e+06        1142070       0.586961          588
+       1990000        48.2556%%    1.85583e+06        1139384       0.583542          591
+       2000000        47.9956%%    1.84583e+06        1136997        0.58011          595
+       2010000        47.7355%%    1.83583e+06        1134423       0.576714          598
+       2020000        47.4755%%    1.82583e+06        1131811       0.573321          601
+       2030000        47.2155%%    1.81583e+06        1129304       0.569932          605
+       2040000        46.9555%%    1.80583e+06        1126648       0.566553          608
+       2050000        46.6955%%    1.79583e+06        1124306       0.563219          611
+       2060000        46.4354%%    1.78583e+06        1121779       0.559899          615
+       2070000        46.1754%%    1.77583e+06        1119454       0.556519          618
+       2080000        45.9154%%    1.76583e+06        1116699        0.55311          621
+       2090000        45.6554%%    1.75583e+06        1113480       0.549673          625
+       2100000        45.3953%%    1.74583e+06        1110291       0.546271          628
+       2110000        45.1353%%    1.73583e+06        1107440       0.542833          631
+       2120000        44.8753%%    1.72583e+06        1104730       0.539411          635
+       2130000        44.6153%%    1.71583e+06        1102081       0.535983          638
+       2140000        44.3553%%    1.70583e+06        1098730       0.532466          641
+       2150000        44.0952%%    1.69583e+06        1095209       0.529007          645
+       2160000        43.8352%%    1.68583e+06        1091776       0.525518          648
+       2170000        43.5752%%    1.67583e+06        1088838       0.522024          652
+       2180000        43.3152%%    1.66583e+06        1085893       0.518612          655
+       2190000        43.0551%%    1.65583e+06        1082714       0.515091          658
+       2200000        42.7951%%    1.64583e+06        1079254       0.511582          662
+       2210000        42.5351%%    1.63583e+06        1075656       0.508125          665
+       2220000        42.2751%%    1.62583e+06        1071921        0.50464          668
+       2230000        42.0151%%    1.61583e+06        1068158       0.501102          672
+       2240000         41.755%%    1.60583e+06        1064674       0.497593          675
+       2250000         41.495%%    1.59583e+06        1060704         0.4941          678
+       2260000         41.235%%    1.58583e+06        1056611       0.490554          681
+       2270000         40.975%%    1.57583e+06        1052724       0.487026          684
+       2280000         40.715%%    1.56583e+06        1049320       0.483517          688
+       2290000        40.4549%%    1.55583e+06        1045628       0.480023          692
+       2300000        40.1949%%    1.54583e+06        1042141       0.476568          695
+       2310000        39.9349%%    1.53583e+06        1038031       0.473061          698
+       2320000        39.6749%%    1.52583e+06        1034057       0.469539          701
+       2330000        39.4148%%    1.51583e+06        1030184       0.466054          704
+       2340000        39.1548%%    1.50583e+06        1026017        0.46252          707
+       2350000        38.8948%%    1.49583e+06        1021924       0.458993          710
+       2360000        38.6348%%    1.48583e+06        1018142       0.455598          714
+       2370000        38.3747%%    1.47583e+06        1013931       0.452147          717
+       2380000        38.1147%%    1.46583e+06        1009435       0.448623          720
+       2390000        37.8547%%    1.45583e+06        1005209       0.445054          723
+       2400000        37.5947%%    1.44583e+06        1000828       0.441484          726
+       2410000        37.3347%%    1.43583e+06         996471       0.438004          730
+       2420000        37.0746%%    1.42583e+06         992265       0.434553          733
+       2430000        36.8146%%    1.41583e+06         987560       0.431069          736
+       2440000        36.5546%%    1.40583e+06         982767       0.427598          740
+       2450000        36.2946%%    1.39583e+06         978207       0.424083          743
+       2460000        36.0345%%    1.38583e+06         973631       0.420544          747
+       2470000        35.7745%%    1.37583e+06         968933       0.417003          750
+       2480000        35.5145%%    1.36583e+06         963878       0.413474          753
+       2490000        35.2545%%    1.35583e+06         958987       0.410061          756
+       2500000        34.9945%%    1.34583e+06         953781       0.406572          759
+       2510000        34.7344%%    1.33583e+06         948792       0.403112          762
+       2520000        34.4744%%    1.32583e+06         943949       0.399681          765
+       2530000        34.2144%%    1.31583e+06         939207       0.396151          768
+       2540000        33.9544%%    1.30583e+06         934234        0.39266          771
+       2550000        33.6944%%    1.29583e+06         928793       0.389203          774
+       2560000        33.4343%%    1.28583e+06         923636       0.385758          777
+       2570000        33.1743%%    1.27583e+06         918702       0.382385          780
+       2580000        32.9143%%    1.26583e+06         913181        0.37894          783
+       2590000        32.6543%%    1.25583e+06         907874        0.37547          786
+       2600000        32.3942%%    1.24583e+06         902637       0.372008          789
+       2610000        32.1342%%    1.23583e+06         897317       0.368571          792
+       2620000        31.8742%%    1.22583e+06         891979       0.365151          795
+       2630000        31.6142%%    1.21583e+06         887095       0.361738          798
+       2640000        31.3541%%    1.20583e+06         881980        0.35832          801
+       2650000        31.0941%%    1.19583e+06         876898       0.354904          804
+       2660000        30.8341%%    1.18583e+06         871198       0.351493          808
+       2670000        30.5741%%    1.17583e+06         865776       0.348089          811
+       2680000        30.3141%%    1.16583e+06         860483       0.344642          813
+       2690000         30.054%%    1.15583e+06         854822       0.341231          816
+       2700000         29.794%%    1.14583e+06         849029       0.337793          819
+       2710000         29.534%%    1.13583e+06         843469       0.334429          821
+       2720000         29.274%%    1.12583e+06         837872       0.331115          824
+       2730000         29.014%%    1.11583e+06         832384       0.327735          827
+       2740000        28.7539%%    1.10583e+06         826696       0.324339          829
+       2750000        28.4939%%    1.09583e+06         820943       0.321041          832
+       2760000        28.2339%%    1.08583e+06         814974       0.317743          835
+       2770000        27.9739%%    1.07583e+06         809184       0.314401          837
+       2780000        27.7138%%    1.06583e+06         803581       0.311127          840
+       2790000        27.4538%%    1.05583e+06         797767       0.307837          842
+       2800000        27.1938%%    1.04583e+06         791902       0.304509          845
+       2810000        26.9338%%    1.03583e+06         786268       0.301183          847
+       2820000        26.6738%%    1.02583e+06         780292       0.297844          850
+       2830000        26.4137%%    1.01583e+06         774278       0.294486          852
+       2840000        26.1537%%    1.00583e+06         768626        0.29115          855
+       2850000        25.8937%%         995826         762557        0.28785          857
+       2860000        25.6337%%         985826         756653       0.284519          860
+       2870000        25.3736%%         975826         750878       0.281162          863
+       2880000        25.1136%%         965826         744928       0.277869          866
+       2890000        24.8536%%         955826         738710       0.274673          869
+       2900000        24.5936%%         945826         732689       0.271407          871
+       2910000        24.3335%%         935826         726784       0.268153          873
+       2920000        24.0735%%         925826         720523       0.264926          876
+       2930000        23.8135%%         915826         714204       0.261649          878
+       2940000        23.5535%%         905826         707897       0.258364          880
+       2950000        23.2935%%         895826         701387       0.255118          883
+       2960000        23.0334%%         885826         695022       0.251937          885
+       2970000        22.7734%%         875826         688455       0.248721          887
+       2980000        22.5134%%         865826         681609       0.245484          889
+       2990000        22.2534%%         855826         675139         0.2423          892
+       3000000        21.9934%%         845826         668501       0.239129          894
+       3010000        21.7333%%         835826         662005       0.235902          896
+       3020000        21.4733%%         825826         655348       0.232689          898
+       3030000        21.2133%%         815826         648731       0.229517          900
+       3040000        20.9533%%         805826         641939       0.226379          903
+       3050000        20.6932%%         795826         635200       0.223225          905
+       3060000        20.4332%%         785826         628516        0.22011          907
+       3070000        20.1732%%         775826         621584       0.216942          909
+       3080000        19.9132%%         765826         614610       0.213814          911
+       3090000        19.6532%%         755826         607727       0.210726          913
+       3100000        19.3931%%         745826         600997       0.207571          915
+       3110000        19.1331%%         735826         594020        0.20445          917
+       3120000        18.8731%%         725826         587190       0.201401          920
+       3130000        18.6131%%         715826         580258       0.198369          922
+       3140000         18.353%%         705826         573308       0.195321          925
+       3150000         18.093%%         695826         566161       0.192261          927
+       3160000         17.833%%         685826         559192       0.189241          929
+       3170000         17.573%%         675826         552257        0.18621          931
+       3180000         17.313%%         665826         545273       0.183159          933
+       3190000        17.0529%%         655826         538425       0.180193          935
+       3200000        16.7929%%         645826         531266       0.177209          937
+       3210000        16.5329%%         635826         523993        0.17424          940
+       3220000        16.2729%%         625826         516651       0.171188          942
+       3230000        16.0128%%         615826         509398       0.168172          944
+       3240000        15.7528%%         605826         502299       0.165174          946
+       3250000        15.4928%%         595826         495320       0.162215          948
+       3260000        15.2328%%         585826         488544       0.159257          950
+       3270000        14.9728%%         575826         481199       0.156313          951
+       3280000        14.7127%%         565826         473810       0.153349          953
+       3290000        14.4527%%         555826         466459       0.150463          955
+       3300000        14.1927%%         545826         459408       0.147531          956
+       3310000        13.9327%%         535826         451911       0.144688          958
+       3320000        13.6726%%         525826         444599       0.141741          959
+       3330000        13.4126%%         515826         437217       0.138877          961
+       3340000        13.1526%%         505826         429914        0.13607          962
+       3350000        12.8926%%         495826         422567       0.133096          965
+       3360000        12.6326%%         485826         414903       0.130272          966
+       3370000        12.3725%%         475826         406951       0.127362          968
+       3380000        12.1125%%         465826         399219        0.12455          970
+       3390000        11.8525%%         455826         391580       0.121639          972
+       3400000        11.5925%%         445826         384073       0.118881          974
+       3410000        11.3324%%         435826         376259         0.1161          976
+       3420000        11.0724%%         425826         368422         0.1133          978
+       3430000        10.8124%%         415826         360532        0.11041          980
+       3440000        10.5524%%         405826         352699       0.107636          982
+       3450000        10.2924%%         395826         344776       0.104881          984
+       3460000        10.0323%%         385826         337099       0.102004          985
+       3470000        9.77231%%         375826         329016      0.0993705          986
+       3480000        9.51229%%         365826         320980      0.0966015          987
+       3490000        9.25226%%         355826         313009      0.0937027          989
+       3500000        8.99224%%         345826         304767      0.0908797          991
+       3510000        8.73222%%         335826         296859      0.0881539          992
+       3520000         8.4722%%         325826         288729       0.085732          994
+       3530000        8.21218%%         315826         280452      0.0829176          995
+       3540000        7.95215%%         305826         272296      0.0798003          996
+       3550000        7.69213%%         295826         264043      0.0764995          997
+       3560000        7.43211%%         285826         255930      0.0732518          998
+       3570000        7.17209%%         275826         247692      0.0702868          999
+       3580000        6.91206%%         265826         239457      0.0671121         1000
+       3590000        6.65205%%         255826         231140      0.0641251         1001
+       3600000        6.39202%%         245826         222672      0.0611833         1002
+       3610000          6.132%%         235826         214271       0.058005         1003
+       3620000        5.87198%%         225826         205862      0.0555827         1003
+       3630000        5.61196%%         215826         197435      0.0526645         1004
+       3640000        5.35193%%         205826         189003      0.0495322         1005
+       3650000        5.09191%%         195826         180334      0.0467401         1006
+       3660000        4.83189%%         185826         171723      0.0440281         1006
+       3670000        4.57187%%         175826         162873      0.0408776         1007
+       3680000        4.31184%%         165826         153968       0.038455         1007
+       3690000        4.05182%%         155826         145334      0.0359267         1008
+       3700000         3.7918%%         145826         136419      0.0332289         1008
+       3710000        3.53178%%         135826         127490      0.0305632         1009
+       3720000        3.27175%%         125826         118408      0.0277073         1009
+       3730000        3.01173%%         115826         109337      0.0250476         1010
+       3740000        2.75171%%         105826         100222      0.0224623         1011
+       3750000        2.49169%%          95826          91145      0.0199195         1012
+       3760000        2.23166%%          85826          82056      0.0175407         1012
+       3770000        1.97164%%          75826          72811      0.0150501         1013
+       3780000        1.71162%%          65826          63550      0.0126211         1014
+       3790000         1.4516%%          55826          54155      0.0105544         1015
+       3800000        1.19158%%          45826          44679     0.00827057         1015
+       3810000       0.931555%%          35826          35106     0.00614644         1016
+       3820000       0.671536%%          25826          25461     0.00397284         1016
+       3830000        0.41151%%          15826          15706     0.00209139         1017
+       3840000       0.151491%%           5826           5813    0.000541135         1018
+       3845825              0%%              0              0              0         1018
 ----------------------------------------------------------------------------------------------------------------------------
 Total count of cells removed = 3845825
 
-Done in 1247 seconds.
+Done in 1018 seconds.
 Found 0 ties.
 
 Biodiversity features performance levels check. Proportions remaining:
@@ -720,5 +720,5 @@ Writing group curves file: output/11_msnfi_abf_pe_w_cmat/result_11_msnfi_abf_pe_
 No automated post-processing file specified
 ============================================================
 Finished spatial prioritization process. Freeing data structures in memory...
-Finished at 11:41:03 AM (2014/4/18) 
-Elapsed time: 1367371 ms == 0.38 hours == 0.0158 days
+Finished at 12:05:17 PM (2014/4/18) 
+Elapsed time: 1147189 ms == 0.319 hours == 0.0133 days
