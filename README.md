@@ -1,4 +1,6 @@
-## Zonation conservation prioritization analysis for the regional forest center of South-Savo (FIN)
+[![DOI](https://zenodo.org/badge/4782/jlehtoma/zsetup-esmk.svg)](http://dx.doi.org/10.5281/zenodo.14677)
+
+## Zonation conservation prioritization analysis for the regional forest center of South-Savonia (FIN)
 
 __Version:__ 1.0
 
@@ -8,7 +10,7 @@ __Version:__ 1.0
 * Data used in this particular analysis and the results produced *cannot be shared* because of terms of use 
 of the Finnish Forest Centre (data manager). 
 * For description of the data used, analysis, and results see [manuscript in preparation](https://github.com/jlehtoma/validityms) 
-* Interested in where South-Savo exactly is? [Here it is](https://github.com/jlehtoma/zsetup-esmk/blob/master/preprocessing/data/esmk-area.geojson) on a map.
+* Interested in where South-Savonia exactly is? [Here it is](https://github.com/jlehtoma/zsetup-esmk/blob/master/preprocessing/data/esmk-area.geojson) on a map.
 
 ### Project structure
 
