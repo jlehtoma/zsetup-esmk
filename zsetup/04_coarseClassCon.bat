@@ -1,0 +1,1 @@
+call zig4.exe -r 04_coarseClassCon/04_coarseClassCon.dat 04_coarseClassCon/04_coarseClassCon.spp output/04_coarseClassCon/result_04_coarseClassCon.txt 0 0 1 0 --grid-output-formats=compressed-img --image-output-formats=png

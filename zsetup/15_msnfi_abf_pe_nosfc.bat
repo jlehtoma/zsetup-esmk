@@ -1,1 +1,0 @@
-call zig4.exe -r 15_msnfi_abf_pe_nosfc/15_msnfi_abf_pe_nosfc.dat 15_msnfi_abf_pe_nosfc/15_msnfi_abf_pe_nosfc.spp output/15_msnfi_abf_pe_nosfc/result_15_msnfi_abf_pe_nosfc.txt 0 0 1 0 --grid-output-formats=compressed-tif --image-output-formats=png

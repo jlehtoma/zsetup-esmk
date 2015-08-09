@@ -1,0 +1,1 @@
+call zig4.exe -r 06_detailClassCon/06_detailClassCon.dat 06_detailClassCon/06_detailClassCon.spp output/06_detailClassCon/result_06_detailClassCon.txt 0 0 1 0 --grid-output-formats=compressed-img --image-output-formats=png

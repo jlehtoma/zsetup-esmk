@@ -1,1 +1,0 @@
-call zig4.exe -r 04_abf_pe_w_cmat/04_abf_pe_w_cmat.dat 04_abf_pe_w_cmat/04_abf_pe_w_cmat.spp output/04_abf_pe_w_cmat/result_04_abf_pe_w_cmat.txt 0 0 1 0 --grid-output-formats=compressed-img --image-output-formats=png

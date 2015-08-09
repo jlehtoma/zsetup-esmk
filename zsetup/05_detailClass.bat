@@ -1,0 +1,1 @@
+call zig4.exe -r 05_detailClass/05_detailClass.dat 05_detailClass/05_detailClass.spp output/05_detailClass/result_05_detailClass.txt 0 0 1 0 --grid-output-formats=compressed-img --image-output-formats=png
