@@ -1,0 +1,18 @@
+[Settings]
+removal rule = 2
+warp factor = 1000
+edge removal = 1
+
+mask missing areas = 1
+area mask file = ../data/common/60/esmk_mask_all_data.img
+use groups = 1
+groups file = groups_cmat.txt
+use condition layer = 1
+condition file = condition_layers.txt
+
+annotate name = 0
+
+[Community analysis settings]
+load similarity matrix = 1
+connectivity similarity matrix file = connectivity_matrix.txt
+apply to connectivity = 1
