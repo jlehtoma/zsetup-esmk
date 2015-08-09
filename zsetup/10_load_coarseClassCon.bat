@@ -1,0 +1,1 @@
+call zig4.exe -loutput/04_coarseClassCon/result_04_coarseClassCon.rank.compressed.img 10_load_coarseClassCon/10_load_coarseClassCon.dat 10_load_coarseClassCon/10_load_coarseClassCon.spp output/10_load_coarseClassCon/result_10_load_coarseClassCon.txt 0 0 1 0 --grid-output-formats=compressed-img

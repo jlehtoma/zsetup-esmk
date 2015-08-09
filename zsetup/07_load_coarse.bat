@@ -1,0 +1,1 @@
+call zig4.exe -loutput/01_coarse/result_01_coarse.rank.compressed.img 07_load_coarse/07_load_coarse.dat 07_load_coarse/07_load_coarse.spp output/07_load_coarse/result_07_load_coarse.txt 0 0 1 0 --grid-output-formats=compressed-img
