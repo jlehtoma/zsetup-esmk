@@ -1,0 +1,9 @@
+[Settings]
+removal rule = 2
+warp factor = 1000
+edge removal = 1
+
+mask missing areas = 1
+area mask file = ../data/common/60/esmk_mask_all_data.img
+
+annotate name = 0
