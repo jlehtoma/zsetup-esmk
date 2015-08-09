@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/4782/jlehtoma/zsetup-esmk.svg)](http://dx.doi.org/10.5281/zenodo.14677)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.27240.svg)](http://dx.doi.org/10.5281/zenodo.27240)
 
 ## Zonation conservation prioritization analysis for the regional forest center of South-Savonia (FIN)
 
