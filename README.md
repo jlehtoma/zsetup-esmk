@@ -2,7 +2,7 @@
 
 ## Zonation conservation prioritization analysis for the regional forest center of South-Savonia (FIN)
 
-__Version:__ 1.0
+__Version:__ 1.2
 
 * Corresponding author: Joona Lehtomäki <joona.lehtomaki@gmail.com>
 * License: [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
